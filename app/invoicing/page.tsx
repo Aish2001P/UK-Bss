@@ -69,10 +69,10 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-10 lg:pt-[80px] pt-[10px]">
+                    <div className="col-lg-10 lg:pt-[80px] pt-[10px]">
                         <div className="row ">
                             <div className="col-lg-6">
-                                <div className="col-md-12">
+                                <div className="col-lg-12">
                                     <Image className="img-responsive w-full" src="/Images/image 1.png" alt="logo" width={1830} height={750} />
                                 </div>
                             </div>
@@ -95,7 +95,7 @@ export default function Home() {
 
             <section className="lg:px-[120px] px-[20px] overflow-hidden bg-[#F3EFE7]">
                 <div className="row  justify-center ">
-                    <div className="col-md-10 ">
+                    <div className="col-lg-10 ">
                         <div className="lg:pt-[80px] pt-[30px]">
                             <div className="row ">
                                 <div className="col-lg-6 lg:pt-[160px] pt-[20px] order-lg-1 order-2 ">
@@ -119,7 +119,7 @@ export default function Home() {
 
             <section className="lg:px-[120px] px-[20px] overflow-hidden bg-[#F3EFE7] ">
                 <div className="row  justify-center ">
-                    <div className="col-md-10 lg:pt-[80px] pt-[30px]">
+                    <div className="col-lg-10 lg:pt-[80px] pt-[30px]">
                         <div className="row ">
                             <div className="col-lg-6">
                                 <div className="col-lg-12">
@@ -142,7 +142,7 @@ export default function Home() {
 
             <section className="lg:px-[120px] px-[20px] overflow-hidden lg:pb-[70px] pb-[40px] bg-[#F3EFE7]">
                 <div className="row  justify-center ">
-                    <div className="col-md-10 ">
+                    <div className="col-lg-10 ">
                         <div className="lg:pt-[80px] pt-[30px]">
                             <div className="row ">
                                 <div className="col-lg-6 lg:pt-[160px] pt-[20px] order-lg-1 order-2 ">
@@ -279,7 +279,7 @@ export default function Home() {
             <section className="lg:px-[100px] px-[20px]  overflow-hidden bg-[#F3EFE7]">
                 <div className="row justify-center">
 
-                    <div className="col-md-5 lg:text-[1vw] text-[2vw] lg:leading-[1vw] leading-[3vw] lg:pt-[80px] pt-[50px] sm:pb-[50px] pb-[10px] text-center ">
+                    <div className="col-lg-5 lg:text-[1vw] text-[2vw] lg:leading-[1vw] leading-[3vw] lg:pt-[80px] pt-[50px] sm:pb-[50px] pb-[10px] text-center ">
                         <p className="uppercase text-[#353535] lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[3vw]">WHY CHOOSE US</p>
                         <p className="lg:text-[1.8vw] text-[4.5vw] lg:leading-[2.5vw] leading-[5.5vw] font-bold">From founding to filing and beyond, we’re with you
                         </p>

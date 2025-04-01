@@ -17,7 +17,7 @@ export default function Home() {
     return (
         <>
             <Header />
-            <section className="lg:px-[80px] px-[20px] lg:pt-[120px] pt-[80px] overflow-hidden  bg-[#FFF]">
+            <section className="lg:px-[80px] px-[20px] lg:pt-[120px] pt-[80px] overflow-hidden  bg-[#f3efe7]">
 
                 <div className="row">
                     <div className="col-lg-12 ">
@@ -40,78 +40,73 @@ export default function Home() {
 
 
             </section >
-            <section className="lg:px-[80px] px-[20px] overflow-hidden lg:pb-[60px] pb-[30px] bg-[#FFF]">
-
-                <div className="row">
-                    <div className="col-lg-12 ">
-                        <div className=" justify-center flex items-center">
-                            <div className="col-md-6">
-                                <div className='row'>
-                                    <div className="col-md-6 mb-4">
-                                        <input type="email" id="email" className="border rounded-lg w-full h-10 p-4" placeholder="*Your Name" required />
-                                    </div>
-                                    <div className="col-md-6 mb-4">
-                                       
-
-                                            <PhoneInput
-                                                country={"in"}
-                                                //   value={formData.phone}
-                                                //   onChange={handlePhoneChange}
-                                               
-                                                inputClass=" border border-gray-300 rounded-lg h-10  w-full  outline-none px-10 py-2 "
-                                                placeholder="Enter your phone number"
-                                                specialLabel="Phone Number"
-                                                
-
-                                            />
-                                            
-                                        
-                                    </div>
-                                    <div className="col-md-6 mb-4">
-                                        <input type="email" id="email" className="border rounded-lg w-full h-10 p-4" placeholder="Your Email*" required />
-                                    </div>
-                                    <div className="col-md-6 mb-4">
-                                        <select
-                                            name="interest"
-                                            //   value={formData.interest}
-                                            //   onChange={handleChange} 
-                                            className="border border-gray-300 rounded-lg h-10 p-4 w-full form-select outline-none"
-                                        >
-                                            <option value="" disabled>
-                                                Interested in*
-                                            </option>
-                                            <option value="Consulting">Consulting</option>
-                                            <option value="Accounting">Accounting</option>
-                                            <option value="Other">Other</option>
-                                        </select>
-
-                                    </div>
-                                    <div className="col-md-12 mb-4">
-                                        <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your message</label>
-                                        <textarea id="message" className="border form-control rounded-r-lg w-full h-[200px]  " placeholder="Leave a comment..." ></textarea>
-
-                                        <div className="flex mt-4 mb-4 justify-center">
-                                            <button type="button" className="border border-dark hover:bg-[#000] hover:text-[#fff] font-medium !rounded-xl text-md lg:px-5 lg:py-3 px-3 py-2 text-center items-center">Send Your Message</button>
+            <section className="lg:px-[80px] px-[20px] overflow-hidden lg:pb-[60px] pb-[30px] bg-[#f3efe7]">
+                <div className="row justify-center">
+                    <div className="col-lg-8">
+                        <form>
+                            <div className="row mb-4">
+                                <div className="col-lg-6 mb-4">
+                                    <input type="email" id="email" className="border bg-white rounded-sm !w-full p-2 h-9 " placeholder="*Your Name" required />
+                                </div>
+                                <div className="col-lg-6 mb-4">
+                                    <input type="email" id="email" className="border bg-white rounded-sm !w-full h-9 p-2" placeholder="Your Email*" required />
+                                </div>
+                                <div className="col-lg-6 mb-4">
+                                    <PhoneInput
+                                        country={"in"}
 
 
-                                        </div>
-                                        <div className="flex justify-center">
-                                            <div className="col-lg-7">
-                                                <p className="lg:text-[1vw] text-[3vw] text-[#212833]  text-center lg:leading-[1.5vw] leading-[4vw] lg:pt-[8px] pt-[5px]">By clicking, you agree to our<span className="font-medium underline">Terms & Conditions, Privacy and Data Protection Policy</span>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
+                                        inputClass=" border border-gray-300 rounded-lg !p-3 !w-full  outline-none "
+                                        placeholder="Enter your phone number"
+                                        specialLabel="Phone Number"
+
+
+
+                                    />
+                                </div>
+                                <div className="col-lg-6 mb-4">
+
+
+                                    <select
+                                        name="interest"
+                                        className="border border-gray-300  form-select outline-none"
+
+                                    >
+                                        <option value="" hidden>Interested in*</option>
+
+                                        <option value="Consulting">Consulting</option>
+                                        <option value="Accounting">Accounting</option>
+                                        <option value="Other">Other</option>
+                                    </select>
+                                </div>
+                                <div className="col-lg-12 mb-4">
+                                    <textarea id="message" className="border form-control rounded-r-lg w-full  " placeholder="How Can We Help?*"
+                                        rows={6} ></textarea>
+                                </div>
+
+                            </div>
+                            <div className="flex justify-center mb-4">
+                            <div className="lg:pb-[0px] pb-[10px] lg:text-[0.9vw] text-[3vw] lg:leading-[1vw] leading-[3vw]" >
+                                <button type="button" className=" border border-dark bg-[#000] text-[#fff]  !rounded-md font-medium text-sm px-4  py-3 text-center items-center ">Send Your Message</button>
+                            </div>
+                            </div>
+                        
+                            <div className="flex justify-center">
+                                <div className="col-lg-5">
+                                    <p className="lg:text-[0.8vw] text-[3vw] text-[#212833]  text-center lg:leading-[1vw] leading-[4vw] lg:pt-[8px] pt-[5px]">By clicking, you agree to our<span className="font-medium underline">Terms & Conditions, Privacy and Data Protection Policy</span>
+                                    </p>
                                 </div>
                             </div>
 
 
-
-                        </div>
-
+                        </form>
 
                     </div>
                 </div>
+
+
+
+
                 <div className="flex justify-center items-center">
                     <div className="col-lg-5">
                         <form className="">

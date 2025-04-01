@@ -38,7 +38,7 @@ function Header() {
 
                 <div className="container-fluid  w-full z-100  flex items-center justify-between  py-4 lg:h-30 lg:pt-[40px] pt-[20px]">
 
-                    <div className="col-5 col-md-3">
+                    <div className="col-5 col-lg-3">
                         <Link href="/">
                             <Image
                                 className="img-responsive lg:w-[150px] w-full"
@@ -49,7 +49,7 @@ function Header() {
                             /></Link>
                     </div>
 
-                    <nav className=" col-md-6 hidden lg:flex  items-center gap-12 lg:text-[1vw] text-[2vw] lg:leading-[1vw] leading-[3vw] font-medium ">
+                    <nav className=" col-lg-6 hidden lg:flex  items-center gap-12 lg:text-[1vw] text-[2vw] lg:leading-[1vw] leading-[3vw] font-medium ">
                         <Link href="/aboutus" className="text-black !no-underline hover:text-gray-400">About</Link>
 
                         <Link href="/Registeracompany" className="text-black !no-underline  hover:text-gray-400">Register a Company</Link>
@@ -186,7 +186,7 @@ function Header() {
                    
 
 
-                    <div className="col-md-2 p-0 m-0 lg:block hidden">
+                    <div className="col-lg-2 p-0 m-0 lg:block hidden">
                         <div className="flex gap-4 items-center">
                             <div className="flex items-center gap-2">
                                 <div

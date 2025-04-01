@@ -68,9 +68,9 @@ export default function Home() {
                                 </div>
                             </div>
                             <div className="row align-items-center pb-[20px] justify-center lg:pt-[50px] pt-30]">
-                                <div className='col-md-10 sm:pt-5 justify-between'>
+                                <div className='col-lg-10 sm:pt-5 justify-between'>
                                     <div className="row align-items-center  justify-between">
-                                        <div className='col-md-4 mb-4'>
+                                        <div className='col-lg-4 mb-4'>
                                             <div className='rounded-[20px] bg-[#F3EDE6] py-3 sm:px-5 px-3 w-full'>
                                                 <div className='sm:p-5'>
                                                     <p className='sm:text-[25px] text-[22px] leading-[25px] font-medium pt-4'>Selling information</p>
@@ -134,7 +134,7 @@ export default function Home() {
                                                             Item cost is what your supplier charges you for the product. Shipping cost is what your supplier charges for delivery.
                                                         </p>
                                                         <div className="col-12 flex gap-2">
-                                                            <div className="col-md-6">
+                                                            <div className="col-lg-6">
 
                                                                 <input
                                                                     type="number"
@@ -146,7 +146,7 @@ export default function Home() {
                                                                     }
                                                                 />
                                                             </div>
-                                                            <div className="col-md-6">
+                                                            <div className="col-lg-6">
 
                                                                 <input
                                                                     type="number"
@@ -170,7 +170,7 @@ export default function Home() {
                                             </div>
 
                                         </div>
-                                        <div className='col-md-7 mb-4'>
+                                        <div className='col-lg-7 mb-4'>
                                             <div className='px-4 py-3'>
                                                 <div className='d-flex align-items-center justify-between lg:pb-[20px] pb-[10px]'>
                                                     <div><p className='lg:text-[2vw] text-[4vw] lg:leading-[2vw] leading-[5vw] font-semibold '>Revenue :</p></div>

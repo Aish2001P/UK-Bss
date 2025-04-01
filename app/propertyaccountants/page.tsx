@@ -68,10 +68,10 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-10 lg:pt-[80px] pt-[10px]">
+                    <div className="col-lg-10 lg:pt-[80px] pt-[10px]">
                         <div className="row ">
                             <div className="col-lg-6">
-                                <div className="col-md-12">
+                                <div className="col-lg-12">
                                     <Image className="img-responsive w-full" src="/Images/4(1).png" alt="logo" width={1830} height={750} />
                                 </div>
                             </div>
@@ -93,7 +93,7 @@ export default function Home() {
 
             <section className="lg:px-[120px] px-[20px] overflow-hidden bg-[#F3EFE7]">
                 <div className="row  justify-center ">
-                    <div className="col-md-10 ">
+                    <div className="col-lg-10 ">
                         <div className="lg:pt-[80px] pt-[40px]">
                             <div className="row ">
                                 <div className="col-lg-6 lg:pt-[160px] pt-[20px] order-lg-1 order-2">
@@ -121,10 +121,10 @@ export default function Home() {
             <section className="lg:px-[100px] px-[20px] overflow-hidden bg-[#F3EFE7] ">
                 <div className="row justify-center">
 
-                    <div className="col-md-10 lg:pt-[80px] pt-[40px]">
+                    <div className="col-lg-10 lg:pt-[80px] pt-[40px]">
                         <div className="row ">
                             <div className="col-lg-6">
-                                <div className="col-md-12">
+                                <div className="col-lg-12">
                                     <Image className="img-responsive w-full" src="/Images/4(3).png" alt="logo" width={1830} height={750} />
                                 </div>
                             </div>
@@ -147,7 +147,7 @@ export default function Home() {
 
             <section className="lg:px-[120px] px-[20px] overflow-hidden bg-[#F3EFE7] lg:pb-[80px] pb-[30px]">
                 <div className="row  justify-center ">
-                    <div className="col-md-10 ">
+                    <div className="col-lg-10 ">
                         <div className="lg:pt-[80px] pt-[40px]">
                             <div className="row ">
                                 <div className="col-lg-6 lg:pt-[160px] pt-[20px] order-lg-1 order-2">

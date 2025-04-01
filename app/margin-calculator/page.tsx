@@ -67,9 +67,9 @@ export default function Home() {
                                 </div>
                             </div>
                             <div className="row align-items-center pb-[20px] justify-center">
-                                <div className='col-md-10 sm:pt-5'>
+                                <div className='col-lg-10 sm:pt-5'>
                                     <div className="row align-items-center justify-between ">
-                                        <div className='col-md-4 mb-4'>
+                                        <div className='col-lg-4 mb-4'>
                                             <div className='rounded-[20px] bg-[#F3EDE6] py-3 sm:px-5 px-3 w-full '>
                                                 <div className='sm:p-5'>
                                                     <p className='sm:text-[25px] text-[22px] leading-[25px] font-medium pt-4'>Selling information</p>
@@ -85,7 +85,7 @@ export default function Home() {
 
                                             </div>
                                         </div>
-                                        <div className='col-md-7 mb-4'>
+                                        <div className='col-lg-7 mb-4'>
                                             <div className='px-4 py-3'>
                                                 <div className='d-flex  justify-between'>
                                                     <div><p className="lg:text-[2vw] text-[4vw] lg:leading-[2vw] leading-[5vw] font-medium lg:pt-[40px] pt-[20px]">Cost :</p></div>

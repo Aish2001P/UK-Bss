@@ -192,7 +192,7 @@ export default function Home() {
                         </div>
                     </div>
 
-                    <div className="col-md-12 lg:pt-[80px] pt-[10px] ">
+                    <div className="col-lg-12 lg:pt-[80px] pt-[10px] ">
                         <div className="row justify-center">
                             <div className="col-lg-5 mb-4 order-lg-1 order-2">
                                 <div className="flex lg:justify-center">
@@ -206,7 +206,7 @@ export default function Home() {
                             </div>
                             <div className="col-lg-5 mb-4  order-lg-2 order-1">
                                 <div className="flex justify-center">
-                                    <div className="col-md-9 col-12">
+                                    <div className="col-lg-9 col-12">
                                         <Image className="img-responsive w-full" src="/Images/carrer10.png" alt="logo" width={1830} height={750} />
                                     </div>
                                 </div>
@@ -219,12 +219,12 @@ export default function Home() {
 
 
             <section className="lg:px-[100px] px-[20px] overflow-hidden ">
-                <div className="col-md-12 lg:pt-[80px] pt-[10px] ">
+                <div className="col-lg-12 lg:pt-[80px] pt-[10px] ">
                     <div className="row justify-center">
 
                         <div className="col-lg-5 mb-4  ">
                             <div className="flex justify-center">
-                                <div className="col-md-9 col-12">
+                                <div className="col-lg-9 col-12">
                                     <Image className="img-responsive w-full" src="/Images/carrer11.png" alt="logo" width={1830} height={750} />
                                 </div>
                             </div>
@@ -246,7 +246,7 @@ export default function Home() {
 
             <section className="lg:px-[120px] px-[20px] overflow-hidden">
                 <div className="row  justify-center ">
-                    <div className="col-md-12 lg:pt-[80px] pt-[10px] ">
+                    <div className="col-lg-12 lg:pt-[80px] pt-[10px] ">
                         <div className="row justify-center">
                             <div className="col-lg-5 mb-4 order-lg-1 order-2">
                                 <div className="flex lg:justify-center">
@@ -260,7 +260,7 @@ export default function Home() {
                             </div>
                             <div className="col-lg-5 mb-4  order-lg-2 order-1">
                                 <div className="flex justify-center">
-                                    <div className="col-md-9 col-12">
+                                    <div className="col-lg-9 col-12">
                                         <Image className="img-responsive w-full rounded-2" src="/Images/carrer12.png" alt="logo" width={1830} height={750} />
                                     </div>
                                 </div>
@@ -274,11 +274,11 @@ export default function Home() {
             <section className="lg:px-[100px] px-[20px] overflow-hidden lg:pb-[70px] pb-[50px] ">
                 <div className="row justify-center">
 
-                    <div className="col-md-12 lg:pt-[80px] pt-[10px]">
+                    <div className="col-lg-12 lg:pt-[80px] pt-[10px]">
                         <div className="row justify-center">
                             <div className="col-lg-5 mb-4  ">
                                 <div className="flex justify-center">
-                                    <div className="col-md-9 col-12">
+                                    <div className="col-lg-9 col-12">
                                         <Image className="img-responsive w-full" src="/Images/carrer13.png" alt="logo" width={1830} height={750} />
                                     </div>
                                 </div>

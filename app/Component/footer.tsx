@@ -168,7 +168,7 @@ export default function Home() {
                             </div>
 
                         </div>
-                        <div className="col-md-6 ">
+                        <div className="col-lg-6 ">
                             <div className="lg:flex gap-8 justify-end">
                                 <div className="lg:pt-[0px] pt-[30px]">
                                     <button type="button" className="border border-[#939393] bg-black  font-medium rounded-5 text-sm px-3 py-2 text-center items-center text-[#939393]">
