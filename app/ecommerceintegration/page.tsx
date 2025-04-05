@@ -268,13 +268,13 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="col-lg-10 lg:pt-[80px] pt-[10px]">
-                        <div className="row ">
+                        <div className="row items-center">
                             <div className="col-lg-6">
                                 <div className="col-lg-12">
                                     <Image className="img-responsive w-full" src="/Images/6(10).png" alt="logo" width={1830} height={750} />
                                 </div>
                             </div>
-                            <div className="col-lg-6 lg:pt-[50px] pt-[20px]">
+                            <div className="col-lg-6 ">
                                 <div className="flex lg:justify-end">
                                     <div className="col-lg-8">
                                         <p className="text-[#010202]   lg:text-[1.8vw] text-[4.5vw] lg:leading-[2.5vw] leading-[5.5vw] font-bold ">Power Up Your Decision-Making</p>
@@ -295,8 +295,8 @@ export default function Home() {
                 <div className="row  justify-center ">
                     <div className="col-lg-10 ">
                         <div className="lg:pt-[80px] pt-[40px]">
-                            <div className="row ">
-                                <div className="col-lg-6 lg:pt-[130px] pt-[20px] order-lg-1 order-2 ">
+                            <div className="row items-center">
+                                <div className="col-lg-6  order-lg-1 order-2 ">
                                     <div className="col-lg-8 justify-start">
                                         <p className="text-[#010202]  lg:text-[1.8vw] text-[4.5vw] lg:leading-[2.5vw] leading-[5.5vw] font-bold ">Enjoy Automated Accounting
                                         </p>
@@ -323,7 +323,7 @@ export default function Home() {
                                 <div className="col-lg-5 lg:pb-[60px] pb-[30px]">
                                     <div className="row justify-start">
 
-                                        <p className="lg:text-[2.5vw] text-[6vw] lg:leading-[2.5vw] leading-[7vw] font-semibold lg:pt-[30px] pt-[20px] text-[#FFF]">Got questions? Chat with our local experts</p>
+                                        <p className="lg:text-[2.5vw] text-[6vw] lg:leading-[2.5vw] leading-[7vw] font-semibold lg:pt-[30px] pt-[20px] text-[#FFF]">Got questions? Chat with our local experts</p>
                                         <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw] lg:pt-[10px] pt-[5px] lg:pb-[10px] pb-[5px] text-[#ABABAB]">Choose a convenient time to chat with our accounting experts and get the answers you need to take the next step.</p>
 
 
@@ -362,34 +362,34 @@ export default function Home() {
                         </div>
                         <div className="row ">
                             <div className="col-lg-4 mb-4 ">
-                                <div className="block  p-6 bg-[#F3EFE7] border rounded-4 shadow-sm  lg:h-[450px]">
+                                <div className=" p-4 bg-[#F3EFE7] border rounded-4 shadow-sm  flex-1 h-full">
                                     <div className="lg:pt-[20px] pt-[10px]">
                                         <Image className="img-responsive w-30 " src="/Images/comp1.svg" alt="logo" width={1830} height={750} />
                                     </div>
                                     <div>
                                     <p className="lg:text-[1.5vw] text-[4vw] lg:leading-[1.5vw] leading-[5vw] font-medium lg:pt-[30px] pt-[20px]"> Ecommerce</p>
-                                    <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw] font-medium text-[#616161] lg:pb-[40px] pb-[20px]">Automate bookkeeping for all your sales platforms. Lean on your accounting expert who understands ecommerce business operations and nuances.</p>
+                                    <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw] font-medium text-[#616161] lg:h-[140px] overflow-hidden ">Automate bookkeeping for all your sales platforms. Lean on your accounting expert who understands ecommerce business operations and nuances.</p>
                                     <button type="button" className="border border-dark hover:bg-[#000] hover:text-[#fff] font-medium !rounded-full text-sm px-5 py-2 text-center items-center">Learn more</button>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-lg-4 mb-4">
-                                <div className="block  p-6 bg-[#F3EFE7] border rounded-4 shadow-sm lg:h-[450px] ">
+                                <div className="p-4 bg-[#F3EFE7] border rounded-4 shadow-sm flex-1 h-full ">
                                     <div className="lg:pt-[20px] pt-[10px]">
                                         <Image className="img-responsive w-30 " src="/Images/copy2.svg" alt="logo" width={1830} height={750} />
                                     </div>
                                     <p className="lg:text-[1.5vw] text-[4vw] lg:leading-[2vw] leading-[5vw] font-medium lg:pt-[30px] pt-[20px]"> Accounting</p>
-                                    <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw] font-medium text-[#616161] lg:pb-[40px] pb-[20px]">Your dedicated accountant will fully understand your business, helping you manage taxes, VAT reports, and more, ensuring your finances are always in order.</p>
+                                    <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw] font-medium text-[#616161] lg:h-[140px] overflow-hidden ">Your dedicated accountant will fully understand your business, helping you manage taxes, VAT reports, and more, ensuring your finances are always in order.</p>
                                     <button type="button" className="border border-dark hover:bg-[#000] hover:text-[#fff] font-medium !rounded-full text-sm px-5 py-2 text-center items-center">Learn more</button>
                                 </div>
                             </div>
                             <div className="col-lg-4 mb-4">
-                                <div className="block  p-6 bg-[#F3EFE7] border  rounded-4 shadow-sm lg:h-[450px] ">
+                                <div className=" p-4 bg-[#F3EFE7] border  rounded-4 shadow-sm flex-1 h-full ">
                                     <div className="lg:pt-[20px] pt-[10px]">
                                         <Image className="img-responsive w-30 " src="/Images/copy3.svg" alt="logo" width={1830} height={750} />
                                     </div>
                                     <p className="lg:text-[1.5vw] text-[4vw] lg:leading-[2vw] leading-[5vw] font-medium lg:pt-[30px] pt-[20px]">Invoices</p>
-                                    <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw] font-medium text-[#616161] lg:pb-[40px] pb-[20px]">Keep track of your cash flow, create and send invoices, and get paid faster. Automate your invoicing process to streamline payments.</p>
+                                    <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw] font-medium text-[#616161] lg:h-[140px] overflow-hidden ">Keep track of your cash flow, create and send invoices, and get paid faster. Automate your invoicing process to streamline payments.</p>
                                     <button type="button" className="border border-dark hover:bg-[#000] hover:text-[#fff] font-medium !rounded-full text-sm px-5 py-2 text-center items-center">Learn more</button>
                                 </div>
                             </div>
@@ -398,33 +398,33 @@ export default function Home() {
                     <div className="col-lg-12">
                         <div className="row justify-center">
                             <div className="col-lg-4 mb-4 ">
-                                <div className="block  p-6 bg-[#F3EFE7] border rounded-4 shadow-sm lg:h-[450px] ">
+                                <div className="  p-4 bg-[#F3EFE7] border rounded-4 shadow-sm flex-1 h-full">
                                     <div className="lg:pt-[20px] pt-[10px]">
                                         <Image className="img-responsive w-30 " src="/Images/copy4.svg" alt="logo" width={1830} height={750} />
                                     </div>
                                     <p className="lg:text-[1.5vw] text-[4vw] lg:leading-[2vw] leading-[5vw] font-medium lg:pt-[30px] pt-[20px]"> Reporting</p>
-                                    <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw] font-medium text-[#616161] lg:pb-[40px] pb-[20px]">Get clear and actionable insights into how your business is performing. This allows you to take steps to improve and increase profitability.</p>
+                                    <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw] font-medium text-[#616161] lg:h-[140px] overflow-hidden ">Get clear and actionable insights into how your business is performing. This allows you to take steps to improve and increase profitability.</p>
                                     <button type="button" className="border border-dark hover:bg-[#000] hover:text-[#fff] font-medium !rounded-full text-sm px-5 py-2 text-center items-center">Learn more</button>
                                 </div>
                             </div>
                             <div className="col-lg-4 mb-4 ">
-                                <div className="block  p-6 bg-[#F3EFE7] border rounded-4 shadow-sm lg:h-[450px] ">
+                                <div className="  p-4 bg-[#F3EFE7] border rounded-4 shadow-sm flex-1 h-full ">
                                     <div className="lg:pt-[20px] pt-[10px]">
                                         <Image className="img-responsive w-30 " src="/Images/copy4.svg" alt="logo" width={1830} height={750} />
                                     </div>
                                     <p className="lg:text-[1.5vw] text-[4vw] lg:leading-[2vw] leading-[5vw] font-medium lg:pt-[30px] pt-[20px]"> Expenses</p>
-                                    <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw] font-medium text-[#616161] lg:pb-[70px] pb-[20px]">Keep track of your expenses and ensure compliance when reporting your personal expenditures.</p>
+                                    <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw] font-medium text-[#616161] lg:h-[140px] overflow-hidden ">Keep track of your expenses and ensure compliance when reporting your personal expenditures.</p>
                                     <button type="button" className="border border-dark hover:bg-[#000] hover:text-[#fff] font-medium !rounded-full text-sm px-5 py-2 text-center items-center">Learn more</button>
                                 </div>
                             </div>
 
                             <div className="col-lg-4 mb-4">
-                                <div className="block  p-6 bg-[#F3EFE7] border rounded-4 shadow-sm lg:h-[450px] ">
+                                <div className="  p-4 bg-[#F3EFE7] border rounded-4 shadow-sm flex-1 h-full ">
                                     <div className="lg:pt-[20px] pt-[10px]">
                                         <Image className="img-responsive w-30 " src="/Images/copy2.svg" alt="logo" width={1830} height={750} />
                                     </div>
                                     <p className="lg:text-[1.5vw] text-[4vw] lg:leading-[2vw] leading-[5vw] font-medium lg:pt-[30px] pt-[20px]"> Payments</p>
-                                    <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw] font-medium text-[#616161] lg:pb-[70px] pb-[20px]">Track bills and receipts, and gain full control over due dates and payments.</p>
+                                    <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw] font-medium text-[#616161] lg:h-[140px] overflow-hidden ">Track bills and receipts, and gain full control over due dates and payments.</p>
                                     <button type="button" className="border border-dark hover:bg-[#000] hover:text-[#fff] font-medium !rounded-full text-sm px-5 py-2 text-center items-center">Learn more</button>
                                 </div>
                             </div>
@@ -439,7 +439,7 @@ export default function Home() {
 
                     <div className="col-lg-5 lg:text-[1vw] text-[2vw] lg:leading-[1vw] leading-[3vw] lg:pt-[80px] pt-[50px] sm:pb-[50px] pb-[10px] text-center ">
                         <p className="uppercase text-[#353535] lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[3vw]">WHY CHOOSE US</p>
-                        <p className="lg:text-[1.8vw] text-[4.5vw] lg:leading-[2.5vw] leading-[5.5vw] font-bold">From founding to filing and beyond, we’re with you
+                        <p className="lg:text-[1.8vw] text-[4.5vw] lg:leading-[2.5vw] leading-[5.5vw] font-bold">From founding to filing and beyond, we&apos;re with you
                         </p>
                     </div>
                     <div className="col-lg-10 ">
@@ -449,7 +449,7 @@ export default function Home() {
                                     <div className="col-lg-12 mb-4 ">
                                         <Image className="img-responsive w-full rounded-5" src="/Images/image 4.png" alt="logo" width={1830} height={750} />
                                     </div>
-                                    <div className="col-lg-10 lg:pb-[0px] pb-[30px]">
+                                    <div className="col-lg-12 lg:pb-[0px] pb-[30px]">
                                         <p className="lg:text-[2vw] text-[4.5vw] lg:leading-[2.5vw] leading-[5.5vw] font-bold lg:pb-[15px] pb-[5px] lg:pt-[30px] pt-[10px] ">Accountants Who Understand UK Business</p>
                                         <p className="text-[#353535] lg:text-[1.1vw] text-[3.5vw] lg:leading-[1.5vw] leading-[4.5vw]  sm:pb-[15px] pb-[5px] ">Our UK-based accountants are experts in local tax laws, deadlines, and financial best practices. We work alongside you to streamline your finances and support your business growth.</p>
 
@@ -460,7 +460,7 @@ export default function Home() {
                                     <div className="col-lg-12 mb-4 lg:pt-[0px] pt-[20px]">
                                         <Image className="img-responsive w-full rounded-5" src="/Images/image 5.png" alt="logo" width={1830} height={750} />
                                     </div>
-                                    <div className="col-lg-11">
+                                    <div className="col-lg-12">
                                         <p className="lg:text-[2vw] text-[4.5vw] lg:leading-[2.5vw] leading-[5.5vw] font-bold lg:pb-[15px] pb-[5px] sm:pt-[30px] pt-[10px] ">Intelligent Software for Seamless Financial Management</p>
                                         <p className="text-[#353535] lg:text-[1.1vw] text-[3.5vw] lg:leading-[1.5vw] leading-[4vw] sm:pb-[15px] pb-[5px] ">  Our tailored software makes bookkeeping, invoicing, and tax filing effortless. Keep all your financial data in one place, with real-time updates, so you can stay focused on growing your business.</p>
                                         <button type="button" className="border border-dark hover:bg-[#000] hover:text-[#fff] font-medium !rounded-full text-sm px-5 py-2 text-center items-center">Learn More</button>
@@ -489,12 +489,12 @@ export default function Home() {
                                             <div className="col-lg-12 mb-4">
                                             <div className="block  p-6 bg-white border border-white rounded-4 shadow-md  ">
 
-                                                <AccordionTrigger> <p className=" lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[3vw] font-medium lg:pt-[20px] pt-[10px] lg:pl-[20px] pl-[5px]  p-0 m-0 ">What services does Cloud BSS offer?</p></AccordionTrigger>
+                                                <AccordionTrigger> <p className=" lg:text-[1.2vw] text-[3vw] lg:leading-[1.5vw] leading-[3vw]font-medium lg:pt-[20px] pt-[10px] lg:pl-[20px] pl-[5px]  p-0 m-0 ">What services does Cloud BSS offer?</p></AccordionTrigger>
                                                 <AccordionContent>
                                                     <div className="lg:flex justify-between">
                                                         <div className="col-lg-12">
 
-                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833]  rounded-4 ">Cloud BSS provides tailored accounting services, including bookkeeping, tax advice, ongoing compliance support, and ecommerce platform integrations. Our services are designed to streamline your financial operations, helping you stay compliant and focus on growing your business.</p>
+                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]   text-[#212833]  rounded-4 ">Cloud BSS provides tailored accounting services, including bookkeeping, tax advice, ongoing compliance support, and ecommerce platform integrations. Our services are designed to streamline your financial operations, helping you stay compliant and focus on growing your business.</p>
 
                                                         </div>
 
@@ -509,12 +509,12 @@ export default function Home() {
                                             <AccordionItem value="item-2">
                                             <div className="col-lg-12 mb-4">
                                             <div className="block  p-6 bg-white border border-white rounded-4 shadow-md  ">
-                                                <AccordionTrigger> <p className=" lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[3vw] font-medium lg:pt-[20px] pt-[10px] lg:pl-[20px] pl-[5px]  p-0 m-0">How does Cloud BSS help with my ecommerce business?</p></AccordionTrigger>
+                                                <AccordionTrigger> <p className=" lg:text-[1.2vw] text-[3vw] lg:leading-[1.5vw] leading-[3vw]font-medium lg:pt-[20px] pt-[10px] lg:pl-[20px] pl-[5px]  p-0 m-0">How does Cloud BSS help with my ecommerce business?</p></AccordionTrigger>
                                                 <AccordionContent>
                                                     <div className="lg:flex justify-between">
                                                         <div className="col-lg-12">
 
-                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833]  ">
+                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]   text-[#212833]  ">
                                                             Cloud BSS integrates with your sales platforms, such as Shopify, Amazon, eBay, and others. Our accounting software automates bookkeeping, provides real-time financial reporting, and offers expert advice to help you manage taxes, VAT, and other business needs effectively.
                                                             </p>
 
@@ -529,12 +529,12 @@ export default function Home() {
                                             <AccordionItem value="item-3">
                                             <div className="col-lg-12 mb-4">
                                             <div className="block  p-6 bg-white border border-white rounded-4 shadow-md  ">
-                                                <AccordionTrigger> <p className=" lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[3vw] font-medium lg:pt-[20px] pt-[10px] lg:pl-[20px] pl-[5px]  p-0 m-0">Do I get a dedicated accountant?</p></AccordionTrigger>
+                                                <AccordionTrigger> <p className=" lg:text-[1.2vw] text-[3vw] lg:leading-[1.5vw] leading-[3vw]font-medium lg:pt-[20px] pt-[10px] lg:pl-[20px] pl-[5px]  p-0 m-0">Do I get a dedicated accountant?</p></AccordionTrigger>
                                                 <AccordionContent>
                                                     <div className="lg:flex justify-between">
                                                         <div className="col-lg-12">
 
-                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833] "> Yes! When you sign up with Cloud BSS, you'll be paired with a dedicated accountant who understands your business inside and out. You can easily communicate with them via live chat or calls to receive personalised advice and support.
+                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]   text-[#212833] "> Yes! When you sign up with Cloud BSS, you'll be paired with a dedicated accountant who understands your business inside and out. You can easily communicate with them via live chat or calls to receive personalised advice and support.
 
 
 
@@ -551,12 +551,12 @@ export default function Home() {
                                             <AccordionItem value="item-4">
                                             <div className="col-lg-12 mb-4">
                                             <div className="block  p-6 bg-white border border-white rounded-4 shadow-md  ">
-                                                <AccordionTrigger> <p className=" lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[3vw] font-medium lg:pt-[20px] pt-[10px] lg:pl-[20px] pl-[5px]  p-0 m-0">Can I automate my invoicing and payments?</p></AccordionTrigger>
+                                                <AccordionTrigger> <p className=" lg:text-[1.2vw] text-[3vw] lg:leading-[1.5vw] leading-[3vw]font-medium lg:pt-[20px] pt-[10px] lg:pl-[20px] pl-[5px]  p-0 m-0">Can I automate my invoicing and payments?</p></AccordionTrigger>
                                                 <AccordionContent>
                                                     <div className="lg:flex justify-between">
                                                         <div className="col-lg-12">
 
-                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833]  "> Absolutely! With Cloud BSS, you can create and send invoices, track payments, and even integrate with PayPal and Stripe for automated payment processing. This helps you get paid faster and manage your finances more efficiently.
+                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]   text-[#212833]  "> Absolutely! With Cloud BSS, you can create and send invoices, track payments, and even integrate with PayPal and Stripe for automated payment processing. This helps you get paid faster and manage your finances more efficiently.
 
 
                                                             </p>
@@ -572,12 +572,12 @@ export default function Home() {
                                             <AccordionItem value="item-5">
                                             <div className="col-lg-12 mb-4">
                                             <div className="block  p-6 bg-white border border-white rounded-4 shadow-md  ">
-                                                <AccordionTrigger> <p className=" lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[3vw] font-medium lg:pt-[20px] pt-[10px] lg:pl-[20px] pl-[5px]  p-0 m-0">How does Cloud BSS ensure tax compliance?</p></AccordionTrigger>
+                                                <AccordionTrigger> <p className=" lg:text-[1.2vw] text-[3vw] lg:leading-[1.5vw] leading-[3vw]font-medium lg:pt-[20px] pt-[10px] lg:pl-[20px] pl-[5px]  p-0 m-0">How does Cloud BSS ensure tax compliance?</p></AccordionTrigger>
                                                 <AccordionContent>
                                                     <div className="lg:flex justify-between">
                                                         <div className="col-lg-12">
 
-                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833]  "> Cloud BSS automatically applies the correct tax codes to your transactions and generates tax reports for VAT and other filings. We handle your tax filing deadlines, ensuring you're always compliant with HMRC.
+                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]   text-[#212833]  "> Cloud BSS automatically applies the correct tax codes to your transactions and generates tax reports for VAT and other filings. We handle your tax filing deadlines, ensuring you're always compliant with HMRC.
 
 
 
@@ -594,12 +594,12 @@ export default function Home() {
                                             <AccordionItem value="item-6">
                                             <div className="col-lg-12 mb-4">
                                             <div className="block  p-6 bg-white border border-white rounded-4 shadow-md  ">
-                                                <AccordionTrigger> <p className=" lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[3vw] font-medium lg:pt-[20px] pt-[10px] lg:pl-[20px] pl-[5px]  p-0 m-0 ">Can Cloud BSS help with cross-border ecommerce?</p></AccordionTrigger>
+                                                <AccordionTrigger> <p className=" lg:text-[1.2vw] text-[3vw] lg:leading-[1.5vw] leading-[3vw]font-medium lg:pt-[20px] pt-[10px] lg:pl-[20px] pl-[5px]  p-0 m-0 ">Can Cloud BSS help with cross-border ecommerce?</p></AccordionTrigger>
                                                 <AccordionContent>
                                                     <div className="lg:flex justify-between">
                                                         <div className="col-lg-12">
 
-                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833]  "> Yes! Cloud BSS supports international ecommerce sellers, offering multi-currency transactions, global VAT management, and country-specific tax reporting. We help you navigate complex international tax regulations.
+                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]   text-[#212833]  "> Yes! Cloud BSS supports international ecommerce sellers, offering multi-currency transactions, global VAT management, and country-specific tax reporting. We help you navigate complex international tax regulations.
 
 
                                                             </p>
@@ -615,12 +615,12 @@ export default function Home() {
                                             <AccordionItem value="item-7">
                                             <div className="col-lg-12 mb-4">
                                             <div className="block  p-6 bg-white border border-white rounded-4 shadow-md  ">
-                                                <AccordionTrigger> <p className=" lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[3vw] font-medium lg:pt-[20px] pt-[10px] lg:pl-[20px] pl-[5px]  p-0 m-0">What is included in the pricing?</p></AccordionTrigger>
+                                                <AccordionTrigger> <p className=" lg:text-[1.2vw] text-[3vw] lg:leading-[1.5vw] leading-[3vw]font-medium lg:pt-[20px] pt-[10px] lg:pl-[20px] pl-[5px]  p-0 m-0">What is included in the pricing?</p></AccordionTrigger>
                                                 <AccordionContent>
                                                     <div className="lg:flex justify-between">
                                                         <div className="col-lg-12">
 
-                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833]  "> Our packages include bookkeeping, accounting services, tax advice, and ongoing compliance. You can also add extras like ecommerce integrations or advanced reporting tools, depending on your business needs.
+                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]   text-[#212833]  "> Our packages include bookkeeping, accounting services, tax advice, and ongoing compliance. You can also add extras like ecommerce integrations or advanced reporting tools, depending on your business needs.
 
 
                                                             </p>
@@ -636,12 +636,12 @@ export default function Home() {
                                             <AccordionItem value="item-8">
                                             <div className="col-lg-12 mb-4">
                                             <div className="block  p-6 bg-white border border-white rounded-4 shadow-md  ">
-                                                <AccordionTrigger> <p className=" lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[3vw] font-medium lg:pt-[20px] pt-[10px] lg:pl-[20px] pl-[5px]  p-0 m-0">Is there customer support available?</p></AccordionTrigger>
+                                                <AccordionTrigger> <p className=" lg:text-[1.2vw] text-[3vw] lg:leading-[1.5vw] leading-[3vw]font-medium lg:pt-[20px] pt-[10px] lg:pl-[20px] pl-[5px]  p-0 m-0">Is there customer support available?</p></AccordionTrigger>
                                                 <AccordionContent>
                                                     <div className="lg:flex justify-between">
                                                         <div className="col-lg-12">
 
-                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833] "> Yes! Cloud BSS offers customer support via live chat and email, with responses typically within 24 hours. Our team is always ready to assist you with any questions or issues you may have.
+                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]   text-[#212833] "> Yes! Cloud BSS offers customer support via live chat and email, with responses typically within 24 hours. Our team is always ready to assist you with any questions or issues you may have.
 
 
                                                             </p>
@@ -657,12 +657,12 @@ export default function Home() {
                                             <AccordionItem value="item-9">
                                             <div className="col-lg-12 mb-4">
                                             <div className="block  p-6 bg-white border border-white rounded-4 shadow-md  ">
-                                                <AccordionTrigger> <p className=" lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[3vw] font-medium lg:pt-[20px] pt-[10px] lg:pl-[20px] pl-[5px] p-0 m-0">How can I get started with Cloud BSS?</p></AccordionTrigger>
+                                                <AccordionTrigger> <p className=" lg:text-[1.2vw] text-[3vw] lg:leading-[1.5vw] leading-[3vw]font-medium lg:pt-[20px] pt-[10px] lg:pl-[20px] pl-[5px] p-0 m-0">How can I get started with Cloud BSS?</p></AccordionTrigger>
                                                 <AccordionContent>
                                                     <div className="lg:flex justify-between">
                                                         <div className="col-lg-12">
 
-                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833] "> Getting started is easy! Choose a package that suits your business needs, sign up online, and we’ll assign you a dedicated accountant to help you manage your financials
+                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]   text-[#212833] "> Getting started is easy! Choose a package that suits your business needs, sign up online, and we&apos;ll assign you a dedicated accountant to help you manage your financials
 
 
                                                             </p>

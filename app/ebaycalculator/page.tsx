@@ -2,6 +2,7 @@
 import Header from '@/app/Component/header';
 import Footer from '@/app/Component/footer'
 import Image from 'next/image';
+import Link from 'next/link';
 import { Checkbox, } from "@nextui-org/react";
 import {
     Accordion,
@@ -323,7 +324,7 @@ export default function Home() {
                                                     <div className="block   bg-white border border-white rounded-4 items-center p-6  ">
                                                         <AccordionTrigger className='items-center'>
                                                             <div className="flex items-center ">
-                                                                <p className="lg:text-[1vw] text-[3vw] p-0 m-0   text-[#212833]">
+                                                                <p className="lg:text-[1.2vw] text-[3vw] lg:leading-[1.5vw]  p-0 m-0   text-[#212833]">
                                                                     Insertion Fee
                                                                 </p>
                                                             </div>
@@ -333,12 +334,12 @@ export default function Home() {
                                                             <div className="lg:flex justify-between">
                                                                 <div className="col-lg-6">
 
-                                                                    <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.2vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833]">
+                                                                    <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.2vw] leading-[4vw]   text-[#212833]">
                                                                         To sell an item on eBay, you create a listing using the Sell Your Item form. eBay UK charges an insertion fee for each item you list. The Insertion Fee is based on what you decide is the Starting Price of your item.</p>
 
-                                                                    <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.2vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833]">This fee is non-refundable, even if you don’t get to sell your item. The amount charged depends on whether you have a Shop subscription and the level of Shop you subscribe to if you do have one: Basic, Featured or Anchor.</p>
+                                                                    <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.2vw] leading-[4vw]   text-[#212833]">This fee is non-refundable, even if you don’t get to sell your item. The amount charged depends on whether you have a Shop subscription and the level of Shop you subscribe to if you do have one: Basic, Featured or Anchor.</p>
 
-                                                                    <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.2vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833]">Business sellers with a basic eBay account get limited zero insertion fee listings each month for most categories. After exceeding that allowance, each additional item that you list is subject to a fee of 30 pence.</p>
+                                                                    <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.2vw] leading-[4vw]   text-[#212833]">Business sellers with a basic eBay account get limited zero insertion fee listings each month for most categories. After exceeding that allowance, each additional item that you list is subject to a fee of 30 pence.</p>
 
                                                                 </div>
                                                                 <div className="col-lg-4 justify-center ">
@@ -358,7 +359,7 @@ export default function Home() {
                                                     <div className="block   bg-white border border-white rounded-4 items-center p-6  ">
                                                         <AccordionTrigger>
                                                             <div className="flex items-center">
-                                                                <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.2vw] leading-[4vw]  lg:pl-[15px] pl-[5px] text-[#212833] p-0 m-0">
+                                                                <p className="lg:text-[1.2vw] text-[3vw] lg:leading-[1.5vw]   lg:pl-[15px] pl-[5px] text-[#212833] p-0 m-0">
                                                                     Revenue and Profit
                                                                 </p>
                                                             </div>
@@ -368,14 +369,14 @@ export default function Home() {
                                                             <div className="lg:flex justify-between">
                                                                 <div className="col-lg-6">
 
-                                                                    <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.2vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833]">
+                                                                    <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.2vw] leading-[4vw]   text-[#212833]">
                                                                         Revenue is the amount of income produced by selling your products or services. To calculate it multiply the number of items sold by the sales price of each item or the average service price.<br></br>
                                                                         <span className="text-[#0061FE]">Revenue = Sales × Average Price of Service or Sales Price</span></p>
 
-                                                                    <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.2vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833]">You figure out your total profit after you deduct all of the business expenses. This simplest profit formula when calculating profit for a single item is:<br></br>
+                                                                    <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.2vw] leading-[4vw]   text-[#212833]">You figure out your total profit after you deduct all of the business expenses. This simplest profit formula when calculating profit for a single item is:<br></br>
                                                                         <span className="text-[#0061FE]">Profit = Price – Cost</span></p>
 
-                                                                    <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.2vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833]">To calculate your net profit margin, divide your net income by your total sales revenue.<br></br>
+                                                                    <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.2vw] leading-[4vw]   text-[#212833]">To calculate your net profit margin, divide your net income by your total sales revenue.<br></br>
                                                                         <span className="text-[#0061FE]">Net Profit Margin = Net Income ÷ Total Sales</span></p>
 
                                                                 </div>
@@ -411,7 +412,7 @@ export default function Home() {
                         <div className="flex justify-center">
                             <div className="col-lg-5 ">
                                 <p className="uppercase lg:text-[1.8vw] text-[4.5vw] lg:leading-[2.5vw] leading-[5.5vw] text-center font-bold lg:pt-[30px] pt-[20px]">Final value fees for business sellers</p>
-                                <p className=" text-[#353535] lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[3vw]  text-center  lg:pb-[30px] pb-[20px]">The table below provides the list of product categories with the final value fees for business sellers. For more information, visit the official eBay website.</p>
+                                <p className=" text-[#353535] lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[3vw]  text-center  lg:pb-[30px] pb-[20px]">The table below provides the list of product categories with the final value fees for business sellers. For more information, visit the <Link href="https://www.ebay.co.uk/help/fees-billing/sell-fees-payments/store-selling-fees-managed-payments-sellers?id=4809#section4" className='text-black'><span className="underline ">official eBay website.</span></Link></p>
                             </div>
                         </div>
                         <div className="flex justify-center">
@@ -517,16 +518,26 @@ export default function Home() {
                 </div>
             </section>
 
+
+
+
+            
+            <section>
+
+            </section>
+
             <section className="lg:px-[100px] px-[20px] lg:pt-[60px] pt-[40px] lg:pb-[40px] pb-[30px] overflow-hidden bg-[#000]">
                 <div className="row">
                     <div className="col-lg-12 ">
-                        <div className="row justify-between">
-                            <div className="col-lg-3">
+                        <div className="row  items-center justify-between">
+                            <div className="col-lg-5">
                                 <Image className="img-responsive w-full " src="/Images/1.png" alt="logo" width={1830} height={750} />
                             </div>
                             <div className="col-lg-7">
-                                <div className="col-lg-7">
-                                    <div className="row justify-start">
+                                <div className='flex justify-end'>
+                                <div className="col-lg-8">
+                                    <div>
+                                    <div className="row justify-end">
 
                                         <p className="lg:text-[2.5vw] text-[6vw] lg:leading-[2.5vw] leading-[7vw] font-semibold lg:pt-[30px] pt-[20px] text-[#FFF]">Get tips on how to run your business smarter</p>
                                         <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw] lg:pt-[10px] pt-[5px] lg:pb-[10px] pb-[5px] text-[#ABABAB]">Learn crucial tips on how to save money and build a flourishing business, with real entrepreneurs sharing their own experiences.</p>
@@ -544,9 +555,13 @@ export default function Home() {
                                         </div>
 
                                     </div>
+                                    <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1vw] leading-[4vw] lg:pt-[30px] pt-[10px] font-medium text-[#ABABAB]">By clicking, you agree to our<span className="text-[#fff]">Terms & Conditions,Privacy and Data Protection Policy</span></p>
+
+                                    </div>
 
                                 </div>
-                                <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1vw] leading-[4vw] lg:pt-[30px] pt-[10px] font-medium text-[#ABABAB]">By clicking, you agree to our<span className="text-[#fff]">Terms & Conditions,Privacy and Data Protection Policy</span></p>
+                             
+                                </div>
                             </div>
 
                         </div>
@@ -575,14 +590,14 @@ export default function Home() {
                                                     <div className="lg:flex justify-between">
                                                         <div className="col-lg-12">
 
-                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833]  ">
+                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]   text-[#212833]  ">
                                                                 eBay seller account fees consist of final value fees, insertion fees, and listing upgrade fees.</p>
 
-                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833]  ">When an item sells, a final value fee is applied based on the selling price and its category.</p>
+                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]   text-[#212833]  ">When an item sells, a final value fee is applied based on the selling price and its category.</p>
 
-                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833]  ">An insertion fee is charged when you list a product in your store.</p>
+                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]   text-[#212833]  ">An insertion fee is charged when you list a product in your store.</p>
 
-                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833]  ">Additionally, if you choose to enhance your listing with upgrades, an extra fee will be applied for each upgrade.
+                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]   text-[#212833]  ">Additionally, if you choose to enhance your listing with upgrades, an extra fee will be applied for each upgrade.
                                                             </p>
 
                                                         </div>
@@ -601,13 +616,13 @@ export default function Home() {
                                                     <div className="lg:flex justify-between">
                                                         <div className="col-lg-12">
 
-                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833] "> On eBay, private sellers can list items for free, but after using up the 1,000 free listings per month, an insertion fee of 35p per listing applies (or higher for eBay Shop subscribers). </p>.
+                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]   text-[#212833] "> On eBay, private sellers can list items for free, but after using up the 1,000 free listings per month, an insertion fee of 35p per listing applies (or higher for eBay Shop subscribers). </p>.
 
-                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833] ">A final value fee is charged when an item sells. This fee is a percentage of the total sale price, including postage, handling, and any applicable charges. The percentage varies by category, but for most, it's 12.55%, plus a fixed £0.30 per order.</p>
+                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]   text-[#212833] ">A final value fee is charged when an item sells. This fee is a percentage of the total sale price, including postage, handling, and any applicable charges. The percentage varies by category, but for most, it's 12.55%, plus a fixed £0.30 per order.</p>
 
-                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833] ">Listing upgrade fees depend on the specific features selected and the level of enhancement applied to the listing. </p>
+                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]   text-[#212833] ">Listing upgrade fees depend on the specific features selected and the level of enhancement applied to the listing. </p>
 
-                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833] ">Additionally, depending on the payment method used, transaction fees apply. PayPal charges 2.9% plus 30p per transaction, while eBay’s Managed Payments system charges 12.8% plus 30p per transaction, generally resulting in slightly lower costs overall.
+                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]   text-[#212833] ">Additionally, depending on the payment method used, transaction fees apply. PayPal charges 2.9% plus 30p per transaction, while eBay’s Managed Payments system charges 12.8% plus 30p per transaction, generally resulting in slightly lower costs overall.
 
 
 
@@ -630,7 +645,7 @@ export default function Home() {
                                                     <div className="lg:flex justify-between">
                                                         <div className="col-lg-12">
 
-                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833]  ">eBay will deactivate your account and stop you from buying or selling things until you pay up.
+                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]   text-[#212833]  ">eBay will deactivate your account and stop you from buying or selling things until you pay up.
 
                                                             </p>
 
@@ -651,7 +666,7 @@ export default function Home() {
                                                     <div className="lg:flex justify-between">
                                                         <div className="col-lg-12">
 
-                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833]  ">In most cases, standard selling fees are 10% of the total sales price as a final value fee, plus an insertion fee of $0.35. eBay.com sellers get 50 insertion fees for free each month and Store subscriptions can give you additional insertion fees.
+                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]   text-[#212833]  ">In most cases, standard selling fees are 10% of the total sales price as a final value fee, plus an insertion fee of $0.35. eBay.com sellers get 50 insertion fees for free each month and Store subscriptions can give you additional insertion fees.
                                                             </p>
 
                                                         </div>
@@ -672,8 +687,6 @@ export default function Home() {
                     </div>
                 </div>
             </section>
-
-
 
 
             <Footer />

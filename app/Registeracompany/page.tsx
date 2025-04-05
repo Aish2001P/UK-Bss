@@ -91,7 +91,7 @@ export default function Home() {
                                         <Image className="img-responsive w-30 " src="/Images/copy3.svg" alt="logo" width={1830} height={750} />
                                     </div>
                                     <p className="lg:text-[1.5vw] text-[4vw] lg:leading-[2vw] leading-[5vw] font-medium lg:pt-[30px] pt-[20px]"> Simple & Effortless Registration</p>
-                                    <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw] font-medium text-[#616161] lg:pb-[48px] pb-[10px]">Send us your documents via live chat, and we’ll take care of everything—from completing your Companies House application to securing your digital signature.</p>
+                                    <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw] font-medium text-[#616161] lg:pb-[48px] pb-[10px]">Send us your documents via live chat, and we&apos;ll take care of everything—from completing your Companies House application to securing your digital signature.</p>
                                 </div>
                             </div>
                         </div>
@@ -104,7 +104,7 @@ export default function Home() {
                                         <Image className="img-responsive w-30 " src="/Images/copy4.svg" alt="logo" width={1830} height={750} />
                                     </div>
                                     <p className="lg:text-[1.5vw] text-[4vw] lg:leading-[2vw] leading-[5vw] font-medium lg:pt-[30px] pt-[20px]"> Business Bank Account Support</p>
-                                    <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw] font-medium text-[#616161] lg:pb-[48px] pb-[10px]">We’ll help you select the right business bank account and connect you with trusted banking partners to simplify the process.</p>
+                                    <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw] font-medium text-[#616161] lg:pb-[48px] pb-[10px]">We&apos;ll help you select the right business bank account and connect you with trusted banking partners to simplify the process.</p>
                                 </div>
                             </div>
                             <div className="col-lg-4 mb-4 ">
@@ -113,7 +113,7 @@ export default function Home() {
                                         <Image className="img-responsive w-30 " src="/Images/copy4.svg" alt="logo" width={1830} height={750} />
                                     </div>
                                     <p className="lg:text-[1.5vw] text-[4vw] lg:leading-[2vw] leading-[5vw] font-medium lg:pt-[30px] pt-[20px]"> All Essential Documents in One Place</p>
-                                    <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw] font-medium text-[#616161] lg:pb-[48px] pb-[10px]">You’ll receive a complete set of company incorporation documents, securely stored and readily available from day one.</p>
+                                    <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw] font-medium text-[#616161] lg:pb-[48px] pb-[10px]">You&apos;ll receive a complete set of company incorporation documents, securely stored and readily available from day one.</p>
                                 </div>
                             </div>
                         </div>
@@ -129,7 +129,7 @@ export default function Home() {
                         <div className="flex justify-center">
                             <div className="col-lg-6">
                                 <div className="lg:pb-[60px] pb-[30px] text-center">
-                                    <button type="button" className="border border-dark hover:bg-[#000] hover:text-[#fff] font-medium !rounded-full text-md px-5 py-2 text-center items-center">PRICING</button>
+                                    <button type="button" className="border border-dark  font-medium !rounded-full text-md px-5 py-2 text-center items-center">PRICING</button>
                                     <p className="lg:text-[2.5vw] text-[4vw] lg:leading-[3vw] leading-[5vw] font-semibold lg:pt-[30px] pt-[20px]">Simple, Fast, and Affordable Company Formation</p>
                                     <p className="lg:text-[1.2vw] text-[3vw] lg:leading-[2vw] leading-[4vw] lg:pt-[10px] pt-[5px]">At CloudBSS, we make starting your business in the UK straightforward and stress-free. Whether you need just company registration or complete compliance and accounting support, we have you covered.</p>
                                 </div>
@@ -138,18 +138,20 @@ export default function Home() {
                     </div>
                     <div className="col-lg-12 ">
                         <div className="row justify-center">
-                            <div className="col-lg-3 mb-4 ">
+                            <div className="col-lg-4 mb-4 ">
                                 <div className="block  p-1 bg-[#F3EFE7]  rounded-4   ">
-                                    <div className="block  p-6 bg-[#FFFDFA]  rounded-4   ">
-                                        <p className="lg:text-[1.5vw] text-[4vw] lg:leading-[1vw] leading-[5vw] font-medium lg:pt-[10px] pt-[5px]">Basic</p>
-                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw]  text-[#616161]">Set up as a limited company and receive all legal paperwork</p>
-                                        <p className="lg:text-[2.5vw] text-[6vw] lg:leading-[3.5vw] leading-[7vw] font-medium m-0 p-0">£50</p>
-                                        <p className="lg:text-[0.7vw] text-[2vw] lg:leading-[1vw] leading-[3vw]  text-[#616161] ">+ VAT</p>
+                                    <div className=" p-6 bg-[#FFFDFA]  rounded-4 flex-1 h-full  ">
+                                        <div className="lg:h-[220px] overflow-hidden">
+                                            <p className="lg:text-[1.5vw] text-[4vw] lg:leading-[1.5vw] leading-[5vw] font-medium lg:pt-[10px] pt-[5px]">Basic</p>
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.1vw] leading-[3.5vw]  text-[#616161]">Set up as a limited company and receive all legal paperwork</p>
+                                            <p className="lg:text-[2.5vw] text-[6vw] lg:leading-[3.5vw] leading-[7vw] font-medium m-0 p-0">£50</p>
+                                            <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1vw] leading-[3.5vw]  text-[#616161] font-bold">+ VAT</p>
+                                        </div>
                                         <button type="button" className="border border-dark hover:bg-[#000] hover:text-[#fff] font-medium !rounded-full text-md w-full py-2 text-center items-center">Get this plan</button>
                                     </div >
                                     <div className="lg:pl-[25px] pl-[10px] lg:pt-[30px] pt-[30px] font-medium">
-                                        <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1.7vw] leading-[4vw] ">
-                                            <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[0.5vw] leading-[4vw] font-semibold ">Setting up</p>
+                                        <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] ">
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw]  font-semibold ">Setting up</p>
                                             <div className="flex gap-2">
                                                 <div className="p-0 m-0" >
                                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
@@ -186,7 +188,7 @@ export default function Home() {
                                                     <p className="p-0 m-0">Companies House fee included</p>
                                                 </div>
                                             </div>
-                                            <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[0.5vw] leading-[4vw] font-semibold lg:pt-[30px] pt-[20px]">Documents</p>
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw]  font-semibold lg:pt-[30px] pt-[20px]">Documents</p>
                                             <div className="flex gap-2">
                                                 <div className="p-0 m-0" >
                                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
@@ -214,54 +216,60 @@ export default function Home() {
 
                                     <Accordion type="single" collapsible>
                                         <AccordionItem value="item-1">
-                                            <AccordionTrigger><p className="lg:text-[1vw] text-[4vw] lg:leading-[1vw] leading-[5vw] font-semibold lg:pl-[10px] pl-[5px]">Optional add-ons</p></AccordionTrigger>
+                                            <AccordionTrigger>
+                                                <div className="p-3">
+                                                    <p className="lg:text-[1vw] text-[4vw] lg:leading-[1vw] leading-[5vw] font-semibold p-0 m-0">Optional add-ons</p>
+                                                </div>
+                                            </AccordionTrigger>
                                             <AccordionContent>
-                                                <div className="flex justify-between">
-                                                    <div className="col-lg-10">
-                                                        <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-medium lg:pl-[25px] pl-[5px]"> Registered London office address</p>
+                                                <div className="sm:p-4">
+                                                    <div className="flex justify-between p-2">
+                                                        <div className="col-lg-10">
+                                                            <p className="lg:text-[0.9vw] text-[3.4vw] lg:leading-[1.5vw] leading-[3.5vw] font-medium  p-0 m-0"> Registered London office address</p>
+                                                        </div>
+                                                        <div className="col-lg-2">
+                                                            <p className="lg:text-[0.9vw] text-[3.4vw] lg:leading-[1.5vw] leading-[3.5vw] font-semibold text-[#767676] p-0 m-0">£100/y</p>
+                                                        </div>
                                                     </div>
-                                                    <div className="col-lg-2">
-                                                        <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-semibold text-[#767676] ">£100/y</p>
+                                                    <div className="flex justify-between p-2 ">
+                                                        <div className="col-lg-10">
+                                                            <p className="lg:text-[0.9vw] text-[3.4vw] lg:leading-[1.5vw] leading-[3.5vw] font-medium p-0 m-0"> Manual document review</p>
+                                                        </div>
+                                                        <div className="col-lg-2">
+                                                            <p className="lg:text-[0.9vw] text-[3.4vw] lg:leading-[1.5vw] leading-[3.5vw] font-semibold text-[#767676] p-0 m-0">£49</p>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                                <div className="flex justify-between">
-                                                    <div className="col-lg-10">
-                                                        <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-medium lg:pl-[25px] pl-[5px]"> Manual document review</p>
+                                                    <div className="flex justify-between p-2">
+                                                        <div className="col-lg-10">
+                                                            <p className="lg:text-[0.9vw] text-[3.4vw] lg:leading-[1.5vw] leading-[3.5vw] font-medium p-0 m-0"> Confirmation Statement</p>
+                                                        </div>
+                                                        <div className="col-lg-2">
+                                                            <p className="lg:text-[0.9vw] text-[3.4vw] lg:leading-[1.5vw] leading-[3.5vw] font-semibold text-[#767676] p-0 m-0 ">£100</p>
+                                                        </div>
                                                     </div>
-                                                    <div className="col-lg-2">
-                                                        <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-semibold text-[#767676] ">£49</p>
+                                                    <div className="flex justify-between p-2">
+                                                        <div className="col-lg-10">
+                                                            <p className="lg:text-[0.9vw] text-[3.4vw] lg:leading-[1.5vw] leading-[3.5vw] font-medium p-0 m-0"> PAYE registration</p>
+                                                        </div>
+                                                        <div className="col-lg-2">
+                                                            <p className="lg:text-[0.9vw] text-[3.4vw] lg:leading-[1.5vw] leading-[3.5vw] font-semibold text-[#767676] p-0 m-0">£50</p>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                                <div className="flex justify-between">
-                                                    <div className="col-lg-10">
-                                                        <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-medium lg:pl-[25px] pl-[5px]"> Confirmation Statement</p>
+                                                    <div className="flex justify-between p-2">
+                                                        <div className="col-lg-10">
+                                                            <p className="lg:text-[0.9vw] text-[3.4vw] lg:leading-[1.5vw] leading-[3.5vw] font-medium p-0 m-0"> VAT registration</p>
+                                                        </div>
+                                                        <div className="col-lg-2">
+                                                            <p className="lg:text-[0.9vw] text-[3.4vw] lg:leading-[1.5vw] leading-[3.5vw] font-semibold text-[#767676] p-0 m-0">£50</p>
+                                                        </div>
                                                     </div>
-                                                    <div className="col-lg-2">
-                                                        <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-semibold text-[#767676] ">£100</p>
-                                                    </div>
-                                                </div>
-                                                <div className="flex justify-between">
-                                                    <div className="col-lg-10">
-                                                        <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-medium lg:pl-[25px] pl-[5px]"> PAYE registration</p>
-                                                    </div>
-                                                    <div className="col-lg-2">
-                                                        <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-semibold text-[#767676] ">£50</p>
-                                                    </div>
-                                                </div>
-                                                <div className="flex justify-between">
-                                                    <div className="col-lg-10">
-                                                        <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-medium lg:pl-[25px] pl-[5px]"> VAT registration</p>
-                                                    </div>
-                                                    <div className="col-lg-2">
-                                                        <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-semibold text-[#767676] ">£50</p>
-                                                    </div>
-                                                </div>
-                                                <div className="flex justify-between">
-                                                    <div className="col-lg-10">
-                                                        <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-medium lg:pl-[25px] pl-[5px]"> Accounting services</p>
-                                                    </div>
-                                                    <div className="col-lg-2">
-                                                        <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-semibold text-[#767676] ">from £71/m</p>
+                                                    <div className="flex justify-between p-2">
+                                                        <div className="col-lg-10">
+                                                            <p className="lg:text-[0.9vw] text-[3.4vw] lg:leading-[1.5vw] leading-[3.5vw] font-medium p-0 m-0"> Accounting services</p>
+                                                        </div>
+                                                        <div className="col-lg-2">
+                                                            <p className="lg:text-[0.9vw] text-[3.4vw] lg:leading-[1.5vw] leading-[3.5vw] font-semibold text-[#767676] p-0 m-0 ">from £71/m</p>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </AccordionContent>
@@ -271,19 +279,21 @@ export default function Home() {
                                 </div>
                             </div>
 
-                            <div className="col-lg-3 mb-4 ">
+                            <div className="col-lg-4 mb-4 ">
                                 <div className="block  p-1 bg-[#F3EFE7] rounded-4 shadow-sm  ">
-                                    <div className="block  p-6 bg-[#FFFDFA]  rounded-4   ">
-                                        <p className="lg:text-[1.5vw] text-[4vw] lg:leading-[1vw] leading-[5vw] font-medium lg:pt-[10px] pt-[5px]">All-in-one</p>
-                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw]  text-[#616161]">Register a limited company and get all compliance related to your incorporation</p>
-                                        <p className="lg:text-[2.5vw] text-[6vw] lg:leading-[3.5vw] leading-[7vw] font-medium m-0 p-0">£289</p>
-                                        <p className="lg:text-[0.7vw] text-[2vw] lg:leading-[1vw] leading-[3vw]  text-[#616161] ">+ VAT</p>
+                                    <div className=" p-6 bg-[#FFFDFA]  rounded-4 flex-1 h-full  ">
+                                        <div className="lg:h-[220px] overflow-hidden">
+                                            <p className="lg:text-[1.5vw] text-[4vw] lg:leading-[1.5vw] leading-[5vw] font-medium lg:pt-[10px] pt-[5px]">All-in-one</p>
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.1vw] leading-[3.5vw]  text-[#616161]">Register a limited company and get all compliance related to your incorporation</p>
+                                            <p className="lg:text-[2.5vw] text-[6vw] lg:leading-[3.5vw] leading-[7vw] font-medium m-0 p-0">£289</p>
+                                            <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1vw] leading-[3.5vw]  text-[#616161] font-bold ">+ VAT</p>
+                                        </div>
                                         <button type="button" className="border border-dark hover:bg-[#000] hover:text-[#fff] font-medium !rounded-full text-md w-full py-2 text-center items-center">Get this plan</button>
                                     </div >
 
                                     <div className="lg:pl-[25px] pl-[10px] lg:pt-[30px] pt-[30px]">
-                                        <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1.7vw] leading-[4vw] text-black font-medium">
-                                            <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[0.5vw] leading-[4vw] font-semibold ">Setting up</p>
+                                        <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw]  text-black font-medium">
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw]  font-semibold ">Setting up</p>
                                             <div className="flex gap-2">
                                                 <div className="p-0 m-0" >
                                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
@@ -326,10 +336,11 @@ export default function Home() {
                                                         <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                                                     </svg></div>
                                                 <div>
-                                                    <p className="p-0 m-0 font-medium lg:text-[0.8vw] text-[3vw] lg:leading-[1.7vw] leading-[4vw] text-[#0061FE] ">Registered London office address</p>
+                                                    <p className="p-0 m-0 font-medium lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw]  text-[#0061FE] ">Registered London office address</p>
                                                 </div>
                                             </div>
-                                            <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[0.5vw] leading-[4vw] font-semibold lg:pt-[30px] pt-[20px]">Documents</p>
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] 
+                                             font-semibold lg:pt-[30px] pt-[20px]">Documents</p>
                                             <div className="flex gap-2">
                                                 <div className="p-0 m-0" >
                                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
@@ -354,7 +365,7 @@ export default function Home() {
                                                         <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                                                     </svg></div>
                                                 <div>
-                                                    <p className="p-0 m-0 font-medium lg:text-[0.8vw] text-[3vw] lg:leading-[1.7vw] leading-[4vw] text-[#0061FE]">Same-day document scanning</p>
+                                                    <p className="p-0 m-0 font-medium lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw]  text-[#0061FE]">Same-day document scanning</p>
                                                 </div>
                                             </div>
                                             <div className="flex gap-2">
@@ -363,7 +374,7 @@ export default function Home() {
                                                         <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                                                     </svg></div>
                                                 <div>
-                                                    <p className="p-0 m-0 font-medium lg:text-[0.8vw] text-[3vw] lg:leading-[1.7vw] leading-[4vw] text-[#0061FE]">Manual document review</p>
+                                                    <p className="p-0 m-0 font-medium lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw]  text-[#0061FE]">Manual document review</p>
                                                 </div>
                                             </div>
                                             <div className="flex gap-2">
@@ -372,17 +383,17 @@ export default function Home() {
                                                         <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                                                     </svg></div>
                                                 <div>
-                                                    <p className="p-0 m-0 font-medium lg:text-[0.8vw] text-[3vw] lg:leading-[1.7vw] leading-[4vw] text-[#0061FE]">Confirmation Statement</p>
+                                                    <p className="p-0 m-0 font-medium lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw]  text-[#0061FE]">Confirmation Statement</p>
                                                 </div>
                                             </div>
-                                            <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[0.5vw] leading-[4vw] font-semibold lg:pt-[30px] pt-[20px]">Beyond incorporation</p>
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw]  font-semibold lg:pt-[30px] pt-[20px]">Beyond incorporation</p>
                                             <div className="flex gap-2">
                                                 <div className="p-0 m-0" >
                                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#0061FE" fill="none">
                                                         <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                                                     </svg></div>
                                                 <div>
-                                                    <p className="p-0 m-0 font-medium lg:text-[0.8vw] text-[3vw] lg:leading-[1.7vw] leading-[4vw] text-[#0061FE]">Unlimited corporate changes</p>
+                                                    <p className="p-0 m-0 font-medium lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw]  text-[#0061FE]">Unlimited corporate changes</p>
                                                 </div>
                                             </div>
                                         </p>
@@ -396,32 +407,32 @@ export default function Home() {
 
                                     <Accordion type="single" collapsible>
                                         <AccordionItem value="item-1">
-                                            <AccordionTrigger><p className="lg:text-[1vw] text-[4vw] lg:leading-[1vw] leading-[5vw] font-semibold lg:pl-[10px] pl-[5px]">Optional add-ons</p></AccordionTrigger>
+                                            <AccordionTrigger><div className="p-3"><p className="lg:text-[1vw] text-[4vw] lg:leading-[1vw] leading-[5vw] font-semibold lg:pl-[10px] pl-[5px] p-0 m-0">Optional add-ons</p></div></AccordionTrigger>
                                             <AccordionContent>
 
 
-                                                <div className="flex justify-between">
+                                                <div className="flex justify-between p-2">
                                                     <div className="col-lg-10">
-                                                        <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-medium lg:pl-[25px] pl-[5px]"> PAYE registration</p>
+                                                        <p className="lg:text-[0.9vw] text-[3.4vw] lg:leading-[1.5vw] leading-[3.5vw] font-medium p-0 m-0"> PAYE registration</p>
                                                     </div>
                                                     <div className="col-lg-2">
-                                                        <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-semibold text-[#767676] ">£50</p>
+                                                        <p className="lg:text-[0.9vw] text-[3.4vw] lg:leading-[1.5vw] leading-[3.5vw] font-semibold text-[#767676] p-0 m-0">£50</p>
                                                     </div>
                                                 </div>
-                                                <div className="flex justify-between">
+                                                <div className="flex justify-between p-2">
                                                     <div className="col-lg-10">
-                                                        <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-medium lg:pl-[25px] pl-[5px]"> VAT registration</p>
+                                                        <p className="lg:text-[0.9vw] text-[3.4vw] lg:leading-[1.5vw] leading-[3.5vw] font-medium p-0 m-0"> VAT registration</p>
                                                     </div>
                                                     <div className="col-lg-2">
-                                                        <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-semibold text-[#767676] ">£50</p>
+                                                        <p className="lg:text-[0.9vw] text-[3.4vw] lg:leading-[1.5vw] leading-[3.5vw] font-semibold text-[#767676] p-0 m-0 ">£50</p>
                                                     </div>
                                                 </div>
-                                                <div className="flex justify-between">
+                                                <div className="flex justify-between p-2">
                                                     <div className="col-lg-10">
-                                                        <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-medium lg:pl-[25px] pl-[5px]"> Accounting services</p>
+                                                        <p className="lg:text-[0.9vw] text-[3.4vw] lg:leading-[1.5vw] leading-[3.5vw] font-medium p-0 m-0"> Accounting services</p>
                                                     </div>
                                                     <div className="col-lg-2">
-                                                        <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-semibold text-[#767676] ">from £71/m</p>
+                                                        <p className="lg:text-[0.9vw] text-[3.4vw] lg:leading-[1.5vw] leading-[3.5vw] font-semibold text-[#767676] p-0 m-0">from £71/m</p>
                                                     </div>
                                                 </div>
                                             </AccordionContent>
@@ -434,18 +445,21 @@ export default function Home() {
 
                             </div>
 
-                            <div className="col-lg-3 mb-4 ">
+                            <div className="col-lg-4 mb-4 ">
                                 <div className="block  p-1 bg-[#F3EFE7] rounded-4 shadow-sm  ">
-                                    <div className="block  p-6 bg-[#FFFDFA]  rounded-4 shadow-sm  ">
-                                        <p className="lg:text-[1.5vw] text-[4vw] lg:leading-[1vw] leading-[5vw] font-medium lg:pt-[10px] pt-[5px]">All-in-one for foreigners</p>
-                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw]  text-[#616161]">Register a limited company as a non-UK resident</p>
-                                        <p className="lg:text-[2.5vw] text-[5vw] lg:leading-[3.5vw] leading-[6vw] font-medium m-0 p-0">£299</p>
-                                        <p className="lg:text-[0.7vw] text-[2vw] lg:leading-[1vw] leading-[3vw]  text-[#616161] ">+ VAT</p>
+                                    <div className=" p-6 bg-[#FFFDFA]  rounded-4 flex-1 h-full  ">
+                                        <div className="lg:h-[220px] overflow-hidden">
+                                            <p className="lg:text-[1.5vw] text-[4vw] lg:leading-[1.5vw] leading-[5vw] font-medium lg:pt-[10px] pt-[5px]">All-in-one for foreigners</p>
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.1vw] leading-[3.5vw]  text-[#616161]">Register a limited company as a non-UK resident</p>
+                                            <p className="lg:text-[2.5vw] text-[6vw] lg:leading-[3.5vw] leading-[7vw] font-medium m-0 p-0">£299</p>
+                                            <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1vw] leading-[3.5vw]  text-[#616161] font-bold">+ VAT</p>
+                                        </div>
                                         <button type="button" className="border border-dark hover:bg-[#000] hover:text-[#fff] font-medium !rounded-full text-md w-full py-2 text-center items-center">Get this plan</button>
-                                    </div>
+                                    </div >
+                                   
                                     <div className="lg:pl-[25px] pl-[10px] lg:pt-[30px] pt-[10px]">
-                                        <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1.7vw] leading-[4vw] text-black font-medium">
-                                            <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[0.5vw] leading-[4vw] font-semibold ">Setting up</p>
+                                        <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw]  text-black font-medium">
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold ">Setting up</p>
                                             <div className="flex gap-2">
                                                 <div className="p-0 m-0" >
                                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
@@ -488,10 +502,10 @@ export default function Home() {
                                                         <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                                                     </svg></div>
                                                 <div>
-                                                    <p className="p-0 m-0 font-medium lg:text-[0.8vw] text-[3vw] lg:leading-[1.7vw] leading-[4vw] text-[#0061FE] ">Registered London office address</p>
+                                                    <p className="p-0 m-0 font-medium lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw]  text-[#0061FE] ">Registered London office address</p>
                                                 </div>
                                             </div>
-                                            <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[0.5vw] leading-[4vw] font-semibold lg:pt-[30px] pt-[20px]">Documents</p>
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw]  font-semibold lg:pt-[30px] pt-[20px]">Documents</p>
                                             <div className="flex gap-2">
                                                 <div className="p-0 m-0" >
                                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
@@ -516,7 +530,7 @@ export default function Home() {
                                                         <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                                                     </svg></div>
                                                 <div>
-                                                    <p className="p-0 m-0 font-medium lg:text-[0.8vw] text-[3vw] lg:leading-[1.7vw] leading-[4vw] text-[#0061FE]">Same-day document scanning</p>
+                                                    <p className="p-0 m-0 font-medium lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw]  text-[#0061FE]">Same-day document scanning</p>
                                                 </div>
                                             </div>
                                             <div className="flex gap-2">
@@ -525,7 +539,7 @@ export default function Home() {
                                                         <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                                                     </svg></div>
                                                 <div>
-                                                    <p className="p-0 m-0 font-medium lg:text-[0.8vw] text-[3vw] lg:leading-[1.7vw] leading-[4vw] text-[#0061FE]">Manual document review</p>
+                                                    <p className="p-0 m-0 font-medium lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw]  text-[#0061FE]">Manual document review</p>
                                                 </div>
                                             </div>
                                             <div className="flex gap-2">
@@ -534,17 +548,17 @@ export default function Home() {
                                                         <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                                                     </svg></div>
                                                 <div>
-                                                    <p className="p-0 m-0 font-medium lg:text-[0.8vw] text-[3vw] lg:leading-[1.7vw] leading-[4vw] text-[#0061FE]">Confirmation Statement</p>
+                                                    <p className="p-0 m-0 font-medium lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw]  text-[#0061FE]">Confirmation Statement</p>
                                                 </div>
                                             </div>
-                                            <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[0.5vw] leading-[4vw] font-semibold lg:pt-[30px] pt-[20px]">Beyond incorporation</p>
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw]  font-semibold lg:pt-[30px] pt-[20px]">Beyond incorporation</p>
                                             <div className="flex gap-2">
                                                 <div className="p-0 m-0" >
                                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#0061FE" fill="none">
                                                         <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                                                     </svg></div>
                                                 <div>
-                                                    <p className="p-0 m-0 font-medium lg:text-[0.8vw] text-[3vw] lg:leading-[1.7vw] leading-[4vw] text-[#0061FE]">Unlimited corporate changes</p>
+                                                    <p className="p-0 m-0 font-medium lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw]  text-[#0061FE]">Unlimited corporate changes</p>
                                                 </div>
                                             </div>
                                             <div className="flex gap-2">
@@ -553,7 +567,7 @@ export default function Home() {
                                                         <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                                                     </svg></div>
                                                 <div>
-                                                    <p className="p-0 m-0 font-medium lg:text-[0.8vw] text-[3vw] lg:leading-[1.7vw] leading-[4vw] text-[#0061FE]">VAT registration</p>
+                                                    <p className="p-0 m-0 font-medium lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw]  text-[#0061FE]">VAT registration</p>
                                                 </div>
                                             </div>
                                         </p>
@@ -562,24 +576,24 @@ export default function Home() {
                                     <hr className="border-2 border-[#B0B0B0]"></hr>
                                     <Accordion type="single" collapsible>
                                         <AccordionItem value="item-1">
-                                            <AccordionTrigger><p className="lg:text-[1vw] text-[4vw] lg:leading-[1vw] leading-[5vw] font-semibold lg:pl-[10px] pl-[5px]">Optional add-ons</p></AccordionTrigger>
+                                            <AccordionTrigger><div className="p-3"><p className="lg:text-[1vw] text-[4vw] lg:leading-[1vw] leading-[5vw] font-semibold lg:pl-[10px] pl-[5px] p-0 m-0">Optional add-ons</p></div></AccordionTrigger>
                                             <AccordionContent>
 
 
-                                                <div className="flex justify-between">
+                                                <div className="flex justify-between p-2">
                                                     <div className="col-lg-10">
-                                                        <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-medium lg:pl-[25px] pl-[5px]"> PAYE registration</p>
+                                                        <p className="lg:text-[0.9vw] text-[3.4vw] lg:leading-[1.5vw] leading-[3.5vw] font-medium p-0 m-0"> PAYE registration</p>
                                                     </div>
                                                     <div className="col-lg-2">
-                                                        <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-semibold text-[#767676] ">£50</p>
+                                                        <p className="lg:text-[0.9vw] text-[3.4vw] lg:leading-[1.5vw] leading-[3.5vw] font-semibold text-[#767676] p-0 m-0">£50</p>
                                                     </div>
                                                 </div>
-                                                <div className="flex justify-between">
+                                                <div className="flex justify-between p-2">
                                                     <div className="col-lg-10">
-                                                        <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-medium lg:pl-[25px] pl-[5px]"> Accounting services</p>
+                                                        <p className="lg:text-[0.9vw] text-[3.4vw] lg:leading-[1.5vw] leading-[3.5vw] font-medium p-0 m-0"> Accounting services</p>
                                                     </div>
                                                     <div className="col-lg-2">
-                                                        <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-semibold text-[#767676] ">from £71/m</p>
+                                                        <p className="lg:text-[0.9vw] text-[3.4vw] lg:leading-[1.5vw] leading-[3.5vw] font-semibold text-[#767676] p-0 m-0">from £71/m</p>
                                                     </div>
                                                 </div>
                                             </AccordionContent>
@@ -658,20 +672,20 @@ export default function Home() {
                     <div className="col-lg-12 lg:text-[1vw] text-[2vw] lg:leading-[1vw] leading-[3vw] lg:pt-[80px] pt-[60px] sm:pb-[50px] pb-[10px] text-center ">
                         <div className="flex justify-center ">
                             <div className="col-lg-5">
-                                <p className="uppercase text-[#353535] lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[3vw]">HOW IT WORKS</p>
+                                <p className="uppercase text-[#353535] lg:text-[1.2vw] text-[3vw] lg:leading-[1.5vw] leading-[3vw]">HOW IT WORKS</p>
                                 <p className="lg:text-[2.5vw] text-[5vw] lg:leading-[3vw] leading-[6vw] font-bold">Registering Your Company in the UK
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-10 lg:pt-[80px] pt-[10px]">
-                        <div className="row ">
+                        <div className="row items-center">
                             <div className="col-lg-6">
                                 <div className="col-lg-12">
                                     <Image className="img-responsive w-full" src="/Images/copy6.png" alt="logo" width={1830} height={750} />
                                 </div>
                             </div>
-                            <div className="col-lg-6 lg:pt-[160px] pt-[20px]">
+                            <div className="col-lg-6 ">
                                 <div className="flex lg:justify-end">
                                     <div className="col-lg-9">
                                         <p className="text-[#010202]   font-semibold lg:text-[2vw] text-[4vw] lg:leading-[2.5vw] leading-[5vw] ">Choose Your Company Name</p>
@@ -717,8 +731,8 @@ export default function Home() {
                 <div className="row  justify-center ">
                     <div className="col-lg-10 ">
                         <div className="lg:pt-[80px] pt-[60px]">
-                            <div className="row ">
-                                <div className="col-lg-6 lg:pt-[160px] pt-[20px] order-lg-1 order-2">
+                            <div className="row items-center">
+                                <div className="col-lg-6  order-lg-1 order-2">
                                     <div className="flex lg:justify">
                                         <div className="col-lg-9 ">
                                             <p className="text-[#010202]   font-semibold lg:text-[2vw] text-[4vw] lg:leading-[2.5vw] leading-[5vw] ">Select Your SIC Code</p>
@@ -767,17 +781,17 @@ export default function Home() {
                 <div className="row justify-center">
 
                     <div className="col-lg-10 lg:pt-[80px] pt-[60px]">
-                        <div className="row ">
+                        <div className="row items-center">
                             <div className="col-lg-6">
                                 <div className="col-lg-12">
                                     <Image className="img-responsive w-full" src="/Images/copy8.png" alt="logo" width={1830} height={750} />
                                 </div>
                             </div>
-                            <div className="col-lg-6 lg:pt-[160px] pt-[20px]">
+                            <div className="col-lg-6 ">
                                 <div className="flex lg:justify-end">
                                     <div className="col-lg-9 ">
                                         <p className="text-[#010202]   font-semibold lg:text-[2vw] text-[4vw] lg:leading-[2.5vw] leading-[5vw] ">Prepare Your Documents</p>
-                                        <p className="text-[#353535]  lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw] ">Before registering, you’ll need:
+                                        <p className="text-[#353535]  lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw] ">Before registering, you&apos;ll need:
                                             <ul className="list-disc list-outside">
                                                 <li className="lg:pt-[20px] pt-[10px]">A passport copy and proof of address for all directors and shareholders.</li>
                                                 <li className="lg:pt-[20px] pt-[10px]">A registered company address—use your home address or select our London-based office address for privacy.</li></ul>
@@ -798,12 +812,12 @@ export default function Home() {
                 <div className="row  justify-center ">
                     <div className="col-lg-10 ">
                         <div className="lg:pt-[80px] pt-[60px]">
-                            <div className="row ">
-                                <div className="col-lg-6 lg:pt-[160px] pt-[20px]  order-lg-1 order-2">
+                            <div className="row items-center">
+                                <div className="col-lg-6   order-lg-1 order-2">
                                     <div className="flex lg:justify">
                                         <div className="col-lg-9">
                                             <p className="text-[#010202]   font-semibold lg:text-[2vw] text-[4vw] lg:leading-[2.5vw] leading-[5vw] ">Open a Business Bank Account</p>
-                                            <p className="text-[#353535]  lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw] "> A business bank account is essential for managing payments and invoices. We partner with trusted banking institutions to help you set up your account quickly and securely..
+                                            <p className="text-[#353535]  lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw] ">A business bank account is essential for managing payments and invoices. We partner with trusted banking institutions to help you set up your account quickly and securely..
                                             </p>
                                             <Image className="img-responsive w-50" src="/Images/svg.svg" alt="logo" width={1830} height={750} />
 
@@ -827,13 +841,13 @@ export default function Home() {
                 <div className="row justify-center">
 
                     <div className="col-lg-10 lg:pt-[80px] pt-[60px] lg:pb-[80px] pb-[50px]">
-                        <div className="row ">
+                        <div className="row items-center">
                             <div className="col-lg-6">
                                 <div className="col-lg-12">
                                     <Image className="img-responsive w-full" src="/Images/copy10.png" alt="logo" width={1830} height={750} />
                                 </div>
                             </div>
-                            <div className="col-lg-6 lg:pt-[160px] pt-[20px]">
+                            <div className="col-lg-6 ">
                                 <div className="flex lg:justify-end">
                                     <div className="col-lg-9 ">
                                         <p className="text-[#010202]   font-semibold lg:text-[2vw] text-[4vw] lg:leading-[2.5vw] leading-[5vw] ">Submit Your Application</p>
@@ -882,7 +896,7 @@ export default function Home() {
                                         <Image className="img-responsive w-30 " src="/Images/copy12.svg" alt="logo" width={1830} height={750} />
                                     </div>
                                     <p className="lg:text-[1.5vw] text-[4vw] lg:leading-[1.5vw] leading-[5vw] font-medium lg:pt-[30px] pt-[20px]"> Submit your details</p>
-                                    <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw] font-medium text-[#616161]">We’ll guide you through the registration process, explaining exactly what information and documents we need from you while providing expert advice along the way.</p>
+                                    <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw] font-medium text-[#616161]">We&apos;ll guide you through the registration process, explaining exactly what information and documents we need from you while providing expert advice along the way.</p>
                                 </div>
                             </div>
 
@@ -892,7 +906,7 @@ export default function Home() {
                                         <Image className="img-responsive w-30 " src="/Images/copy13.svg" alt="logo" width={1830} height={750} />
                                     </div>
                                     <p className="lg:text-[1.5vw] text-[4vw] lg:leading-[1.5vw] leading-[5vw] font-medium lg:pt-[30px] pt-[20px]"> Receive Your Confirmation</p>
-                                    <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw] font-medium text-[#616161]">Once everything is submitted, we’ll handle the paperwork. You’ll receive your Certificate of Incorporation and all the necessary documents to get your business officially registered.</p>
+                                    <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw] font-medium text-[#616161]">Once everything is submitted, we&apos;ll handle the paperwork. You&apos;ll receive your Certificate of Incorporation and all the necessary documents to get your business officially registered.</p>
                                 </div>
                             </div>
                         </div>
@@ -909,7 +923,7 @@ export default function Home() {
                                     <div className="row justify-start">
 
                                         <p className="lg:text-[2.5vw] text-[6vw] lg:leading-[2.5vw] leading-[7vw] font-semibold lg:pt-[30px] pt-[20px] text-[#0061FE]">Download free guide on how to set up business in the UK</p>
-                                        <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw] lg:pt-[10px] pt-[5px] lg:pb-[10px] pb-[5px] text-[#0061FE]">We’ve put together all of the documents and details you need to figure out before you open a company</p>
+                                        <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw] lg:pt-[10px] pt-[5px] lg:pb-[10px] pb-[5px] text-[#0061FE]">We&apos;ve put together all of the documents and details you need to figure out before you open a company</p>
 
 
                                     </div>
@@ -993,7 +1007,7 @@ export default function Home() {
 
                                                                     <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.2vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833] lg:pt-[20px] pt-[10px]">Any form submitted to Companies House becomes part of the public record. As a result, the information, including personal data, will be accessible to the public unless it is deemed sensitive or restricted.</p>
 
-                                                                    <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.2vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833] lg:pt-[20px] pt-[10px]">It’s essential to ensure these statutory forms are kept current.</p>
+                                                                    <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.2vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833] lg:pt-[20px] pt-[10px]">It&apos;s essential to ensure these statutory forms are kept current.</p>
 
                                                                 </div>
                                                                 <div className="col-lg-4 justify-center ">
@@ -1082,242 +1096,242 @@ export default function Home() {
                         <div className="flex justify-center">
                             <div className="col-lg-9 ">
 
-                            <Accordion type="single" collapsible>
-                                <AccordionItem value="item-1">
-                                    <div className="col-lg-12 mb-4">
-                                        <div className="block  p-6 bg-white border border-white rounded-4  m-0  ">
-                                            <AccordionTrigger> <p className=" lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[3vw] font-medium lg:pt-[20px] pt-[10px] lg:pl-[20px] pl-[5px] p-0 m-0">Where can I register my company?</p></AccordionTrigger>
-                                            <AccordionContent>
-                                                <div className="lg:flex justify-between">
-                                                    <div className="col-lg-12">
-
-                                                        <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833]  rounded-4 ">
-
-
-                                                            You can register your company with Companies House, the UK government department responsible for company registration. CloudBSS simplifies the process by managing everything for you, ensuring all documents are submitted correctly and efficiently.</p>
-
-                                                    </div>
-
-                                                </div>
-                                            </AccordionContent>
-                                        </div>
-                                    </div>
-                                </AccordionItem>
-
-
-
-
-
-                                <AccordionItem value="item-2">
-                                    <div className="col-lg-12 mb-4">
-                                        <div className="block  p-6 bg-white border border-white rounded-4   ">
-                                            <AccordionTrigger> <p className=" lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[3vw] font-medium lg:pt-[20px] pt-[10px] lg:pl-[20px] pl-[5px] p-0 m-0">How long does it take to register my company?</p></AccordionTrigger>
-                                            <AccordionContent>
-                                                <div className="lg:flex justify-between">
-                                                    <div className="col-lg-12">
-
-                                                        <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833]  ">
-                                                            The registration process can be completed within a few hours if all documents are in order. Typically, you will receive your Certificate of Incorporation within 24 hours after submission to Companies House.</p>
-
-                                                    </div>
-
-                                                </div>
-                                            </AccordionContent>
-                                        </div>
-                                    </div>
-                                </AccordionItem>
-
-
-
-
-                                <AccordionItem value="item-3">
-                                    <div className="col-lg-12 mb-4">
-                                        <div className="block  p-6 bg-white border border-white rounded-4   ">
-
-                                            <AccordionTrigger> <p className=" lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[3vw] font-medium lg:pt-[20px] pt-[10px] lg:pl-[20px] pl-[5px] p-0 m-0 ">Do I need to be a UK resident to register a company?</p></AccordionTrigger>
-                                            <AccordionContent>
-                                                <div className="lg:flex justify-between">
-                                                    <div className="col-lg-12">
-
-                                                        <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833] "> No, you don’t need to be a UK resident to register a company. However, you must have at least one director and a registered office address in the UK. CloudBSS can provide you with a registered office address if needed.
-                                                        </p>
-
-                                                    </div>
-
-                                                </div>
-                                            </AccordionContent>
-                                        </div>
-                                    </div>
-                                </AccordionItem>
-
-
-
-
-                                <AccordionItem value="item-4">
-                                    <div className="col-lg-12 mb-4">
-                                        <div className="block  p-6 bg-white border border-white rounded-4   ">
-
-                                            <AccordionTrigger> <p className=" lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[3vw] font-medium lg:pt-[20px] pt-[10px] lg:pl-[20px] pl-[5px] p-0 m-0">How do I choose a company name?</p></AccordionTrigger>
-                                            <AccordionContent>
-                                                <div className="lg:flex justify-between">
-                                                    <div className="col-lg-12">
-
-                                                        <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833]  ">Your company name must be unique and comply with Companies House naming rules. We provide a name-checking tool to ensure your name is available and meets legal requirements.
-                                                        </p>
-
-                                                    </div>
-
-                                                </div>
-                                            </AccordionContent>
-                                        </div>
-                                    </div>
-                                </AccordionItem>
-
-
-
-
-                                <AccordionItem value="item-5">
-                                    <div className="col-lg-12 mb-4">
-                                        <div className="block  p-6 bg-white border border-white rounded-4   ">
-
-                                            <AccordionTrigger> <p className=" lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[3vw] font-medium lg:pt-[20px] pt-[10px] lg:pl-[20px] pl-[5px] p-0 m-0">What documents do I need to provide for company registration?</p></AccordionTrigger>
-                                            <AccordionContent>
-                                                <div className="lg:flex justify-between">
-                                                    <div className="col-lg-12">
-
-                                                        <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833]  "> You’ll need:
-                                                            <ul className="list-disc list-outside ">
-                                                                <li className="lg:pt-[20px] pt-[10px]" >Passport copies and proof of address for directors and shareholders.</li>
-                                                                <li className="lg:pt-[20px] pt-[10px]">A company address (either your home address or a registered office address via CloudBSS).</li>
-                                                            </ul></p>
-
-                                                    </div>
-
-                                                </div>
-                                            </AccordionContent>
-                                        </div>
-                                    </div>
-                                </AccordionItem>
-
-
-
-
-                                <AccordionItem value="item-6">
-                                    <div className="col-lg-12 mb-4">
-                                        <div className="block  p-6 bg-white border border-white rounded-4   ">
-
-                                            <AccordionTrigger> <p className=" lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[3vw] font-medium lg:pt-[20px] pt-[10px] lg:pl-[20px] pl-[5px] p-0 m-0 ">Can I change my company name after registration?</p></AccordionTrigger>
-                                            <AccordionContent>
-                                                <div className="lg:flex justify-between">
-                                                    <div className="col-lg-12">
-
-                                                        <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833]  "> Yes, you can change your company name after registration. We offer unlimited corporate changes as part of our premium package.
-                                                        </p>
-
-                                                    </div>
-
-                                                </div>
-                                            </AccordionContent>
-                                        </div>
-                                    </div>
-                                </AccordionItem>
-
-
-
-
-                                <AccordionItem value="item-7">
-                                    <div className="col-lg-12 mb-4">
-                                        <div className="block  p-6 bg-white border border-white rounded-4   ">
-
-                                            <AccordionTrigger> <p className=" lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[3vw] font-medium lg:pt-[20px] pt-[10px] lg:pl-[20px] pl-[5px] p-0 m-0">What is an SIC code, and why is it needed?</p></AccordionTrigger>
-                                            <AccordionContent>
-                                                <div className="lg:flex justify-between">
-                                                    <div className="col-lg-12">
-
-                                                        <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833]  ">The Standard Industrial Classification (SIC) code defines your company’s primary business activity. It’s required during registration to ensure your business is classified correctly under UK law.</p>
-
-                                                    </div>
-
-                                                </div>
-                                            </AccordionContent>
-                                        </div>
-                                    </div>
-                                </AccordionItem>
-
-
-
-
-                                <AccordionItem value="item-8">
-                                    <div className="col-lg-12 mb-4">
-                                        <div className="block  p-6 bg-white border border-white rounded-4   ">
-                                           
-                                                <AccordionTrigger> <p className=" lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[3vw] font-medium lg:pt-[20px] pt-[10px] lg:pl-[20px] pl-[5px] p-0 m-0">Do I need a business bank account?</p></AccordionTrigger>
+                                <Accordion type="single" collapsible>
+                                    <AccordionItem value="item-1">
+                                        <div className="col-lg-12 mb-4">
+                                            <div className="block  p-6 bg-white border border-white rounded-4  m-0  ">
+                                                <AccordionTrigger> <p className=" lg:text-[1.2vw] text-[3vw] lg:leading-[1.5vw] leading-[3vw] font-medium lg:pt-[20px] pt-[10px] lg:pl-[20px] pl-[5px] p-0 m-0">Where can I register my company?</p></AccordionTrigger>
                                                 <AccordionContent>
                                                     <div className="lg:flex justify-between">
                                                         <div className="col-lg-12">
 
-                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833] ">Yes, you need a business bank account to handle payments and manage finances. We offer assistance in setting up a business account with trusted UK banking partners.</p>
+                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]   text-[#212833]  rounded-4 ">
+
+
+                                                                You can register your company with Companies House, the UK government department responsible for company registration. CloudBSS simplifies the process by managing everything for you, ensuring all documents are submitted correctly and efficiently.</p>
 
                                                         </div>
 
                                                     </div>
                                                 </AccordionContent>
+                                            </div>
                                         </div>
-                                    </div>
-                                </AccordionItem>
+                                    </AccordionItem>
 
 
 
 
-                                <AccordionItem value="item-9">
-                                    <div className="col-lg-12 mb-4">
-                                        <div className="block  p-6 bg-white border border-white rounded-4   ">
 
-                                            <AccordionTrigger> <p className=" lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[3vw] font-medium lg:pt-[20px] pt-[10px] lg:pl-[20px] pl-[5px] p-0 m-0">What happens after I register my company?</p></AccordionTrigger>
-                                            <AccordionContent>
-                                                <div className="lg:flex justify-between">
-                                                    <div className="col-lg-12">
+                                    <AccordionItem value="item-2">
+                                        <div className="col-lg-12 mb-4">
+                                            <div className="block  p-6 bg-white border border-white rounded-4   ">
+                                                <AccordionTrigger> <p className=" lg:text-[1.2vw] text-[3vw] lg:leading-[1.5vw] leading-[3vw] font-medium lg:pt-[20px] pt-[10px] lg:pl-[20px] pl-[5px] p-0 m-0">How long does it take to register my company?</p></AccordionTrigger>
+                                                <AccordionContent>
+                                                    <div className="lg:flex justify-between">
+                                                        <div className="col-lg-12">
 
-                                                        <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833]  ">Once registered, you will receive your official Certificate of Incorporation, Articles of Association, and other essential documents. You’ll also be able to start trading and managing your business legally.
-                                                        </p>
+                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]   text-[#212833]  ">
+                                                                The registration process can be completed within a few hours if all documents are in order. Typically, you will receive your Certificate of Incorporation within 24 hours after submission to Companies House.</p>
+
+                                                        </div>
 
                                                     </div>
-
-                                                </div>
-                                            </AccordionContent>
+                                                </AccordionContent>
+                                            </div>
                                         </div>
-                                    </div>
-                                </AccordionItem>
+                                    </AccordionItem>
 
 
 
-                                <AccordionItem value="item-10">
-                                    <div className="col-lg-12 mb-4">
-                                        <div className="block  p-6 bg-white border border-white rounded-4   ">
 
-                                            <AccordionTrigger> <p className=" lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[3vw] font-medium lg:pt-[20px] pt-[10px] lg:pl-[20px] pl-[5px] p-0 m-0">Can I get help with taxes and accounting?</p></AccordionTrigger>
-                                            <AccordionContent>
-                                                <div className="lg:flex justify-between">
-                                                    <div className="col-lg-12">
+                                    <AccordionItem value="item-3">
+                                        <div className="col-lg-12 mb-4">
+                                            <div className="block  p-6 bg-white border border-white rounded-4   ">
 
-                                                        <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833]  ">Yes, CloudBSS provides comprehensive accounting services to ensure your company remains compliant with tax and financial regulations. Our team is here to guide you through everything, from bookkeeping to tax filings.
-                                                        </p>
+                                                <AccordionTrigger> <p className=" lg:text-[1.2vw] text-[3vw] lg:leading-[1.5vw] leading-[3vw] font-medium lg:pt-[20px] pt-[10px] lg:pl-[20px] pl-[5px] p-0 m-0 ">Do I need to be a UK resident to register a company?</p></AccordionTrigger>
+                                                <AccordionContent>
+                                                    <div className="lg:flex justify-between">
+                                                        <div className="col-lg-12">
+
+                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]   text-[#212833] "> No, you don’t need to be a UK resident to register a company. However, you must have at least one director and a registered office address in the UK. CloudBSS can provide you with a registered office address if needed.
+                                                            </p>
+
+                                                        </div>
 
                                                     </div>
-
-                                                </div>
-                                            </AccordionContent>
+                                                </AccordionContent>
+                                            </div>
                                         </div>
-                                    </div>
-                                </AccordionItem>
-                            </Accordion>
+                                    </AccordionItem>
 
 
+
+
+                                    <AccordionItem value="item-4">
+                                        <div className="col-lg-12 mb-4">
+                                            <div className="block  p-6 bg-white border border-white rounded-4   ">
+
+                                                <AccordionTrigger> <p className=" lg:text-[1.2vw] text-[3vw] lg:leading-[1.5vw] leading-[3vw] font-medium lg:pt-[20px] pt-[10px] lg:pl-[20px] pl-[5px] p-0 m-0">How do I choose a company name?</p></AccordionTrigger>
+                                                <AccordionContent>
+                                                    <div className="lg:flex justify-between">
+                                                        <div className="col-lg-12">
+
+                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]   text-[#212833]  ">Your company name must be unique and comply with Companies House naming rules. We provide a name-checking tool to ensure your name is available and meets legal requirements.
+                                                            </p>
+
+                                                        </div>
+
+                                                    </div>
+                                                </AccordionContent>
+                                            </div>
+                                        </div>
+                                    </AccordionItem>
+
+
+
+
+                                    <AccordionItem value="item-5">
+                                        <div className="col-lg-12 mb-4">
+                                            <div className="block  p-6 bg-white border border-white rounded-4   ">
+
+                                                <AccordionTrigger> <p className=" lg:text-[1.2vw] text-[3vw] lg:leading-[1.5vw] leading-[3vw] font-medium lg:pt-[20px] pt-[10px] lg:pl-[20px] pl-[5px] p-0 m-0">What documents do I need to provide for company registration?</p></AccordionTrigger>
+                                                <AccordionContent>
+                                                    <div className="lg:flex justify-between">
+                                                        <div className="col-lg-12">
+
+                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]   text-[#212833]  "> You&apos;ll need:
+                                                                <ul className="list-disc list-outside ">
+                                                                    <li className="lg:pt-[20px] pt-[10px]" >Passport copies and proof of address for directors and shareholders.</li>
+                                                                    <li className="lg:pt-[20px] pt-[10px]">A company address (either your home address or a registered office address via CloudBSS).</li>
+                                                                </ul></p>
+
+                                                        </div>
+
+                                                    </div>
+                                                </AccordionContent>
+                                            </div>
+                                        </div>
+                                    </AccordionItem>
+
+
+
+
+                                    <AccordionItem value="item-6">
+                                        <div className="col-lg-12 mb-4">
+                                            <div className="block  p-6 bg-white border border-white rounded-4   ">
+
+                                                <AccordionTrigger> <p className=" lg:text-[1.2vw] text-[3vw] lg:leading-[1.5vw] leading-[3vw] font-medium lg:pt-[20px] pt-[10px] lg:pl-[20px] pl-[5px] p-0 m-0 ">Can I change my company name after registration?</p></AccordionTrigger>
+                                                <AccordionContent>
+                                                    <div className="lg:flex justify-between">
+                                                        <div className="col-lg-12">
+
+                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]   text-[#212833]  "> Yes, you can change your company name after registration. We offer unlimited corporate changes as part of our premium package.
+                                                            </p>
+
+                                                        </div>
+
+                                                    </div>
+                                                </AccordionContent>
+                                            </div>
+                                        </div>
+                                    </AccordionItem>
+
+
+
+
+                                    <AccordionItem value="item-7">
+                                        <div className="col-lg-12 mb-4">
+                                            <div className="block  p-6 bg-white border border-white rounded-4   ">
+
+                                                <AccordionTrigger> <p className=" lg:text-[1.2vw] text-[3vw] lg:leading-[1.5vw] leading-[3vw] font-medium lg:pt-[20px] pt-[10px] lg:pl-[20px] pl-[5px] p-0 m-0">What is an SIC code, and why is it needed?</p></AccordionTrigger>
+                                                <AccordionContent>
+                                                    <div className="lg:flex justify-between">
+                                                        <div className="col-lg-12">
+
+                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]   text-[#212833]  ">The Standard Industrial Classification (SIC) code defines your company&apos;s primary business activity. It&apos;s required during registration to ensure your business is classified correctly under UK law.</p>
+
+                                                        </div>
+
+                                                    </div>
+                                                </AccordionContent>
+                                            </div>
+                                        </div>
+                                    </AccordionItem>
+
+
+
+
+                                    <AccordionItem value="item-8">
+                                        <div className="col-lg-12 mb-4">
+                                            <div className="block  p-6 bg-white border border-white rounded-4   ">
+
+                                                <AccordionTrigger> <p className=" lg:text-[1.2vw] text-[3vw] lg:leading-[1.5vw] leading-[3vw] font-medium lg:pt-[20px] pt-[10px] lg:pl-[20px] pl-[5px] p-0 m-0">Do I need a business bank account?</p></AccordionTrigger>
+                                                <AccordionContent>
+                                                    <div className="lg:flex justify-between">
+                                                        <div className="col-lg-12">
+
+                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]   text-[#212833] ">Yes, you need a business bank account to handle payments and manage finances. We offer assistance in setting up a business account with trusted UK banking partners.</p>
+
+                                                        </div>
+
+                                                    </div>
+                                                </AccordionContent>
+                                            </div>
+                                        </div>
+                                    </AccordionItem>
+
+
+
+
+                                    <AccordionItem value="item-9">
+                                        <div className="col-lg-12 mb-4">
+                                            <div className="block  p-6 bg-white border border-white rounded-4   ">
+
+                                                <AccordionTrigger> <p className=" lg:text-[1.2vw] text-[3vw] lg:leading-[1.5vw] leading-[3vw] font-medium lg:pt-[20px] pt-[10px] lg:pl-[20px] pl-[5px] p-0 m-0">What happens after I register my company?</p></AccordionTrigger>
+                                                <AccordionContent>
+                                                    <div className="lg:flex justify-between">
+                                                        <div className="col-lg-12">
+
+                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]   text-[#212833]  ">Once registered, you will receive your official Certificate of Incorporation, Articles of Association, and other essential documents. You&apos;ll also be able to start trading and managing your business legally.
+                                                            </p>
+
+                                                        </div>
+
+                                                    </div>
+                                                </AccordionContent>
+                                            </div>
+                                        </div>
+                                    </AccordionItem>
+
+
+
+                                    <AccordionItem value="item-10">
+                                        <div className="col-lg-12 mb-4">
+                                            <div className="block  p-6 bg-white border border-white rounded-4   ">
+
+                                                <AccordionTrigger> <p className=" lg:text-[1.2vw] text-[3vw] lg:leading-[1.5vw] leading-[3vw] font-medium lg:pt-[20px] pt-[10px] lg:pl-[20px] pl-[5px] p-0 m-0">Can I get help with taxes and accounting?</p></AccordionTrigger>
+                                                <AccordionContent>
+                                                    <div className="lg:flex justify-between">
+                                                        <div className="col-lg-12">
+
+                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]   text-[#212833]  ">Yes, CloudBSS provides comprehensive accounting services to ensure your company remains compliant with tax and financial regulations. Our team is here to guide you through everything, from bookkeeping to tax filings.
+                                                            </p>
+
+                                                        </div>
+
+                                                    </div>
+                                                </AccordionContent>
+                                            </div>
+                                        </div>
+                                    </AccordionItem>
+                                </Accordion>
+
+
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section >
+            </section >
 
             <section className="lg:px-[100px] px-[20px] lg:pt-[80px] pt-[40px] lg:pb-[60px] pb-[30px] overflow-hidden bg-[#000]">
                 <div className="row">

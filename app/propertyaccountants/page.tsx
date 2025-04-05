@@ -29,19 +29,19 @@ export default function Home() {
                 <div className="row ">
                     <div className="col-lg-12 ">
                         <div className="lg:pb-[100px] pb-[50px]">
-                            <div className="row">
+                            <div className="row items-center">
                                 <div className="col-lg-6">
                                     <div className="col-lg-10">
-                                        <p className="font-semibold lg:text-[2.8vw] text-[4.5vw] lg:leading-[3.2vw] leading-[5.5vw] lg:pt-[130px] pt-[30px] text-[#212833]">Expert Property Accountants for Your UK Portfolio</p>
+                                        <p className="font-semibold lg:text-[2.8vw] text-[4.5vw] lg:leading-[3.2vw] leading-[5.5vw] lg:pt-[0px] pt-[30px] text-[#212833]">Expert Property Accountants for Your UK Portfolio</p>
                                         <p className="text-[#232323] lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw] lg:pt-[20px] pt-[10px] ">
-                                            Managing a property portfolio in the UK can be complex, but with Cloud BSS, we simplify your financial management and help you maximise your returns. Whether you’re a buy-to-let landlord or involved in property management for additional income, our team of expert accountants is here to ensure your business stays compliant, efficient, and tax-smart.</p>
+                                            Managing a property portfolio in the UK can be complex, but with Cloud BSS, we simplify your financial management and help you maximise your returns. Whether you&apos;re a buy-to-let landlord or involved in property management for additional income, our team of expert accountants is here to ensure your business stays compliant, efficient, and tax-smart.</p>
 
                                         <div className=" lg:flex gap-4 lg:pb-[0px] pb-[50px]">
                                             <div className="lg:pb-[0px] pb-[10px]">
                                                 <button type="button" className="border border-dark hover:bg-[#000] hover:text-[#fff] font-medium !rounded-full text-sm px-5 py-2 sm: w-full text-center items-center">Book a Consultation</button>
                                             </div>
-                                            <div>
-                                                <button type="button" className="border border-dark hover:bg-[#000] hover:text-[#fff] font-medium !rounded-full text-sm px-5 py-2 sm: w-full text-center items-center">Pricing</button>
+                                            <div>  <Link href="/accountingprices" className="text-black">
+                                                <button type="button" className="border border-dark hover:bg-[#000] hover:text-[#fff] font-medium !rounded-full text-sm px-5 py-2 sm: w-full text-center items-center">Pricing</button></Link>
                                             </div>
                                         </div>
 
@@ -68,18 +68,18 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-10 lg:pt-[80px] pt-[10px]">
-                        <div className="row ">
-                            <div className="col-lg-6">
+                    <div className="col-lg-10 lg:pt-[20px] pt-[10px]">
+                        <div className="row items-center">
+                            <div className="col-lg-6 mb-4">
                                 <div className="col-lg-12">
                                     <Image className="img-responsive w-full" src="/Images/4(1).png" alt="logo" width={1830} height={750} />
                                 </div>
                             </div>
-                            <div className="col-lg-6 lg:pt-[160px] pt-[20px]">
+                            <div className="col-lg-6 ">
                                 <div className="flex lg:justify-end">
                                     <div className="col-lg-9">
                                         <p className="text-[#010202]   font-semibold lg:text-[2vw] text-[4vw] lg:leading-[2.5vw] leading-[5vw] ">Specialist Property Accountants</p>
-                                        <p className="text-[#000]  lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw] ">Our accountants have a deep understanding of property-specific tax laws. From tax deductions on rental income to optimising capital gains, we help you maximise your portfolio’s performance and minimise tax liabilities, allowing you to focus on expanding your investments.
+                                        <p className="text-[#000]  lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw] ">Our accountants have a deep understanding of property-specific tax laws. From tax deductions on rental income to optimising capital gains, we help you maximise your portfolio&apos;s performance and minimise tax liabilities, allowing you to focus on expanding your investments.
                                         </p>
                                     </div>
 
@@ -95,8 +95,8 @@ export default function Home() {
                 <div className="row  justify-center ">
                     <div className="col-lg-10 ">
                         <div className="lg:pt-[80px] pt-[40px]">
-                            <div className="row ">
-                                <div className="col-lg-6 lg:pt-[160px] pt-[20px] order-lg-1 order-2">
+                            <div className="row items-center">
+                                <div className="col-lg-6  order-lg-1 order-2">
                                     <div className="flex lg:justify">
                                         <div className="col-lg-9 ">
                                             <p className="text-[#010202]   font-semibold lg:text-[2vw] text-[4vw] lg:leading-[2.5vw] leading-[5vw] ">Guidance on Limited Company Structures</p>
@@ -107,7 +107,7 @@ export default function Home() {
 
                                     </div>
                                 </div>
-                                <div className="col-lg-6 order-lg-2 order-1">
+                                <div className="col-lg-6 order-lg-2 order-1 mb-4">
                                     <div className="col-lg-12 ">
                                         <Image className="img-responsive w-full" src="/Images/4(2).png" alt="logo" width={1830} height={750} />
                                     </div>
@@ -122,13 +122,13 @@ export default function Home() {
                 <div className="row justify-center">
 
                     <div className="col-lg-10 lg:pt-[80px] pt-[40px]">
-                        <div className="row ">
-                            <div className="col-lg-6">
+                        <div className="row items-center">
+                            <div className="col-lg-6 mb-4">
                                 <div className="col-lg-12">
                                     <Image className="img-responsive w-full" src="/Images/4(3).png" alt="logo" width={1830} height={750} />
                                 </div>
                             </div>
-                            <div className="col-lg-6 lg:pt-[160px] pt-[20px]">
+                            <div className="col-lg-6 ">
                                 <div className="flex lg:justify-end">
                                     <div className="col-lg-9 ">
                                         <p className="text-[#010202]   font-semibold lg:text-[2vw] text-[4vw] lg:leading-[2.5vw] leading-[5vw] ">Ongoing Compliance</p>
@@ -149,8 +149,8 @@ export default function Home() {
                 <div className="row  justify-center ">
                     <div className="col-lg-10 ">
                         <div className="lg:pt-[80px] pt-[40px]">
-                            <div className="row ">
-                                <div className="col-lg-6 lg:pt-[160px] pt-[20px] order-lg-1 order-2">
+                            <div className="row items-center">
+                                <div className="col-lg-6  order-lg-1 order-2">
                                     <div className="flex lg:justify">
                                         <div className="col-lg-9 ">
                                             <p className="text-[#010202]   font-semibold lg:text-[2vw] text-[4vw] lg:leading-[2.5vw] leading-[5vw] ">Simple Accounting Software</p>
@@ -160,7 +160,7 @@ export default function Home() {
 
                                     </div>
                                 </div>
-                                <div className="col-lg-6 order-lg-2 order-1">
+                                <div className="col-lg-6 order-lg-2 order-1 mb-4">
                                     <div className="col-lg-12 ">
                                         <Image className="img-responsive w-full" src="/Images/4(2).png" alt="logo" width={1830} height={750} />
                                     </div>
@@ -169,7 +169,7 @@ export default function Home() {
                         </div>
                         <div className="text-[#000] font-medium lg:text-[2.5vw] text-[5vw] lg:leading-[2.5vw] leading-[6vw] lg:pt-[80px] pt-[40px] lg:pb-[50px] pb-[20px] text-center">
                             <div className="flex justify-center align-items-center">
-                                <p >Bookkeeping? </p> <Image className="img-responsive w-24 item-center" src="/Images/svg3.svg" alt="logo" width={1830} height={750} /><p> It’s included.</p>
+                                <p >Bookkeeping? </p> <Image className="img-responsive w-24 item-center" src="/Images/svg3.svg" alt="logo" width={1830} height={750} /><p> It&apos;s included.</p>
                             </div>
                         </div>
                     </div>
@@ -184,7 +184,7 @@ export default function Home() {
                                 <div className="col-lg-5 lg:pb-[60px] pb-[30px]">
                                     <div className="row justify-start">
 
-                                        <p className="lg:text-[2.5vw] text-[6vw] lg:leading-[2.5vw] leading-[7vw] font-semibold lg:pt-[30px] pt-[20px] text-[#FFF]">Got questions? Chat with our local experts</p>
+                                        <p className="lg:text-[2.5vw] text-[6vw] lg:leading-[2.5vw] leading-[7vw] font-semibold lg:pt-[30px] pt-[20px] text-[#FFF]">Got questions? Chat with our local experts</p>
                                         <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw] lg:pt-[10px] pt-[5px] lg:pb-[10px] pb-[5px] text-[#ABABAB]">Choose a convenient time to chat with our accounting experts and get the answers you need to take the next step.</p>
 
 
@@ -264,19 +264,21 @@ export default function Home() {
                     </div>
                     <div className="col-lg-12 ">
                         <div className="row justify-center">
-                            <div className="col-lg-3 mb-4 ">
+                            <div className="col-lg-4 mb-4 ">
                                 <div className="block  p-1 bg-[#F3EFE7]  rounded-4   ">
-                                    <div className="block  p-6 bg-[#FFFDFA]  rounded-4   ">
-                                        <p className="lg:text-[1.5vw] text-[4vw] lg:leading-[1vw] leading-[5vw] font-medium lg:pt-[10px] pt-[5px]">Operate</p>
-                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw]  text-[#616161]">For business owners who want to ensure they tick all basic compliance boxes as they grow</p>
-                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[0vw] leading-[4vw]  text-[#000] font-medium">from</p>
-                                        <p className="lg:text-[2.5vw] text-[6vw] lg:leading-[3.5vw] leading-[7vw] font-medium m-0 p-0">£71/m</p>
-                                        <p className="lg:text-[0.7vw] text-[2vw] lg:leading-[1vw] leading-[3vw]  text-[#616161] ">£850 billed annually + VAT</p>
+                                    <div className=" p-6 bg-[#FFFDFA]  rounded-4 flex-1 h-full  ">
+                                        <div className="lg:h-[250px] overflow-hidden">
+                                            <p className="lg:text-[1.5vw] text-[4vw] lg:leading-[1.5vw] leading-[5vw] font-medium lg:pt-[10px] pt-[5px]">Operate</p>
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.1vw] leading-[3.5vw]  text-[#616161]">For business owners who want to ensure they tick all basic compliance boxes as they grow</p>
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[0vw] leading-[3.5vw]  text-[#000] font-medium">from</p>
+                                            <p className="lg:text-[2.5vw] text-[6vw] lg:leading-[3.5vw] leading-[7vw] font-medium m-0 p-0">£71/m</p>
+                                            <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1vw] leading-[3.5vw]  text-[#616161] font-bold">£850 billed annually + VAT</p>
+                                        </div>
                                         <button type="button" className="border border-dark hover:bg-[#000] hover:text-[#fff] font-medium !rounded-full text-md w-full py-2 text-center items-center">Get this plan</button>
                                     </div >
                                     <div className="lg:pl-[25px] pl-[10px] lg:pt-[30px] pt-[30px] font-medium">
-                                        <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1.7vw] leading-[4vw] ">
-                                            <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[0.5vw] leading-[4vw] font-semibold ">Financial software</p>
+                                        <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] ">
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold ">Financial software</p>
                                             <div className="flex gap-6">
                                                 <div className="p-0 m-0" >
                                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
@@ -342,7 +344,7 @@ export default function Home() {
                                             </div>
 
 
-                                            <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[0.5vw] leading-[4vw] font-semibold lg:pt-[30px] pt-[20px]">Bookkeeping</p>
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold lg:pt-[30px] pt-[20px]">Bookkeeping</p>
                                             <div className="flex gap-2">
                                                 <div className="p-0 m-0" >
                                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
@@ -363,7 +365,7 @@ export default function Home() {
                                                 </div>
                                             </div>
 
-                                            <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[0.5vw] leading-[4vw] font-semibold lg:pt-[30px] pt-[20px]">Expert service</p>
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold lg:pt-[30px] pt-[20px]">Expert service</p>
                                             <div className="flex gap-2">
                                                 <div className="p-0 m-0" >
                                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
@@ -402,7 +404,7 @@ export default function Home() {
                                             </div>
 
 
-                                            <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[0.5vw] leading-[4vw] font-semibold lg:pt-[30px] pt-[20px]">Tax & Filings</p>
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold lg:pt-[30px] pt-[20px]">Tax & Filings</p>
                                             <div className="flex gap-2">
                                                 <div className="p-0 m-0" >
                                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
@@ -423,7 +425,7 @@ export default function Home() {
                                             </div>
 
 
-                                            <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[0.5vw] leading-[4vw] font-semibold lg:pt-[30px] pt-[20px]">Payrolls</p>
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold lg:pt-[30px] pt-[20px]">Payrolls</p>
                                             <div className="flex gap-2">
                                                 <div className="p-0 m-0" >
                                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
@@ -444,7 +446,7 @@ export default function Home() {
                                             </div>
 
 
-                                            <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[0.5vw] leading-[4vw] font-semibold lg:pt-[30px] pt-[20px]">Company admin</p>
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold lg:pt-[30px] pt-[20px]">Company admin</p>
                                             <div className="flex gap-2">
                                                 <div className="p-0 m-0" >
                                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
@@ -466,26 +468,26 @@ export default function Home() {
                                         <p className="lg:text-[1vw] text-[4vw] lg:leading-[1vw] leading-[5vw] font-semibold lg:pt-[10px] pt-[5px] lg:pl-[15px] pl-[5px] ">Historical work</p>
                                         <div className="flex justify-between">
                                             <div className="col-lg-9">
-                                                <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-medium  lg:pl-[15px] pl-[5px] ">?  Catch-up bookkeeping</p>
+                                                <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-medium  lg:pl-[15px] pl-[5px] ">?  Catch-up bookkeeping</p>
                                             </div>
                                             <div className="col-lg-3">
-                                                <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-semibold text-[#767676] ">£85/m</p>
+                                                <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold text-[#767676] ">£85/m</p>
                                             </div>
                                         </div>
                                         <div className="flex justify-between">
                                             <div className="col-lg-9">
-                                                <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-medium  lg:pl-[15px] pl-[5px] ">?  Urgency filing</p>
+                                                <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-medium  lg:pl-[15px] pl-[5px] ">?  Urgency filing</p>
                                             </div>
                                             <div className="col-lg-3">
-                                                <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-semibold text-[#767676] ">£200</p>
+                                                <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold text-[#767676] ">£200</p>
                                             </div>
                                         </div>
                                         <div className="flex justify-between">
                                             <div className="col-lg-9">
-                                                <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-medium  lg:pl-[15px] pl-[5px] ">?  Historical annual filing and bookkeeping</p>
+                                                <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-medium  lg:pl-[15px] pl-[5px] ">?  Historical annual filing and bookkeeping</p>
                                             </div>
                                             <div className="col-lg-3">
-                                                <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-semibold text-[#767676] ">£680/m</p>
+                                                <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold text-[#767676] ">£680/m</p>
                                             </div>
                                         </div>
                                     </div>
@@ -493,20 +495,23 @@ export default function Home() {
                                 </div>
                             </div>
 
-                            <div className="col-lg-3 mb-4 ">
+                            <div className="col-lg-4 mb-4 ">
                                 <div className="block  p-1 bg-[#F3EFE7]  rounded-4 shadow-sm  ">
-                                    <div className="block  p-6 bg-[#FFFDFA]  rounded-4   ">
-                                        <p className="lg:text-[1.5vw] text-[4vw] lg:leading-[1vw] leading-[5vw] font-medium lg:pt-[10px] pt-[5px]">Grow</p>
-                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw]  text-[#616161]">For businesses nearing VAT registration, seeking up-to-date analytics and consultations</p>
-                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[0vw] leading-[4vw]  text-[#000] font-medium">from</p>
-                                        <p className="lg:text-[2.5vw] text-[6vw] lg:leading-[3.5vw] leading-[7vw] font-medium m-0 p-0">£137/m</p>
-                                        <p className="lg:text-[0.7vw] text-[2vw] lg:leading-[1vw] leading-[3vw]  text-[#616161] ">£1,640 billed annually + VAT</p>
+                                    <div className=" p-6 bg-[#FFFDFA]  rounded-4 flex-1 h-full  ">
+                                        <div className="lg:h-[250px] overflow-hidden">
+                                            <p className="lg:text-[1.5vw] text-[4vw] lg:leading-[1.5vw] leading-[5vw] font-medium lg:pt-[10px] pt-[5px]">Grow</p>
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.1vw] leading-[3.5vw]  text-[#616161]">For businesses nearing VAT registration, seeking up-to-date analytics and consultations</p>
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[0vw] leading-[3.5vw]  text-[#000] font-medium">from</p>
+                                            <p className="lg:text-[2.5vw] text-[6vw] lg:leading-[3.5vw] leading-[7vw] font-medium m-0 p-0">£137/m</p>
+                                            <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1vw] leading-[3.5vw]  text-[#616161] font-bold">£1,640 billed annually + VAT</p>
+                                        </div>
                                         <button type="button" className="border border-dark hover:bg-[#000] hover:text-[#fff] font-medium !rounded-full text-md w-full py-2 text-center items-center">Get this plan</button>
                                     </div >
 
+
                                     <div className="lg:pl-[25px] pl-[10px] lg:pt-[30px] pt-[30px] font-medium">
-                                        <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1.7vw] leading-[4vw] ">
-                                            <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[0.5vw] leading-[4vw] font-semibold ">Financial software</p>
+                                        <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] ">
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold ">Financial software</p>
                                             <div className="flex gap-2">
                                                 <div className="p-0 m-0" >
                                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
@@ -572,7 +577,7 @@ export default function Home() {
                                             </div>
 
 
-                                            <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[0.5vw] leading-[4vw] font-semibold lg:pt-[30px] pt-[20px]">Bookkeeping</p>
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold lg:pt-[30px] pt-[20px]">Bookkeeping</p>
                                             <div className="flex gap-2">
                                                 <div className="p-0 m-0" >
                                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
@@ -593,7 +598,7 @@ export default function Home() {
                                                 </div>
                                             </div>
 
-                                            <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[0.5vw] leading-[4vw] font-semibold lg:pt-[30px] pt-[20px]">Expert service</p>
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold lg:pt-[30px] pt-[20px]">Expert service</p>
                                             <div className="flex gap-2">
                                                 <div className="p-0 m-0" >
                                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
@@ -659,7 +664,7 @@ export default function Home() {
                                             </div>
 
 
-                                            <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[0.5vw] leading-[4vw] font-semibold lg:pt-[30px] pt-[20px]">Tax & Filings</p>
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold lg:pt-[30px] pt-[20px]">Tax & Filings</p>
                                             <div className="flex gap-2">
                                                 <div className="p-0 m-0" >
                                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
@@ -698,7 +703,7 @@ export default function Home() {
                                             </div>
 
 
-                                            <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[0.5vw] leading-[4vw] font-semibold lg:pt-[30px] pt-[20px]">Payrolls</p>
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold lg:pt-[30px] pt-[20px]">Payrolls</p>
                                             <div className="flex gap-2">
                                                 <div className="p-0 m-0" >
                                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
@@ -728,7 +733,7 @@ export default function Home() {
                                             </div>
 
 
-                                            <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[0.5vw] leading-[4vw] font-semibold lg:pt-[30px] pt-[20px]">Company admin</p>
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold lg:pt-[30px] pt-[20px]">Company admin</p>
                                             <div className="flex gap-2">
                                                 <div className="p-0 m-0" >
                                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
@@ -762,26 +767,26 @@ export default function Home() {
                                         <p className="lg:text-[1vw] text-[4vw] lg:leading-[1vw] leading-[5vw] font-semibold lg:pt-[10px] pt-[5px] lg:pl-[15px] pl-[5px] ">Historical work</p>
                                         <div className="flex justify-between">
                                             <div className="col-lg-9">
-                                                <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-medium  lg:pl-[15px] pl-[5px] ">?  Catch-up bookkeeping</p>
+                                                <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-medium  lg:pl-[15px] pl-[5px] ">?  Catch-up bookkeeping</p>
                                             </div>
                                             <div className="col-lg-3">
-                                                <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-semibold text-[#767676] ">£164/m</p>
+                                                <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold text-[#767676] ">£164/m</p>
                                             </div>
                                         </div>
                                         <div className="flex justify-between">
                                             <div className="col-lg-9">
-                                                <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-medium  lg:pl-[15px] pl-[5px] ">?  Urgency filing</p>
+                                                <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-medium  lg:pl-[15px] pl-[5px] ">?  Urgency filing</p>
                                             </div>
                                             <div className="col-lg-3">
-                                                <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-semibold text-[#767676] ">£200</p>
+                                                <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold text-[#767676] ">£200</p>
                                             </div>
                                         </div>
                                         <div className="flex justify-between">
                                             <div className="col-lg-9">
-                                                <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-medium  lg:pl-[15px] pl-[5px] ">?  Historical annual filing and bookkeeping</p>
+                                                <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-medium  lg:pl-[15px] pl-[5px] ">?  Historical annual filing and bookkeeping</p>
                                             </div>
                                             <div className="col-lg-3">
-                                                <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-semibold text-[#767676] ">£680/m</p>
+                                                <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold text-[#767676] ">£680/m</p>
                                             </div>
                                         </div>
                                     </div>
@@ -790,21 +795,22 @@ export default function Home() {
 
                             </div>
 
-                            <div className="col-lg-3 mb-4 ">
+                            <div className="col-lg-4 mb-4 ">
                                 <div className="block  p-1 bg-[#F3EFE7]  rounded-4 shadow-sm  ">
-                                    <div className="block  p-6 bg-[#FFFDFA]  rounded-4 shadow-sm  ">
-                                        <p className="lg:text-[1.5vw] text-[4vw] lg:leading-[1vw] leading-[5vw] font-medium lg:pt-[10px] pt-[5px]">Scale</p>
-                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw]  text-[#616161]">For entrepreneurs earning £350k+ annually, managing multiple roles and seeking to simplify financial tasks
-
-                                        </p>
-                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[0vw] leading-[4vw]  text-[#000] font-medium">from</p>
-                                        <p className="lg:text-[2.5vw] text-[6vw] lg:leading-[3.5vw] leading-[7vw] font-medium m-0 p-0">£224/m</p>
-                                        <p className="lg:text-[0.7vw] text-[2vw] lg:leading-[1vw] leading-[3vw]  text-[#616161] ">£2,690 billed annually, per financial year + VAT</p>
+                                    <div className=" p-6 bg-[#FFFDFA]  rounded-4 flex-1 h-full  ">
+                                        <div className="lg:h-[250px] overflow-hidden">
+                                            <p className="lg:text-[1.5vw] text-[4vw] lg:leading-[1.5vw] leading-[5vw] font-medium lg:pt-[10px] pt-[5px]">Scale</p>
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.1vw] leading-[3.5vw]  text-[#616161]">For entrepreneurs earning £350k+ annually, managing multiple roles and seeking to simplify financial tasks</p>
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[0vw] leading-[3.5vw]  text-[#000] font-medium">from</p>
+                                            <p className="lg:text-[2.5vw] text-[6vw] lg:leading-[3.5vw] leading-[7vw] font-medium m-0 p-0">£224/m</p>
+                                            <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1vw] leading-[3.5vw]  text-[#616161] font-bold">£2,690 billed annually, per financial year + VAT</p>
+                                        </div>
                                         <button type="button" className="border border-dark hover:bg-[#000] hover:text-[#fff] font-medium !rounded-full text-md w-full py-2 text-center items-center">Get this plan</button>
-                                    </div>
+                                    </div >
+
                                     <div className="lg:pl-[25px] pl-[10px] lg:pt-[30px] pt-[30px] font-medium ">
-                                        <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1.7vw] leading-[4vw] ">
-                                            <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[0.5vw] leading-[4vw] font-semibold ">Financial software</p>
+                                        <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] ">
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold ">Financial software</p>
                                             <div className="flex gap-2">
                                                 <div className="p-0 m-0" >
                                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
@@ -870,7 +876,7 @@ export default function Home() {
                                             </div>
 
 
-                                            <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[0.5vw] leading-[4vw] font-semibold lg:pt-[30px] pt-[20px]">Bookkeeping</p>
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold lg:pt-[30px] pt-[20px]">Bookkeeping</p>
                                             <div className="flex gap-2">
                                                 <div className="p-0 m-0" >
                                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
@@ -891,7 +897,7 @@ export default function Home() {
                                                 </div>
                                             </div>
 
-                                            <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[0.5vw] leading-[4vw] font-semibold lg:pt-[30px] pt-[20px]">Expert service</p>
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold lg:pt-[30px] pt-[20px]">Expert service</p>
                                             <div className="flex gap-2">
                                                 <div className="p-0 m-0" >
                                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
@@ -957,7 +963,7 @@ export default function Home() {
                                             </div>
 
 
-                                            <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[0.5vw] leading-[4vw] font-semibold lg:pt-[30px] pt-[20px]">Tax & Filings</p>
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold lg:pt-[30px] pt-[20px]">Tax & Filings</p>
                                             <div className="flex gap-2">
                                                 <div className="p-0 m-0" >
                                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
@@ -996,7 +1002,7 @@ export default function Home() {
                                             </div>
 
 
-                                            <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[0.5vw] leading-[4vw] font-semibold lg:pt-[30px] pt-[20px]">Payrolls</p>
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold lg:pt-[30px] pt-[20px]">Payrolls</p>
                                             <div className="flex gap-2">
                                                 <div className="p-0 m-0" >
                                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
@@ -1026,7 +1032,7 @@ export default function Home() {
                                             </div>
 
 
-                                            <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[0.5vw] leading-[4vw] font-semibold lg:pt-[30px] pt-[20px]">Company admin</p>
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold lg:pt-[30px] pt-[20px]">Company admin</p>
                                             <div className="flex gap-2">
                                                 <div className="p-0 m-0" >
                                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
@@ -1071,26 +1077,26 @@ export default function Home() {
                                         <p className="lg:text-[1vw] text-[4vw] lg:leading-[1vw] leading-[5vw] font-semibold lg:pt-[10px] pt-[5px] lg:pl-[15px] pl-[5px] ">Historical work</p>
                                         <div className="flex justify-between">
                                             <div className="col-lg-9">
-                                                <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-medium  lg:pl-[15px] pl-[5px] ">?  Catch-up bookkeeping</p>
+                                                <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-medium  lg:pl-[15px] pl-[5px] ">?  Catch-up bookkeeping</p>
                                             </div>
                                             <div className="col-lg-3">
-                                                <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-semibold text-[#767676] ">£269/m</p>
+                                                <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold text-[#767676] ">£269/m</p>
                                             </div>
                                         </div>
                                         <div className="flex justify-between">
                                             <div className="col-lg-9">
-                                                <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-medium  lg:pl-[15px] pl-[5px] ">?  Urgency filing</p>
+                                                <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-medium  lg:pl-[15px] pl-[5px] ">?  Urgency filing</p>
                                             </div>
                                             <div className="col-lg-3">
-                                                <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-semibold text-[#767676] ">£200</p>
+                                                <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold text-[#767676] ">£200</p>
                                             </div>
                                         </div>
                                         <div className="flex justify-between">
                                             <div className="col-lg-9">
-                                                <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-medium  lg:pl-[15px] pl-[5px] ">?  Historical annual filing and bookkeeping</p>
+                                                <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-medium  lg:pl-[15px] pl-[5px] ">?  Historical annual filing and bookkeeping</p>
                                             </div>
                                             <div className="col-lg-3">
-                                                <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-semibold text-[#767676] ">£680/m</p>
+                                                <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold text-[#767676] ">£680/m</p>
                                             </div>
                                         </div>
                                     </div>
@@ -1143,7 +1149,7 @@ export default function Home() {
                                     <div className="row justify-start">
 
                                         <p className="lg:text-[2.5vw] text-[6vw] lg:leading-[2.5vw] leading-[7vw] font-semibold lg:pt-[30px] pt-[20px] text-[#0061FE]">Download free guide on how to set up business in the UK</p>
-                                        <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw] lg:pt-[10px] pt-[5px] lg:pb-[10px] pb-[5px] text-[#0061FE]">We’ve put together all of the documents and details you need to figure out before you open a company</p>
+                                        <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw] lg:pt-[10px] pt-[5px] lg:pb-[10px] pb-[5px] text-[#0061FE]">We&apos;ve put together all of the documents and details you need to figure out before you open a company</p>
 
 
                                     </div>
@@ -1182,12 +1188,12 @@ export default function Home() {
                                     <AccordionItem value="item-1">
                                         <div className="col-lg-12 mb-4">
                                             <div className="block  p-6 bg-white border border-white rounded-4   ">
-                                                <AccordionTrigger> <p className=" lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[3vw] font-medium lg:pt-[20px] pt-[10px] lg:pl-[20px] pl-[5px] p-0 m-0 ">What services does Cloud BSS offer?</p></AccordionTrigger>
+                                                <AccordionTrigger> <p className=" lg:text-[1.2vw] text-[3vw] lg:leading-[1.5vw] leading-[3vw]font-medium lg:pt-[20px] pt-[10px] lg:pl-[20px] pl-[5px] p-0 m-0 ">What services does Cloud BSS offer?</p></AccordionTrigger>
                                                 <AccordionContent>
                                                     <div className="lg:flex justify-between">
                                                         <div className="col-lg-12">
 
-                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833]  rounded-4 ">Cloud BSS offers expert property accounting services, including bookkeeping, tax advice, compliance support, and tailored guidance for property investments. We specialise in helping buy-to-let landlords, property developers, and serviced accommodation owners manage their finances efficiently.
+                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]  text-[#212833]  rounded-4 ">Cloud BSS offers expert property accounting services, including bookkeeping, tax advice, compliance support, and tailored guidance for property investments. We specialise in helping buy-to-let landlords, property developers, and serviced accommodation owners manage their finances efficiently.
 
 
                                                             </p>
@@ -1204,12 +1210,12 @@ export default function Home() {
                                     <AccordionItem value="item-2">
                                         <div className="col-lg-12 mb-4">
                                             <div className="block  p-6 bg-white border border-white rounded-4   ">
-                                                <AccordionTrigger> <p className=" lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[3vw] font-medium lg:pt-[20px] pt-[10px] lg:pl-[20px] pl-[5px] p-0 m-0 ">How can Cloud BSS help with property taxes?</p></AccordionTrigger>
+                                                <AccordionTrigger> <p className=" lg:text-[1.2vw] text-[3vw] lg:leading-[1.5vw] leading-[3vw]font-medium lg:pt-[20px] pt-[10px] lg:pl-[20px] pl-[5px] p-0 m-0 ">How can Cloud BSS help with property taxes?</p></AccordionTrigger>
                                                 <AccordionContent>
                                                     <div className="lg:flex justify-between">
                                                         <div className="col-lg-12">
 
-                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833]  ">
+                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]  text-[#212833]  ">
                                                                 Our property accountants help you navigate the complexities of property tax laws, ensuring you're paying the correct tax while identifying opportunities to reduce liabilities. We help you maximize your returns on property investments.
                                                             </p>
 
@@ -1225,12 +1231,12 @@ export default function Home() {
                                     <AccordionItem value="item-3">
                                         <div className="col-lg-12 mb-4">
                                             <div className="block  p-6 bg-white border border-white rounded-4   ">
-                                                <AccordionTrigger> <p className=" lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[3vw] font-medium lg:pt-[20px] pt-[10px] lg:pl-[20px] pl-[5px] p-0 m-0 ">Is bookkeeping included in the service?</p></AccordionTrigger>
+                                                <AccordionTrigger> <p className=" lg:text-[1.2vw] text-[3vw] lg:leading-[1.5vw] leading-[3vw]font-medium lg:pt-[20px] pt-[10px] lg:pl-[20px] pl-[5px] p-0 m-0 ">Is bookkeeping included in the service?</p></AccordionTrigger>
                                                 <AccordionContent>
                                                     <div className="lg:flex justify-between">
                                                         <div className="col-lg-12">
 
-                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833] ">Yes, bookkeeping is included in all our plans. We take care of your financial records, ensuring everything is accurate and up-to-date so you can focus on growing your property portfolio.
+                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]  text-[#212833] ">Yes, bookkeeping is included in all our plans. We take care of your financial records, ensuring everything is accurate and up-to-date so you can focus on growing your property portfolio.
 
 
                                                             </p>
@@ -1248,13 +1254,13 @@ export default function Home() {
                                     <AccordionItem value="item-4">
                                         <div className="col-lg-12 mb-4">
                                             <div className="block  p-6 bg-white border border-white rounded-4   ">
-                                                <AccordionTrigger> <p className=" lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[3vw] font-medium lg:pt-[20px] pt-[10px] lg:pl-[20px] pl-[5px] p-0 m-0 ">What kind of accounting software does Cloud BSS provide?
+                                                <AccordionTrigger> <p className=" lg:text-[1.2vw] text-[3vw] lg:leading-[1.5vw] leading-[3vw]font-medium lg:pt-[20px] pt-[10px] lg:pl-[20px] pl-[5px] p-0 m-0 ">What kind of accounting software does Cloud BSS provide?
                                                 </p></AccordionTrigger>
                                                 <AccordionContent>
                                                     <div className="lg:flex justify-between">
                                                         <div className="col-lg-12">
 
-                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833]  ">We offer simple, easy-to-use accounting software that centralises your finances in one place. You can track cash flow, manage your property income, and communicate directly with your accountant—all through a user-friendly app.
+                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]  text-[#212833]  ">We offer simple, easy-to-use accounting software that centralises your finances in one place. You can track cash flow, manage your property income, and communicate directly with your accountant—all through a user-friendly app.
 
 
 
@@ -1272,12 +1278,12 @@ export default function Home() {
                                     <AccordionItem value="item-5">
                                         <div className="col-lg-12 mb-4">
                                             <div className="block  p-6 bg-white border border-white rounded-4   ">
-                                                <AccordionTrigger> <p className=" lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[3vw] font-medium lg:pt-[20px] pt-[10px] lg:pl-[20px] pl-[5px] p-0 m-0 ">Do I need to set up a limited company to benefit from Cloud BSS?</p></AccordionTrigger>
+                                                <AccordionTrigger> <p className=" lg:text-[1.2vw] text-[3vw] lg:leading-[1.5vw] leading-[3vw]font-medium lg:pt-[20px] pt-[10px] lg:pl-[20px] pl-[5px] p-0 m-0 ">Do I need to set up a limited company to benefit from Cloud BSS?</p></AccordionTrigger>
                                                 <AccordionContent>
                                                     <div className="lg:flex justify-between">
                                                         <div className="col-lg-12">
 
-                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833]  ">Not necessarily. While setting up a limited company can offer specific benefits for property investments, it's not a requirement to use our services. Our accountants provide tailored advice to determine if a limited company structure is right for you.
+                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]  text-[#212833]  ">Not necessarily. While setting up a limited company can offer specific benefits for property investments, it's not a requirement to use our services. Our accountants provide tailored advice to determine if a limited company structure is right for you.
 
 
                                                             </p>
@@ -1295,12 +1301,12 @@ export default function Home() {
                                     <AccordionItem value="item-6">
                                         <div className="col-lg-12 mb-4">
                                             <div className="block  p-6 bg-white border border-white rounded-4   ">
-                                                <AccordionTrigger> <p className=" lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[3vw] font-medium lg:pt-[20px] pt-[10px] lg:pl-[20px] pl-[5px] p-0 m-0">How do I get started with Cloud BSS?</p></AccordionTrigger>
+                                                <AccordionTrigger> <p className=" lg:text-[1.2vw] text-[3vw] lg:leading-[1.5vw] leading-[3vw]font-medium lg:pt-[20px] pt-[10px] lg:pl-[20px] pl-[5px] p-0 m-0">How do I get started with Cloud BSS?</p></AccordionTrigger>
                                                 <AccordionContent>
                                                     <div className="lg:flex justify-between">
                                                         <div className="col-lg-12">
 
-                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833]  ">Simply choose your plan and schedule a call with one of our experts. We’ll guide you through the process, offering tailored services based on your unique needs.
+                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]  text-[#212833]  ">Simply choose your plan and schedule a call with one of our experts. We&apos;ll guide you through the process, offering tailored services based on your unique needs.
 
 
                                                             </p>
@@ -1318,12 +1324,12 @@ export default function Home() {
                                     <AccordionItem value="item-7">
                                         <div className="col-lg-12 mb-4">
                                             <div className="block  p-6 bg-white border border-white rounded-4   ">
-                                                <AccordionTrigger> <p className=" lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[3vw] font-medium lg:pt-[20px] pt-[10px] lg:pl-[20px] pl-[5px] p-0 m-0 ">Is there ongoing support for compliance?</p></AccordionTrigger>
+                                                <AccordionTrigger> <p className=" lg:text-[1.2vw] text-[3vw] lg:leading-[1.5vw] leading-[3vw]font-medium lg:pt-[20px] pt-[10px] lg:pl-[20px] pl-[5px] p-0 m-0 ">Is there ongoing support for compliance?</p></AccordionTrigger>
                                                 <AccordionContent>
                                                     <div className="lg:flex justify-between">
                                                         <div className="col-lg-12">
 
-                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833]  ">Yes, our team ensures your property business stays compliant with tax laws and deadlines. We handle all your filings and tax obligations, so you never have to worry about missing deadlines.
+                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]  text-[#212833]  ">Yes, our team ensures your property business stays compliant with tax laws and deadlines. We handle all your filings and tax obligations, so you never have to worry about missing deadlines.
 
                                                             </p>
 
@@ -1342,12 +1348,12 @@ export default function Home() {
                                     <AccordionItem value="item-8">
                                         <div className="col-lg-12 mb-4">
                                             <div className="block  p-6 bg-white border border-white rounded-4   ">
-                                                <AccordionTrigger> <p className=" lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[3vw] font-medium lg:pt-[20px] pt-[10px] lg:pl-[20px] pl-[5px] p-0 m-0 ">Can I customize my plan as my business grows?</p></AccordionTrigger>
+                                                <AccordionTrigger> <p className=" lg:text-[1.2vw] text-[3vw] lg:leading-[1.5vw] leading-[3vw]font-medium lg:pt-[20px] pt-[10px] lg:pl-[20px] pl-[5px] p-0 m-0 ">Can I customize my plan as my business grows?</p></AccordionTrigger>
                                                 <AccordionContent>
                                                     <div className="lg:flex justify-between">
                                                         <div className="col-lg-12">
 
-                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833] ">Absolutely! Our plans are scalable. As your business grows, you can add additional services like tax filing, advanced reporting, and more to meet your evolving needs.
+                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]  text-[#212833] ">Absolutely! Our plans are scalable. As your business grows, you can add additional services like tax filing, advanced reporting, and more to meet your evolving needs.
                                                             </p>
 
                                                         </div>

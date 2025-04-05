@@ -24,7 +24,7 @@ export default function Home() {
 
                                     <div className=" lg:flex gap-4 lg:pb-[60px] pb-[50px] justify-center items-center ">
                                         <div className="lg:pb-[0px] pb-[10px]">
-                                            <button type="button" className="border border-white hover:bg-[#fff]  text-white !hover:text-black font-medium !rounded-full text-sm sm: w-full px-5 py-2 text-center items-center">Get Started</button>
+                                            <button type="button" className="border border-white hover:bg-gray-500 text-white hover:text-[#fff] font-medium !rounded-full text-sm sm: w-full px-5 py-2 text-center items-center">Get Started</button>
                                         </div>
                                         <div >
                                             <button type="button" className="border border-white text-white hover:bg-gray-500 hover:text-[#fff] font-medium !rounded-full text-sm px-5 py-2 sm: w-full text-center items-center">Watch a demo</button>
@@ -82,7 +82,7 @@ export default function Home() {
                                     <p className="text-[#232323] lg:text-[1vw] text-[3vw] lg:leading-[1vw] leading-[4vw] text-center lg:pt-[10px] pt-[10px] ">
                                         When it comes to our company culture, don't just take our word for it, let us show you. These videos explore our team behind the scenes see how they make Cloud BSS a unique place to be. </p>
 
-                                    <div className=" lg:flex gap-4 lg:pb-[300px] pb-[80px] justify-center items-center ">
+                                    <div className=" lg:flex gap-4 lg:pb-[200px] pb-[80px] justify-center items-center ">
                                         <div className="lg:pb-[0px] pb-[10px]">
                                             <button type="button" className="border border-dark hover:bg-[#000] hover:text-[#fff] font-medium !rounded-full text-sm sm: w-full px-5 py-2 text-center items-center">Get Started</button>
                                         </div>
@@ -90,7 +90,7 @@ export default function Home() {
                                             <button type="button" className="border border-dark hover:bg-[#000] hover:text-[#fff] font-medium !rounded-full text-sm px-5 py-2 sm: w-full text-center items-center">Watch a demo</button>
                                         </div>
                                     </div>
-                                    <p className="font-semibold lg:text-[2.2vw] text-[4.5vw] lg:leading-[2vw] leading-[5.5vw] text-center lg:pt-[100px] pt-[30px] text-[#212833]">Our international team is growing</p>
+                                    <p className="font-semibold lg:text-[2.2vw] text-[4.5vw] lg:leading-[2vw] leading-[5.5vw] text-center lg:pt-[30px] pt-[20px] text-[#212833]">Our international team is growing</p>
 
                                 </div>
                             </div>
@@ -193,7 +193,7 @@ export default function Home() {
                     </div>
 
                     <div className="col-lg-12 lg:pt-[80px] pt-[10px] ">
-                        <div className="row justify-center">
+                        <div className="row justify-center items-center">
                             <div className="col-lg-5 mb-4 order-lg-1 order-2">
                                 <div className="flex lg:justify-center">
                                     <div className="col-lg-9 ">
@@ -220,7 +220,7 @@ export default function Home() {
 
             <section className="lg:px-[100px] px-[20px] overflow-hidden ">
                 <div className="col-lg-12 lg:pt-[80px] pt-[10px] ">
-                    <div className="row justify-center">
+                    <div className="row justify-center items-center">
 
                         <div className="col-lg-5 mb-4  ">
                             <div className="flex justify-center">
@@ -230,7 +230,7 @@ export default function Home() {
                             </div>
                         </div>
                         <div className="col-lg-5 mb-4 ">
-                            <div className="flex lg:justify-center">
+                            <div className="flex lg:justify-center ">
                                 <div className="col-lg-9 ">
                                     <p className="text-[#010202]   font-semibold lg:text-[2vw] text-[4vw] lg:leading-[2.5vw] leading-[5vw] ">Continuous improvement</p>
                                     <p className="text-[#353535]  lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw] ">We always strive to be our best, and we always take responsibility and pride in the work we do. We seek to become better — as individuals, employees, teams, and as a company.
@@ -247,7 +247,7 @@ export default function Home() {
             <section className="lg:px-[120px] px-[20px] overflow-hidden">
                 <div className="row  justify-center ">
                     <div className="col-lg-12 lg:pt-[80px] pt-[10px] ">
-                        <div className="row justify-center">
+                        <div className="row justify-center items-center">
                             <div className="col-lg-5 mb-4 order-lg-1 order-2">
                                 <div className="flex lg:justify-center">
                                     <div className="col-lg-9 ">
@@ -275,7 +275,7 @@ export default function Home() {
                 <div className="row justify-center">
 
                     <div className="col-lg-12 lg:pt-[80px] pt-[10px]">
-                        <div className="row justify-center">
+                        <div className="row justify-center items-center">
                             <div className="col-lg-5 mb-4  ">
                                 <div className="flex justify-center">
                                     <div className="col-lg-9 col-12">
@@ -352,20 +352,21 @@ export default function Home() {
                                     <div>All jobs</div>
                                     <div className="p-0 m-0">
                                         <div className="w-6 h-6  rounded">
-                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none"  className="stroke-black group-hover:stroke-white transition duration-300">
-                                                <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none" className="stroke-black group-hover:stroke-white transition duration-300">
+                                                <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                                             </svg>
 
                                         </div>
                                     </div>
                                 </div>
                             </button>
+
                         </div>
                     </div>
                 </div>
             </section>
 
-           
+
 
             <Footer />
         </>

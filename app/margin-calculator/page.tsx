@@ -194,14 +194,14 @@ export default function Home() {
                                                             <div className="lg:flex justify-between">
                                                                 <div className="col-lg-6">
 
-                                                                    <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.2vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833]">
+                                                                    <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.2vw] leading-[4vw]   text-[#212833]">
                                                                         A company's profit is the difference between the amount they spend on products and how much they make.</p>
 
-                                                                    <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.2vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833]">In order to calculate the profit of your products, you should use gross profit margin.
+                                                                    <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.2vw] leading-[4vw]  text-[#212833]">In order to calculate the profit of your products, you should use gross profit margin.
                                                                     </p>
 
-                                                                    <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.2vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833]">If you want to calculate the profitability of your business, you need to know how to calculate net profit margin.</p>
-                                                                    <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.2vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833]">If you want to determine the profitability of each item you sell, a gross profit margin is sufficient. Nevertheless, it is important to calculate net profit to know business' revenue and profitability.</p>
+                                                                    <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.2vw] leading-[4vw]  text-[#212833]">If you want to calculate the profitability of your business, you need to know how to calculate net profit margin.</p>
+                                                                    <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.2vw] leading-[4vw]  text-[#212833]">If you want to determine the profitability of each item you sell, a gross profit margin is sufficient. Nevertheless, it is important to calculate net profit to know business' revenue and profitability.</p>
 
                                                                 </div>
                                                                 <div className="col-lg-4 justify-center ">
@@ -232,9 +232,9 @@ export default function Home() {
                                                             <div className="lg:flex justify-between">
                                                                 <div className="col-lg-6">
 
-                                                                    <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.2vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833]">
+                                                                    <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.2vw] leading-[4vw]  text-[#212833]">
                                                                         In simple words, gross profit margin is the money you keep when all the direct costs of producing the goods or services you sell are covered.</p>
-                                                                    <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.2vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833]">The higher your gross margin, the more money you can keep after paying off your expenses and debt.</p>
+                                                                    <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.2vw] leading-[4vw]  text-[#212833]">The higher your gross margin, the more money you can keep after paying off your expenses and debt.</p>
 
                                                                 </div>
                                                                 <div className="col-lg-4 justify-center ">
@@ -265,10 +265,10 @@ export default function Home() {
                                                             <div className="lg:flex justify-between">
                                                                 <div className="col-lg-6">
 
-                                                                    <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.2vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833]">
+                                                                    <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.2vw] leading-[4vw]  text-[#212833]">
                                                                         For every dollar of revenue you spend on operating expenses, interest, and taxes, you make a net profit.</p>
 
-                                                                    <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.2vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833]">It is crucial to understand your business's net profit margin in order to determine how profitable it is. By doing so, you can cut unnecessary expenses and improve profitability.</p>
+                                                                    <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.2vw] leading-[4vw]  text-[#212833]">It is crucial to understand your business's net profit margin in order to determine how profitable it is. By doing so, you can cut unnecessary expenses and improve profitability.</p>
                                                                 </div>
                                                                 <div className="col-lg-4 justify-center ">
                                                                     <Image className="img-responsive w-80 " src="/Images/new.png" alt="logo" width={1830} height={750} />
@@ -296,39 +296,46 @@ export default function Home() {
             <section className="lg:px-[100px] px-[20px] lg:pt-[60px] pt-[40px] lg:pb-[40px] pb-[30px] overflow-hidden bg-[#000]">
                 <div className="row">
                     <div className="col-lg-12 ">
-                        <div className="row justify-between">
-                            <div className="col-lg-3">
+                        <div className="row  items-center justify-between">
+                            <div className="col-lg-5">
                                 <Image className="img-responsive w-full " src="/Images/1.png" alt="logo" width={1830} height={750} />
                             </div>
                             <div className="col-lg-7">
-                                <div className="col-lg-7">
-                                    <div className="row justify-start">
+                                <div className='flex justify-end'>
+                                    <div className="col-lg-8">
+                                        <div>
+                                            <div className="row justify-end">
 
-                                        <p className="lg:text-[2.5vw] text-[6vw] lg:leading-[2.5vw] leading-[7vw] font-semibold lg:pt-[30px] pt-[20px] text-[#FFF]">Get tips on how to run your business smarter</p>
-                                        <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw] lg:pt-[10px] pt-[5px] lg:pb-[10px] pb-[5px] text-[#ABABAB]">Learn crucial tips on how to save money and build a flourishing business, with real entrepreneurs sharing their own experiences.</p>
+                                                <p className="lg:text-[2.5vw] text-[6vw] lg:leading-[2.5vw] leading-[7vw] font-semibold lg:pt-[30px] pt-[20px] text-[#FFF]">Get tips on how to run your business smarter</p>
+                                                <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw] lg:pt-[10px] pt-[5px] lg:pb-[10px] pb-[5px] text-[#ABABAB]">Learn crucial tips on how to save money and build a flourishing business, with real entrepreneurs sharing their own experiences.</p>
 
 
-                                    </div>
-                                    <div className="lg:flex sm:row gap-4 ">
+                                            </div>
+                                            <div className="lg:flex sm:row gap-4 ">
 
-                                        <div >
-                                            <input type="text" id="text" className="bg-transparent rounded-full px-5 py-2 text-white border border-white " placeholder="Email address" required></input>
-                                        </div>
+                                                <div >
+                                                    <input type="text" id="text" className="bg-transparent rounded-full px-5 py-2 text-white border border-white " placeholder="Email address" required></input>
+                                                </div>
 
-                                        <div className="lg:pt-[0px] pt-[15px]">
-                                            <button type="button" className="border border-light text-[#000] bg-[#fff] hover:bg-[#000] hover:text-[#fff] font-medium !rounded-full text-md px-5 py-2 text-center items-center">Subscribe</button>
+                                                <div className="lg:pt-[0px] pt-[15px]">
+                                                    <button type="button" className="border border-light text-[#000] bg-[#fff] hover:bg-[#000] hover:text-[#fff] font-medium !rounded-full text-md px-5 py-2 text-center items-center">Subscribe</button>
+                                                </div>
+
+                                            </div>
+                                            <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1vw] leading-[4vw] lg:pt-[30px] pt-[10px] font-medium text-[#ABABAB]">By clicking, you agree to our<span className="text-[#fff]">Terms & Conditions,Privacy and Data Protection Policy</span></p>
+
                                         </div>
 
                                     </div>
 
                                 </div>
-                                <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1vw] leading-[4vw] lg:pt-[30px] pt-[10px] font-medium text-[#ABABAB]">By clicking, you agree to our<span className="text-[#fff]">Terms & Conditions,Privacy and Data Protection Policy</span></p>
                             </div>
 
                         </div>
                     </div>
                 </div>
             </section>
+
 
             <section className="lg:px-[100px] px-[20px] lg:pt-[80px] pt-[40px] lg:pb-[60px] pb-[50px] overflow-hidden bg-[#FFF]">
                 <div className="row">
@@ -353,10 +360,10 @@ export default function Home() {
                                                     <div className="lg:flex justify-between">
                                                         <div className="col-lg-12">
 
-                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833]  ">
+                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]   text-[#212833]  ">
                                                                 What qualifies as a good profit margin varies by industry, as costs for materials, services, and operations differ. Business location also influences profit margins due to factors like rent and payroll expenses. </p>
 
-                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833]  ">When it comes to measuring profitability, a gross profit margin is fine for determining the profitability of a particular item. Still, net profit margins are a better measure of overall profitability. Generally, a 10% net profit margin is considered average, a 20% margin is considered high (or “good”), and a 5% margin is low. Hitting a 5-10% net profit margin can be considered a good profit margin.
+                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]   text-[#212833]  ">When it comes to measuring profitability, a gross profit margin is fine for determining the profitability of a particular item. Still, net profit margins are a better measure of overall profitability. Generally, a 10% net profit margin is considered average, a 20% margin is considered high (or “good”), and a 5% margin is low. Hitting a 5-10% net profit margin can be considered a good profit margin.
 
                                                             </p>
 
@@ -380,9 +387,9 @@ export default function Home() {
                                                     <div className="lg:flex justify-between">
                                                         <div className="col-lg-12">
 
-                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833] ">Use Cloud's BSS Profit Margin Calculator to determine a selling price that ensures a strong profit margin.</p>
+                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]   text-[#212833] ">Use Cloud's BSS Profit Margin Calculator to determine a selling price that ensures a strong profit margin.</p>
 
-                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833] ">Simply enter the gross cost per product and your desired profit percentage. The calculator applies a profit margin formula to compute the optimal selling price, saving you the effort of manual calculations. The final result suggests the price you should charge to achieve your target profit margin. </p>.
+                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]   text-[#212833] ">Simply enter the gross cost per product and your desired profit percentage. The calculator applies a profit margin formula to compute the optimal selling price, saving you the effort of manual calculations. The final result suggests the price you should charge to achieve your target profit margin. </p>.
 
                                                         </div>
 
@@ -402,12 +409,12 @@ export default function Home() {
                                                     <div className="lg:flex justify-between">
                                                         <div className="col-lg-12">
 
-                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833]  ">The formula for calculating gross profit margin is:Gross Profit Margin = Gross Profit / Revenue x 100
+                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]   text-[#212833]  ">The formula for calculating gross profit margin is:Gross Profit Margin = Gross Profit / Revenue x 100
                                                             </p>
-                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833]  ">Let's break it down with an example:
+                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]   text-[#212833]  ">Let's break it down with an example:
 
                                                                 FYR Company, an eCommerce business selling customized gifts, generated $700,000 in revenue from selling mugs in 2023. The cost of goods sold (COGS) was $200,000, and other operating expenses totaled $400,000.</p>
-                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833]  ">Income Statement:
+                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]   text-[#212833]  ">Income Statement:
 
                                                                 <ul className="list-disc list-outside ">
                                                                     <li className="lg:pt-[20px] pt-[10px]" >Revenue: $700,000</li>
@@ -416,9 +423,9 @@ export default function Home() {
                                                                     <li className="lg:pt-[20px] pt-[10px]" >Other Expenses: ($400,000)</li>
                                                                     <li className="lg:pt-[20px] pt-[10px]" >Net Income: $100,000</li>
                                                                 </ul></p>
-                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833]  ">Using the income statement figures, FYR’s gross profit margin is calculated by dividing $500,000 gross profit by $700,000 revenue, resulting in 71.4%.</p>
+                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]   text-[#212833]  ">Using the income statement figures, FYR’s gross profit margin is calculated by dividing $500,000 gross profit by $700,000 revenue, resulting in 71.4%.</p>
 
-                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833]  ">Similarly, the net profit margin is determined by dividing $100,000 net income by $700,000 revenue, equaling 14.3%.</p>
+                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]   text-[#212833]  ">Similarly, the net profit margin is determined by dividing $100,000 net income by $700,000 revenue, equaling 14.3%.</p>
                                                         </div>
 
                                                     </div>
@@ -438,7 +445,7 @@ export default function Home() {
                                                     <div className="lg:flex justify-between">
                                                         <div className="col-lg-12">
 
-                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833] p-0 m-0 ">The gross profit margin measures how much profit a single product generates, while the net profit margin assesses the overall profitability of your business.
+                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]   text-[#212833] p-0 m-0 ">The gross profit margin measures how much profit a single product generates, while the net profit margin assesses the overall profitability of your business.
                                                                 <ul className="list-disc list-outside ">
                                                                     <li className="lg:pt-[20px] pt-[10px]" >Calculating Gross Profit Margin
                                                                         If a product sells for $50 and costs $35 to produce, the gross profit is $15. Dividing this by the selling price ($15 ÷ $50) gives a gross profit margin of 30%. While useful, this metric alone does not determine overall business profitability.</li>
@@ -474,13 +481,13 @@ export default function Home() {
                                                     <div className="lg:flex justify-between">
                                                         <div className="col-lg-12">
 
-                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833]  ">
+                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]   text-[#212833]  ">
                                                                 Gross profit margin and markup are distinct accounting terms that use the same inputs—revenue and costs—but provide different insights into a transaction. </p>
 
-                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833]  ">So what is the difference between these two measurements? Profit margin refers to sales minus the cost of goods sold, while markup refers to the amount by which the cost of goods is increased to get the final selling price or price that you set to your customers.
+                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]   text-[#212833]  ">So what is the difference between these two measurements? Profit margin refers to sales minus the cost of goods sold, while markup refers to the amount by which the cost of goods is increased to get the final selling price or price that you set to your customers.
 
                                                             </p>
-                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833]  ">Both metrics are essential for pricing strategies, helping ensure that your business sets prices effectively to maintain profitability without losing sales.</p>
+                                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]   text-[#212833]  ">Both metrics are essential for pricing strategies, helping ensure that your business sets prices effectively to maintain profitability without losing sales.</p>
 
 
 

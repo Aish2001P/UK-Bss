@@ -42,7 +42,7 @@ function AccordionTrigger({
         {...props}
       >
         {children}
-        <LuPlus  className="text-black pointer-events-none size-5 p-0 m-0 shrink-0 translate-y-0.5 transition-transform duration-200 " />
+        <LuPlus  className="text-black pointer-events-none size-5  shrink-0 translate-y-0.5 transition-transform duration-200 " />
       </AccordionPrimitive.Trigger>
     </AccordionPrimitive.Header>
   )

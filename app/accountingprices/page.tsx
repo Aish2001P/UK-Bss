@@ -38,38 +38,48 @@ export default function Home() {
                         <div className="row justify-end">
                             <div className="col-lg-3 mb-4 ">
                                 <div className="block  p-1 bg-[#F3EFE7]  rounded-4   ">
-                                    <div className="block  p-6 bg-[#FFFDFA]  rounded-4  lg:h-[350px] ">
-                                        <p className="lg:text-[1.5vw] text-[4vw] lg:leading-[1vw] leading-[5vw] font-medium lg:pt-[10px] pt-[5px]">Operate</p>
-                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw]  text-[#616161]">For business owners who want to ensure they tick all basic compliance boxes as they grow</p>
-                                        <p className="lg:text-[1vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-medium m-0 p-0 ">from</p>
-                                        <p className="lg:text-[2.5vw] text-[6vw] lg:leading-[3.5vw] leading-[7vw] font-medium m-0 p-0 ">£71/m</p>
-                                        <p className="lg:text-[0.7vw] text-[2vw] lg:leading-[1vw] leading-[3vw]  text-[#616161] ">£850 billed annually, per financial year + VAT</p>
+                                    <div className=" p-6 bg-[#FFFDFA]  rounded-4 flex-1 h-full  ">
+                                        <div className="lg:h-[300px] overflow-hidden">
+                                            <p className="lg:text-[1.5vw] text-[4vw] lg:leading-[1.5vw] leading-[5vw] font-medium lg:pt-[10px] pt-[5px]">Operate</p>
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.1vw] leading-[3.5vw]  text-[#616161]">For business owners who want to ensure they tick all basic compliance boxes as they grow</p>
+                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1vw] leading-[4vw]  m-0 p-0 font-semibold">from</p>
+                                            <p className="lg:text-[2.5vw] text-[6vw] lg:leading-[3.5vw] leading-[7vw] font-medium m-0 p-0">£71/m</p>
+                                            <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1vw] leading-[3.5vw]  text-[#616161] font-semibold">£850 billed annually, per financial year + VAT</p>
+                                        </div>
                                         <button type="button" className="border border-dark hover:bg-[#000] hover:text-[#fff] font-medium !rounded-full text-md w-full py-2 text-center items-center">Get this plan</button>
                                     </div >
+
                                 </div>
                             </div>
                             <div className="col-lg-3 mb-4 ">
                                 <div className="block  p-1 bg-[#F3EFE7]  rounded-4   ">
-                                    <div className="block  p-6 bg-[#FFFDFA]  rounded-4 lg:h-[350px]  ">
-                                        <p className="lg:text-[1.5vw] text-[4vw] lg:leading-[1vw] leading-[5vw] font-medium lg:pt-[10px] pt-[5px]">All-in-one for residents</p>
-                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw]  text-[#616161] lg:pb-[25px] pb-[10px]">Register a limited company and get all needed compliance</p>
-                                        <p className="lg:text-[1vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-medium m-0 p-0 ">from</p>
-                                        <p className="lg:text-[2.5vw] text-[6vw] lg:leading-[3.5vw] leading-[7vw] font-medium m-0 p-0">£137/m</p>
-                                        <p className="lg:text-[0.7vw] text-[2vw] lg:leading-[1vw] leading-[3vw]  text-[#616161] "> £1,640 billed annually, per financial year + VAT</p>
+                                    <div className=" p-6 bg-[#FFFDFA]  rounded-4 flex-1 h-full  ">
+                                        <div className="lg:h-[300px] overflow-hidden">
+                                            <p className="lg:text-[1.5vw] text-[4vw] lg:leading-[1.5vw] leading-[5vw] font-medium lg:pt-[10px] pt-[5px]">All-in-one for residents</p>
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.1vw] leading-[3.5vw]  text-[#616161]">Register a limited company and get all needed compliance</p>
+                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1vw] leading-[4vw]  m-0 p-0 font-semibold">from</p>
+                                            <p className="lg:text-[2.5vw] text-[6vw] lg:leading-[3.5vw] leading-[7vw] font-medium m-0 p-0">£137/m</p>
+                                            <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1vw] leading-[3.5vw]  text-[#616161] font-semibold">£1,640 billed annually, per financial year + VAT</p>
+                                        </div>
                                         <button type="button" className="border border-dark hover:bg-[#000] hover:text-[#fff] font-medium !rounded-full text-md w-full py-2 text-center items-center">Get this plan</button>
                                     </div >
+
                                 </div>
                             </div>
                             <div className="col-lg-3 mb-4 ">
                                 <div className="block  p-1 bg-[#F3EFE7]  rounded-4   ">
-                                    <div className="block  p-6 bg-[#FFFDFA]  rounded-4 lg:h-[350px]  ">
-                                        <p className="lg:text-[1.5vw] text-[4vw] lg:leading-[1vw] leading-[5vw] font-medium lg:pt-[10px] pt-[5px]">All-in-one for foreigners</p>
-                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw]  text-[#616161] lg:pb-[25px] pb-[10px] ">Register a limited company as a non-UK resident</p>
-                                        <p className="lg:text-[1vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-medium m-0 p-0 ">from</p>
-                                        <p className="lg:text-[2.5vw] text-[6vw] lg:leading-[3.5vw] leading-[7vw] font-medium m-0 p-0">£224</p>
-                                        <p className="lg:text-[0.7vw] text-[2vw] lg:leading-[1vw] leading-[3vw]  text-[#616161] "> £2,690 billed annually, per financial year + VAT</p>
+                                <div className=" p-6 bg-[#FFFDFA]  rounded-4 flex-1 h-full  ">
+                                        <div className="lg:h-[300px] overflow-hidden">
+                                            <p className="lg:text-[1.5vw] text-[4vw] lg:leading-[1.5vw] leading-[5vw] font-medium lg:pt-[10px] pt-[5px]">All-in-one for foreigners</p>
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.1vw] leading-[3.5vw]  text-[#616161]">Register a limited company as a non-UK resident</p>
+                                            <p className="lg:text-[1vw] text-[3vw] lg:leading-[1vw] leading-[4vw]  m-0 p-0 font-semibold">from</p>
+                                            <p className="lg:text-[2.5vw] text-[6vw] lg:leading-[3.5vw] leading-[7vw] font-medium m-0 p-0">£224/m</p>
+                                            <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1vw] leading-[3.5vw]  text-[#616161] font-semibold">£2,690 billed annually, per financial year + VAT</p>
+                                        </div>
                                         <button type="button" className="border border-dark hover:bg-[#000] hover:text-[#fff] font-medium !rounded-full text-md w-full py-2 text-center items-center">Get this plan</button>
                                     </div >
+
+                                    
                                 </div>
                             </div>
                         </div>
@@ -79,13 +89,13 @@ export default function Home() {
                                 <div className="flex justify-center">
                                     <div className="col-lg-10">
                                         <p className="lg:text-[1.5vw] text-[4vw] lg:leading-[1vw] leading-[5vw] font-medium lg:pt-[10px] pt-[5px]">Financial software</p>
-                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw]  text-[#616161] lg:pt-[20px] pt-[10px]">Create, send and chase invoices</p>
-                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw]  text-[#616161] lg:pt-[20px] pt-[10px]">Capture bills and receipts easily</p>
-                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw]  text-[#616161] lg:pt-[20px] pt-[10px]">Pay bills in one click</p>
-                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw]  text-[#616161] lg:pt-[20px] pt-[10px]">Reimburse expenses</p>
-                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw]  text-[#616161] lg:pt-[20px] pt-[10px]">Connect your banks</p>
-                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw]  text-[#616161] lg:pt-[20px] pt-[10px]">Use multiple currencies</p>
-                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw]  text-[#616161] lg:pt-[20px] pt-[10px]">Connect ecommerce marketplaces</p>
+                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw] font-[500] text-[#616161] lg:pt-[20px] pt-[10px]">Create, send and chase invoices</p>
+                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw] font-[500] text-[#616161] lg:pt-[20px] pt-[10px]">Capture bills and receipts easily</p>
+                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw] font-[500] text-[#616161] lg:pt-[20px] pt-[10px]">Pay bills in one click</p>
+                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw] font-[500] text-[#616161] lg:pt-[20px] pt-[10px]">Reimburse expenses</p>
+                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw] font-[500] text-[#616161] lg:pt-[20px] pt-[10px]">Connect your banks</p>
+                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw] font-[500] text-[#616161] lg:pt-[20px] pt-[10px]">Use multiple currencies</p>
+                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw] font-[500] text-[#616161] lg:pt-[20px] pt-[10px]">Connect ecommerce marketplaces</p>
                                     </div>
                                 </div>
 
@@ -225,9 +235,9 @@ export default function Home() {
                                 <div className="flex justify-center">
                                     <div className="col-lg-10">
                                         <p className="lg:text-[1.5vw] text-[4vw] lg:leading-[1vw] leading-[5vw] font-medium lg:pt-[10px] pt-[5px]">Bookkeeping</p>
-                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw]  text-[#616161] lg:pt-[20px] pt-[10px]">Unlimited bookkeeping</p>
+                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw] font-[500] text-[#616161] lg:pt-[20px] pt-[10px]">Unlimited bookkeeping</p>
 
-                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw]  text-[#616161] lg:pt-[20px] pt-[10px]">Automatic reconciliations</p>
+                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw] font-[500] text-[#616161] lg:pt-[20px] pt-[10px]">Automatic reconciliations</p>
                                     </div>
                                 </div>
 
@@ -295,14 +305,14 @@ export default function Home() {
                                 <div className="flex justify-center">
                                     <div className="col-lg-10">
                                         <p className="lg:text-[1.5vw] text-[4vw] lg:leading-[1vw] leading-[5vw] font-medium lg:pt-[10px] pt-[5px]">Expert service</p>
-                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw]  text-[#616161] lg:pt-[20px] pt-[10px]">Initial consultation with a tax expert</p>
-                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw]  text-[#616161] lg:pt-[20px] pt-[10px]">In-app chat</p>
-                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw]  text-[#616161] lg:pt-[20px] pt-[10px]">Tax advice on payroll and dividends</p>
-                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw]  text-[#616161] lg:pt-[20px] pt-[10px]">Video calls with an expert</p>
-                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw]  text-[#616161] lg:pt-[20px] pt-[10px]">Business review with accountant</p>
-                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw]  text-[#616161] lg:pt-[20px] pt-[10px]">Ad-hoc tax advice</p>
-                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw]  text-[#616161] lg:pt-[20px] pt-[10px]">Dedicated accountant</p>
-                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw]  text-[#616161] lg:pt-[20px] pt-[10px]">Senior dedicated accountant</p>
+                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw] font-[500] text-[#616161] lg:pt-[20px] pt-[10px]">Initial consultation with a tax expert</p>
+                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw] font-[500] text-[#616161] lg:pt-[20px] pt-[10px]">In-app chat</p>
+                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw] font-[500] text-[#616161] lg:pt-[20px] pt-[10px]">Tax advice on payroll and dividends</p>
+                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw] font-[500] text-[#616161] lg:pt-[20px] pt-[10px]">Video calls with an expert</p>
+                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw] font-[500] text-[#616161] lg:pt-[20px] pt-[10px]">Business review with accountant</p>
+                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw] font-[500] text-[#616161] lg:pt-[20px] pt-[10px]">Ad-hoc tax advice</p>
+                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw] font-[500] text-[#616161] lg:pt-[20px] pt-[10px]">Dedicated accountant</p>
+                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw] font-[500] text-[#616161] lg:pt-[20px] pt-[10px]">Senior dedicated accountant</p>
                                     </div>
                                 </div>
 
@@ -446,10 +456,10 @@ export default function Home() {
                                 <div className="flex justify-center">
                                     <div className="col-lg-10">
                                         <p className="lg:text-[1.5vw] text-[4vw] lg:leading-[1vw] leading-[5vw] font-medium lg:pt-[10px] pt-[5px]">Payroll</p>
-                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw]  text-[#616161] lg:pt-[20px] pt-[10px]">PAYE registration</p>
-                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw]  text-[#616161] lg:pt-[20px] pt-[10px]">1st Director Payroll</p>
-                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw]  text-[#616161] lg:pt-[20px] pt-[10px]">Full payroll</p>
-                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw]  text-[#616161] lg:pt-[20px] pt-[10px]">Additional Full payroll, per employee</p>
+                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw] font-[500] text-[#616161] lg:pt-[20px] pt-[10px]">PAYE registration</p>
+                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw] font-[500] text-[#616161] lg:pt-[20px] pt-[10px]">1st Director Payroll</p>
+                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw] font-[500] text-[#616161] lg:pt-[20px] pt-[10px]">Full payroll</p>
+                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw] font-[500] text-[#616161] lg:pt-[20px] pt-[10px]">Additional Full payroll, per employee</p>
 
 
                                     </div>
@@ -536,9 +546,9 @@ export default function Home() {
                                 <div className="flex justify-center">
                                     <div className="col-lg-10">
                                         <p className="lg:text-[1.5vw] text-[4vw] lg:leading-[1vw] leading-[5vw] font-medium lg:pt-[10px] pt-[5px]">Company admin</p>
-                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw]  text-[#616161] lg:pt-[20px] pt-[10px]">Unlimited corporate changes</p>
-                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw]  text-[#616161] lg:pt-[20px] pt-[10px]">Registered London office address</p>
-                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw]  text-[#616161] lg:pt-[20px] pt-[10px]">Professional references</p>
+                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw] font-[500] text-[#616161] lg:pt-[20px] pt-[10px]">Unlimited corporate changes</p>
+                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw] font-[500] text-[#616161] lg:pt-[20px] pt-[10px]">Registered London office address</p>
+                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw] font-[500] text-[#616161] lg:pt-[20px] pt-[10px]">Professional references</p>
 
                                     </div>
                                 </div>
@@ -615,10 +625,10 @@ export default function Home() {
                                 <div className="flex justify-center">
                                     <div className="col-lg-10">
                                         <p className="lg:text-[1.5vw] text-[4vw] lg:leading-[1vw] leading-[5vw] font-medium lg:pt-[10px] pt-[5px]">Historical work</p>
-                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw]  text-[#616161] lg:pt-[20px] pt-[10px]">Catch-up bookkeeping</p>
-                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw]  text-[#616161] lg:pt-[20px] pt-[10px]">Urgency filing</p>
-                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw]  text-[#616161] lg:pt-[20px] pt-[10px]">Historical annual filing and bookkeeping</p>
-                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw]  text-[#616161] lg:pt-[20px] pt-[10px]">Historical VAT filing, per report</p>
+                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw] font-[500] text-[#616161] lg:pt-[20px] pt-[10px]">Catch-up bookkeeping</p>
+                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw] font-[500] text-[#616161] lg:pt-[20px] pt-[10px]">Urgency filing</p>
+                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw] font-[500] text-[#616161] lg:pt-[20px] pt-[10px]">Historical annual filing and bookkeeping</p>
+                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw] font-[500] text-[#616161] lg:pt-[20px] pt-[10px]">Historical VAT filing, per report</p>
 
                                     </div>
                                 </div>
@@ -647,7 +657,7 @@ export default function Home() {
                             <div className="col-lg-3 mb-4 ">
                                 <div className=" flex justify-center items-center p-1 bg-[#F3EFE7]  rounded-4  lg:pt-[20px] pt-[10px] lg:pb-[20px] pb-[10px] lg:h-[280px]  ">
                                     <div className="items-center justify-center">
-                                    <div className="lg:pt-[30px] pt-[10px] " >
+                                        <div className="lg:pt-[30px] pt-[10px] " >
                                             <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw] font-medium p-0 m-0">£164/m</p>
                                         </div>
                                         <div className="lg:pt-[30px] pt-[10px] " >
@@ -669,7 +679,7 @@ export default function Home() {
                             <div className="col-lg-3 mb-4 ">
                                 <div className="flex justify-center items-center  p-1 bg-[#F3EFE7]  rounded-4  lg:pt-[20px] pt-[10px] lg:pb-[20px] pb-[10px] lg:h-[280px]  ">
                                     <div className="items-center justify-center">
-                                    <div className="lg:pt-[30px] pt-[10px] " >
+                                        <div className="lg:pt-[30px] pt-[10px] " >
                                             <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw] font-medium p-0 m-0">£269/m</p>
                                         </div>
                                         <div className="lg:pt-[30px] pt-[10px] " >

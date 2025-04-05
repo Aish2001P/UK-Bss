@@ -73,17 +73,17 @@ export default function Home() {
                                 <div className="col-lg-10 ">
                                     <div className="row ">
                                         <div className="col-lg-8 mb-4 ">
-                                            <div className="block  relative bg-[#000] border rounded-4 shadow-sm    ">
+                                            <div className="block  h-full relative bg-[#000] border rounded-4 shadow-sm    ">
                                                 <div className="relative">
-                                                    <Image className="img-responsive w-full opacity-75 rounded-4 " src="/Images/London.png" alt="logo" width={1830} height={750} />
+                                                    <Image className="img-responsive w-full opacity-75 rounded-4 h-full " src="/Images/London.png" alt="logo" width={1830} height={750} />
                                                 </div>
-                                                <div className="absolute bottom-[10%]">
+                                                <div className="absolute bottom-[7%]">
                                                     <div className="flex gap-4 lg:pl-[40px] pl-[10px] ">
                                                         <p className="lg:text-[1vw] text-[3vw] lg:leading-[1vw] leading-[4vw]  text-gray-300 ">Money Talk  </p>
                                                         <p className="lg:text-[1vw] text-[3vw] lg:leading-[1vw] leading-[4vw]  text-gray-300 ">16 MIN READ </p>
                                                     </div>
                                                     <p className="text-[#fff]  lg:text-[2vw] text-[3vw] lg:leading-[2.5vw] leading-[4vw] lg:pb-[20px] pb-[20px] font-medium lg:pl-[40px] pl-[10px]">Setting Up An Offshore Company in the UK</p>
-                                                    <div className="lg:pl-[40px] pl-[10px] lg:pt-[310px] pt-[30px]">
+                                                    <div className="lg:pl-[40px] pl-[10px] lg:pt-[250px] pt-[30px]">
                                                     <Link href="/blog-detail" className="text-black">
                                                     <button type="button" className="border-2 border-light text-[#fff] hover:bg-[#fff] hover:text-[#000] font-semibold !rounded-full text-sm px-4 py-2 text-center items-center group transition duration-300">
                                                        

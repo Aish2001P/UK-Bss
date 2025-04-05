@@ -95,7 +95,7 @@ export default function Home() {
                                         <Image className="img-responsive w-27 " src="/Images/3(5).svg" alt="logo" width={1830} height={750} />
                                     </div>
                                     <p className="lg:text-[1.5vw] text-[4vw] lg:leading-[2vw] leading-[5vw] font-medium lg:pt-[30px] pt-[20px]">All documents stored in one, convenient place</p>
-                                    <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw] font-medium text-[#616161] lg:pb-[18px] pb-[20px]">Safely store all your limited company's incorporation documents, ready to go from day one.</p>
+                                    <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw] font-medium text-[#616161] lg:pb-[18px] pb-[20px]">Safely store all your limited company&apos;s incorporation documents, ready to go from day one.</p>
                                 </div>
                             </div>
                         </div>
@@ -129,11 +129,11 @@ export default function Home() {
                                             A great bank for non-residents, Airwallex boasts fantastic FX rates, a free card, and an expense management feature. You can sign up to Airwallex using our unique application link.
                                         </p>
 
-                                       
+
                                     </div>
                                     <div>
-                                            <button type="button" className="border border-dark hover:bg-[#000] hover:text-[#fff] font-medium !rounded-full text-sm px-5 py-2 text-center items-center">Get referral</button>
-                                        </div>
+                                        <button type="button" className="border border-dark hover:bg-[#000] hover:text-[#fff] font-medium !rounded-full text-sm px-5 py-2 text-center items-center">Get referral</button>
+                                    </div>
 
                                 </div>
                             </div>
@@ -150,11 +150,11 @@ export default function Home() {
                                             A great bank for non-residents, Airwallex boasts fantastic FX rates, a free card, and an expense management feature. You can sign up to Airwallex using our unique application link.
                                         </p>
 
-                                       
+
                                     </div>
                                     <div>
-                                            <button type="button" className="border border-dark hover:bg-[#000] hover:text-[#fff] font-medium !rounded-full text-sm px-5 py-2 text-center items-center">Get referral</button>
-                                        </div>
+                                        <button type="button" className="border border-dark hover:bg-[#000] hover:text-[#fff] font-medium !rounded-full text-sm px-5 py-2 text-center items-center">Get referral</button>
+                                    </div>
 
                                 </div>
                             </div>
@@ -215,7 +215,7 @@ export default function Home() {
 
 
                                         <p className="text-[#616161]  lg:text-[1vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw] lg:pb-[20px] pb-[20px]  ">
-                                            Silverbird targets business owners trading physical goods or are in logistics. They have no transaction limits and great foreign exchange rates. Once your nature of business is verified and you've successfully signed up with Cloud BSS, we will complete the referral process.
+                                            Silverbird targets business owners trading physical goods or are in logistics. They have no transaction limits and great foreign exchange rates. Once your nature of business is verified and you&apos;ve successfully signed up with Cloud BSS, we will complete the referral process.
                                         </p>
 
 
@@ -237,495 +237,505 @@ export default function Home() {
 
             <section className="lg:px-[100px] px-[20px] lg:pt-[80px] pt-[60px] overflow-hidden lg:pb-[60px] pb-[50px] bg-[#FFF]">
 
-<div className="row ">
-    <div className="col-lg-12 ">
-        <div className="flex justify-center">
-            <div className="col-lg-6">
-                <div className="lg:pb-[60px] pb-[30px] text-center">
-                    <button type="button" className="border border-dark hover:bg-[#000] hover:text-[#fff] font-medium !rounded-full text-md px-5 py-2 text-center items-center">PRICING</button>
-                    <p className="lg:text-[2.5vw] text-[4vw] lg:leading-[3vw] leading-[5vw] font-semibold lg:pt-[30px] pt-[20px]">Simple and fast company formation</p>
-                    <p className="lg:text-[1.2vw] text-[3vw] lg:leading-[2vw] leading-[4vw] lg:pt-[10px] pt-[5px]">The cost to register a company with Cloud BSS depends on what you need. We can simply handle the registration for you. Or we can handle your compliance and accounting needs too. Take a look at your options below:</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div className="col-lg-12 ">
-        <div className="row justify-center">
-            <div className="col-lg-3 mb-4 ">
-                <div className="block  p-1 bg-[#F3EFE7]  rounded-4   ">
-                    <div className="block  p-6 bg-[#FFFDFA]  rounded-4   ">
-                        <p className="lg:text-[1.5vw] text-[4vw] lg:leading-[1vw] leading-[5vw] font-medium lg:pt-[10px] pt-[5px]">Basic for residents</p>
-                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw]  text-[#616161]">Set up as a limited company and receive all legal paperwork</p>
-                        <p className="lg:text-[2.5vw] text-[6vw] lg:leading-[3.5vw] leading-[7vw] font-medium m-0 p-0">£50</p>
-                        <p className="lg:text-[0.7vw] text-[2vw] lg:leading-[1vw] leading-[3vw]  text-[#616161] ">VAT included</p>
-                        <button type="button" className="border border-dark hover:bg-[#000] hover:text-[#fff] font-medium !rounded-full text-md w-full py-2 text-center items-center">Get this plan</button>
-                    </div >
-                    <div className="lg:pl-[25px] pl-[10px] lg:pt-[30px] pt-[30px] font-medium">
-                        <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1.7vw] leading-[4vw] ">
-                            <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[0.5vw] leading-[4vw] font-semibold ">Setting up</p>
-                            
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0">Company formation, including £50 Companies House fee</p>
+                <div className="row ">
+                    <div className="col-lg-12 ">
+                        <div className="flex justify-center">
+                            <div className="col-lg-6">
+                                <div className="lg:pb-[60px] pb-[30px] text-center">
+                                    <button type="button" className="border border-dark  font-medium !rounded-full text-md px-5 py-2 text-center items-center">PRICING</button>
+                                    <p className="lg:text-[2.5vw] text-[4vw] lg:leading-[3vw] leading-[5vw] font-semibold lg:pt-[30px] pt-[20px]">Simple and fast company formation</p>
+                                    <p className="lg:text-[1.2vw] text-[3vw] lg:leading-[2vw] leading-[4vw] lg:pt-[10px] pt-[5px]">The cost to register a company with Cloud BSS depends on what you need. We can simply handle the registration for you. Or we can handle your compliance and accounting needs too. Take a look at your options below:</p>
                                 </div>
                             </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0">Live chat with an expert</p>
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0">Exclusive offers from our Banking Partners</p>
-                                </div>
-                            </div>
-                            <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[0.5vw] leading-[4vw] font-semibold lg:pt-[30px] pt-[20px]">Documents</p>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0">Digital incorporation certificates</p>
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0">Share Certificate</p>
-                                </div>
-                            </div>
-
-
-                        </p>
-                    </div>
-                    <hr className="border-2 border-[#B0B0B0]"></hr>
-
-
-                    <Accordion type="single" collapsible>
-                        <AccordionItem value="item-1">
-                            <AccordionTrigger><p className="lg:text-[1vw] text-[4vw] lg:leading-[1vw] leading-[5vw] font-semibold lg:pl-[10px] pl-[5px]">Optional add-ons</p></AccordionTrigger>
-                            <AccordionContent>
-                                <div className=" flex justify-between">
-                                    <div className="col-lg-10"> 
-                                    <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-medium lg:pl-[25px] pl-[5px]"> Registered London office address</p>
-                                    </div>
-                                    <div className="col-lg-2">
-                                    <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-semibold text-[#767676] ">£100/y</p>
-                                    </div>
-                                </div>
-                                <div className=" flex justify-between">
-                                    <div className="col-lg-10"> 
-                                    <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-medium lg:pl-[25px] pl-[5px]"> Manual document review</p>
-                                    </div>
-                                    <div className="col-lg-2">
-                                    <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-semibold text-[#767676] ">£49</p>
-                                    </div>
-                                </div>
-                                <div className=" flex justify-between">
-                                    <div className="col-lg-10"> 
-                                    <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-medium lg:pl-[25px] pl-[5px]"> Confirmation Statement</p>
-                                    </div>
-                                    <div className="col-lg-2">
-                                    <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-semibold text-[#767676] ">£100</p>
-                                    </div>
-                                </div>
-                                <div className=" flex justify-between">
-                                    <div className="col-lg-10"> 
-                                    <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-medium lg:pl-[25px] pl-[5px]"> PAYE registration</p>
-                                    </div>
-                                    <div className="col-lg-2">
-                                    <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-semibold text-[#767676] ">£50</p>
-                                    </div>
-                                </div>
-                                <div className=" flex justify-between">
-                                    <div className="col-lg-10"> 
-                                    <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-medium lg:pl-[25px] pl-[5px]"> VAT registration</p>
-                                    </div>
-                                    <div className="col-lg-2">
-                                    <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-semibold text-[#767676] ">£50</p>
-                                    </div>
-                                </div>
-                                <div className=" flex justify-between">
-                                    <div className="col-lg-10"> 
-                                    <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-medium lg:pl-[25px] pl-[5px]"> Accounting services</p>
-                                    </div>
-                                    <div className="col-lg-2">
-                                    <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-semibold text-[#767676] ">from £71/m</p>
-                                    </div>
-                                </div>
-                            </AccordionContent>
-                        </AccordionItem>
-                    </Accordion>
-
-                </div>
-            </div>
-
-            <div className="col-lg-3 mb-4 ">
-                <div className="block  p-1 bg-[#F3EFE7] rounded-4 shadow-sm  ">
-                    <div className="block  p-6 bg-[#FFFDFA]  rounded-4   ">
-                        <p className="lg:text-[1.5vw] text-[4vw] lg:leading-[1vw] leading-[5vw] font-medium lg:pt-[10px] pt-[5px]">All-in-one for residents</p>
-                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw]  text-[#616161]">Register a limited company and get all compliance related to your incorporation</p>
-                        <p className="lg:text-[1vw] text-[3vw] lg:leading-[1vw] leading-[3vw] font-medium m-0 p-0 line-through">£299</p>
-                        <p className="lg:text-[2.5vw] text-[6vw] lg:leading-[3.5vw] leading-[7vw] font-medium m-0 p-0">£289</p>
-                        <p className="lg:text-[0.7vw] text-[2vw] lg:leading-[1vw] leading-[3vw]  text-[#616161] ">VAT included</p>
-                        <button type="button" className="border border-dark hover:bg-[#000] hover:text-[#fff] font-medium !rounded-full text-md w-full py-2 text-center items-center">Get this plan</button>
-                    </div >
-
-                    <div className="lg:pl-[25px] pl-[10px] lg:pt-[30px] pt-[30px]">
-                        <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1.7vw] leading-[4vw] text-black font-medium">
-                            <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[0.5vw] leading-[4vw] font-semibold ">Setting up</p>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0">  Company formation, including £50 Companies House fee</p>
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0">Live chat with an expert </p>
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0">Exclusive offers from our Banking Partners</p>
-                                </div>
-                            </div>
-                           
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#0061FE" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0 font-medium lg:text-[0.8vw] text-[3vw] lg:leading-[1.7vw] leading-[4vw] text-[#0061FE] ">Registered London office address</p>
-                                </div>
-                            </div>
-                            <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[0.5vw] leading-[4vw] font-semibold lg:pt-[30px] pt-[20px]">Documents</p>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0">Digital incorporation certificates</p>
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0">Share Certificate</p>
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#0061FE" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0 font-medium lg:text-[0.8vw] text-[3vw] lg:leading-[1.7vw] leading-[4vw] text-[#0061FE]">Same-day document scanning</p>
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#0061FE" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0 font-medium lg:text-[0.8vw] text-[3vw] lg:leading-[1.7vw] leading-[4vw] text-[#0061FE]">Manual document review</p>
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#0061FE" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0 font-medium lg:text-[0.8vw] text-[3vw] lg:leading-[1.7vw] leading-[4vw] text-[#0061FE]">Confirmation Statement</p>
-                                </div>
-                            </div>
-                            <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[0.5vw] leading-[4vw] font-semibold lg:pt-[30px] pt-[20px]">Beyond incorporation</p>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#0061FE" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0 font-medium lg:text-[0.8vw] text-[3vw] lg:leading-[1.7vw] leading-[4vw] text-[#0061FE]">Unlimited corporate changes</p>
-                                </div>
-                            </div>
-                        </p>
-
-
-
-
-
-                    </div>
-                    <hr className="border-2 border-[#B0B0B0]"></hr>
-
-                    <Accordion type="single" collapsible>
-                        <AccordionItem value="item-1">
-                            <AccordionTrigger><p className="lg:text-[1vw] text-[4vw] lg:leading-[1vw] leading-[5vw] font-semibold lg:pl-[10px] pl-[5px]">Optional add-ons</p></AccordionTrigger>
-                            <AccordionContent>
-
-                               
-                                <div className="flex justify-between">
-                                    <div className="col-lg-10"> 
-                                    <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-medium lg:pl-[25px] pl-[5px]"> PAYE registration</p>
-                                    </div>
-                                    <div className="col-lg-2">
-                                    <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-semibold text-[#767676] ">£50</p>
-                                    </div>
-                                </div>
-                                <div className="flex justify-between">
-                                    <div className="col-lg-10"> 
-                                    <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-medium lg:pl-[25px] pl-[5px]"> VAT registration</p>
-                                    </div>
-                                    <div className="col-lg-2">
-                                    <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-semibold text-[#767676] ">£50</p>
-                                    </div>
-                                </div>
-                                <div className="flex justify-between">
-                                    <div className="col-lg-10"> 
-                                    <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-medium lg:pl-[25px] pl-[5px]"> Accounting services</p>
-                                    </div>
-                                    <div className="col-lg-2">
-                                    <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-semibold text-[#767676] ">from £71/m</p>
-                                    </div>
-                                </div>
-                            </AccordionContent>
-                        </AccordionItem>
-                    </Accordion>
-                   
-
-
-                </div>
-
-            </div>
-
-            <div className="col-lg-3 mb-4 ">
-                <div className="block  p-1 bg-[#F3EFE7] rounded-4 shadow-sm  ">
-                    <div className="block  p-6 bg-[#FFFDFA]  rounded-4 shadow-sm  ">
-                        <p className="lg:text-[1.5vw] text-[4vw] lg:leading-[1vw] leading-[5vw] font-medium lg:pt-[10px] pt-[5px]">All-in-one for foreigners</p>
-                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw]  text-[#616161]">Register a limited company as a non-UK resident</p>
-                        <p className="lg:text-[1vw] text-[3vw] lg:leading-[1vw] leading-[3vw] font-medium m-0 p-0 line-through">£349</p>
-                        <p className="lg:text-[2.5vw] text-[5vw] lg:leading-[3.5vw] leading-[6vw] font-medium m-0 p-0">£299</p>
-                        <p className="lg:text-[0.7vw] text-[2vw] lg:leading-[1vw] leading-[3vw]  text-[#616161] ">+ VAT</p>
-                        <button type="button" className="border border-dark hover:bg-[#000] hover:text-[#fff] font-medium !rounded-full text-md w-full py-2 text-center items-center">Get this plan</button>
-                    </div>
-                    <div className="lg:pl-[25px] pl-[10px] lg:pt-[30px] pt-[10px]">
-                        <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1.7vw] leading-[4vw] text-black font-medium">
-                            <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[0.5vw] leading-[4vw] font-semibold ">Setting up</p>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0">  Company formation, including £50 Companies House fee</p>
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0">Live chat with an expert </p>
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0">Exclusive offers from our Banking Partners</p>
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0">Companies House fee included</p>
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#0061FE" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0 font-medium lg:text-[0.8vw] text-[3vw] lg:leading-[1.7vw] leading-[4vw] text-[#0061FE] ">Registered London office address</p>
-                                </div>
-                            </div>
-                            <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[0.5vw] leading-[4vw] font-semibold lg:pt-[30px] pt-[20px]">Documents</p>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0">Digital incorporation certificates</p>
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0">Share Certificate</p>
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#0061FE" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0 font-medium lg:text-[0.8vw] text-[3vw] lg:leading-[1.7vw] leading-[4vw] text-[#0061FE]">Same-day document scanning</p>
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#0061FE" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0 font-medium lg:text-[0.8vw] text-[3vw] lg:leading-[1.7vw] leading-[4vw] text-[#0061FE]">Manual document review</p>
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#0061FE" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0 font-medium lg:text-[0.8vw] text-[3vw] lg:leading-[1.7vw] leading-[4vw] text-[#0061FE]">Confirmation Statement</p>
-                                </div>
-                            </div>
-                            <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[0.5vw] leading-[4vw] font-semibold lg:pt-[30px] pt-[20px]">Beyond incorporation</p>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#0061FE" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0 font-medium lg:text-[0.8vw] text-[3vw] lg:leading-[1.7vw] leading-[4vw] text-[#0061FE]">Unlimited corporate changes</p>
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#0061FE" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0 font-medium lg:text-[0.8vw] text-[3vw] lg:leading-[1.7vw] leading-[4vw] text-[#0061FE]">VAT registration</p>
-                                </div>
-                            </div>
-                        </p>
-
-                    </div>
-                    <hr className="border-2 border-[#B0B0B0]"></hr>
-                    <Accordion type="single" collapsible>
-                        <AccordionItem value="item-1">
-                            <AccordionTrigger><p className="lg:text-[1vw] text-[4vw] lg:leading-[1vw] leading-[5vw] font-semibold lg:pl-[10px] pl-[5px]">Optional add-ons</p></AccordionTrigger>
-                            <AccordionContent>
-
-                               
-                                <div className="flex justify-between">
-                                    <div className="col-lg-10"> 
-                                    <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-medium lg:pl-[25px] pl-[5px]"> PAYE registration</p>
-                                    </div>
-                                    <div className="col-lg-2">
-                                    <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-semibold text-[#767676] ">£50</p>
-                                    </div>
-                                </div>
-                                <div className="flex justify-between">
-                                    <div className="col-lg-10"> 
-                                    <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-medium lg:pl-[25px] pl-[5px]"> Accounting services</p>
-                                    </div>
-                                    <div className="col-lg-2">
-                                    <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-semibold text-[#767676] ">from £71/m</p>
-                                    </div>
-                                </div>
-                            </AccordionContent>
-                        </AccordionItem>
-                    </Accordion>
-
-                </div>
-            </div>
-
-
-
-        </div>
-
-    </div>
-</div>
-<div className="col-lg-12 lg:pt-[0px] pt-[20px]">
-<div className="flex justify-center">
-<Link href="/Companyregistrationprices" className="text-black">
-                        <button 
-                            type="button"
-                            className="border border-dark hover:bg-[#000] hover:text-[#fff] font-medium !rounded-full text-sm px-5 py-2 text-center items-center group transition duration-300">
-                            <div className="flex gap-2 items-center">
-                                <div>Compare Pricing</div>
-                                <div className="p-0 m-0">
-                                    <div className="w-6 h-6  rounded">
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            viewBox="0 0 24 24"
-                                            width="24"
-                                            height="24"
-                                            fill="none"
-                                            className="stroke-black group-hover:stroke-white transition duration-300">
-                                            <path d="M20.0001 11.9998L4.00012 11.9998" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                            <path d="M15.0003 17C15.0003 17 20.0002 13.3176 20.0002 12C20.0002 10.6824 15.0002 7 15.0002 7"
-                                                strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                        </svg>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </button></Link>
                         </div>
+                    </div>
+                    <div className="col-lg-12 ">
+                        <div className="row justify-center">
+                            <div className="col-lg-4 mb-4 ">
+                                <div className="block  p-1 bg-[#F3EFE7]  rounded-4   ">
+                                    <div className=" p-6 bg-[#FFFDFA]  rounded-4 flex-1 h-full  ">
+                                        <div className="lg:h-[250px] overflow-hidden">
+                                            <p className="lg:text-[1.5vw] text-[4vw] lg:leading-[1.5vw] leading-[5vw] font-medium lg:pt-[10px] pt-[5px]">Basic for residents</p>
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.1vw] leading-[3.5vw]  text-[#616161]">Set up as a limited company and receive all legal paperwork</p>
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[0vw] leading-[3.5vw]  text-[#000] font-medium">from</p>
+                                            <p className="lg:text-[2.5vw] text-[6vw] lg:leading-[3.5vw] leading-[7vw] font-medium m-0 p-0">£50</p>
+                                            <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1vw] leading-[3.5vw]  text-[#616161] font-bold">VAT included</p>
+                                        </div>
+                                        <button type="button" className="border border-dark hover:bg-[#000] hover:text-[#fff] font-medium !rounded-full text-md w-full py-2 text-center items-center">Get this plan</button>
+                                    </div >
+                                    
+                                    <div className="lg:pl-[25px] pl-[10px] lg:pt-[30px] pt-[30px] font-medium">
+                                        <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] ">
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold ">Setting up</p>
+
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0">Company formation, including £50 Companies House fee</p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0">Live chat with an expert</p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0">Exclusive offers from our Banking Partners</p>
+                                                </div>
+                                            </div>
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold lg:pt-[30px] pt-[20px]">Documents</p>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0">Digital incorporation certificates</p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0">Share Certificate</p>
+                                                </div>
+                                            </div>
+
+
+                                        </p>
+                                    </div>
+                                    <hr className="border-2 border-[#B0B0B0]"></hr>
+
+
+                                    <Accordion type="single" collapsible>
+                                        <AccordionItem value="item-1">
+                                            <AccordionTrigger><p className="lg:text-[1vw] text-[4vw] lg:leading-[1vw] leading-[5vw] font-semibold lg:pl-[10px] pl-[5px]">Optional add-ons</p></AccordionTrigger>
+                                            <AccordionContent>
+                                                <div className=" flex justify-between">
+                                                    <div className="col-lg-10">
+                                                        <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-medium lg:pl-[25px] pl-[5px]"> Registered London office address</p>
+                                                    </div>
+                                                    <div className="col-lg-2">
+                                                        <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold text-[#767676] ">£100/y</p>
+                                                    </div>
+                                                </div>
+                                                <div className=" flex justify-between">
+                                                    <div className="col-lg-10">
+                                                        <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-medium lg:pl-[25px] pl-[5px]"> Manual document review</p>
+                                                    </div>
+                                                    <div className="col-lg-2">
+                                                        <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold text-[#767676] ">£49</p>
+                                                    </div>
+                                                </div>
+                                                <div className=" flex justify-between">
+                                                    <div className="col-lg-10">
+                                                        <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-medium lg:pl-[25px] pl-[5px]"> Confirmation Statement</p>
+                                                    </div>
+                                                    <div className="col-lg-2">
+                                                        <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold text-[#767676] ">£100</p>
+                                                    </div>
+                                                </div>
+                                                <div className=" flex justify-between">
+                                                    <div className="col-lg-10">
+                                                        <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-medium lg:pl-[25px] pl-[5px]"> PAYE registration</p>
+                                                    </div>
+                                                    <div className="col-lg-2">
+                                                        <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold text-[#767676] ">£50</p>
+                                                    </div>
+                                                </div>
+                                                <div className=" flex justify-between">
+                                                    <div className="col-lg-10">
+                                                        <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-medium lg:pl-[25px] pl-[5px]"> VAT registration</p>
+                                                    </div>
+                                                    <div className="col-lg-2">
+                                                        <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold text-[#767676] ">£50</p>
+                                                    </div>
+                                                </div>
+                                                <div className=" flex justify-between">
+                                                    <div className="col-lg-10">
+                                                        <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-medium lg:pl-[25px] pl-[5px]"> Accounting services</p>
+                                                    </div>
+                                                    <div className="col-lg-2">
+                                                        <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold text-[#767676] ">from £71/m</p>
+                                                    </div>
+                                                </div>
+                                            </AccordionContent>
+                                        </AccordionItem>
+                                    </Accordion>
+
+                                </div>
+                            </div>
+
+                            <div className="col-lg-4 mb-4 ">
+                                <div className="block  p-1 bg-[#F3EFE7] rounded-4 shadow-sm  ">
+                                <div className=" p-6 bg-[#FFFDFA]  rounded-4 flex-1 h-full  ">
+                                        <div className="lg:h-[250px] overflow-hidden">
+                                            <p className="lg:text-[1.5vw] text-[4vw] lg:leading-[1.5vw] leading-[5vw] font-medium lg:pt-[10px] pt-[5px]">All-in-one for residents</p>
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.1vw] leading-[3.5vw]  text-[#616161]">Register a limited company and get all compliance related to your incorporation</p>
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[0vw] leading-[3.5vw]  text-[#000] font-medium line-through">£299</p>
+                                            <p className="lg:text-[2.5vw] text-[6vw] lg:leading-[3.5vw] leading-[7vw] font-medium m-0 p-0">£289</p>
+                                            <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1vw] leading-[3.5vw]  text-[#616161] font-bold">VAT included</p>
+                                        </div>
+                                        <button type="button" className="border border-dark hover:bg-[#000] hover:text-[#fff] font-medium !rounded-full text-md w-full py-2 text-center items-center">Get this plan</button>
+                                    </div >
+                                    
+
+                                    <div className="lg:pl-[25px] pl-[10px] lg:pt-[30px] pt-[30px]">
+                                        <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] text-black font-medium">
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold ">Setting up</p>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0">  Company formation, including £50 Companies House fee</p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0">Live chat with an expert </p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0">Exclusive offers from our Banking Partners</p>
+                                                </div>
+                                            </div>
+
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#0061FE" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0 font-medium lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] text-[#0061FE] ">Registered London office address</p>
+                                                </div>
+                                            </div>
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold lg:pt-[30px] pt-[20px]">Documents</p>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0">Digital incorporation certificates</p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0">Share Certificate</p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#0061FE" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0 font-medium lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] text-[#0061FE]">Same-day document scanning</p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#0061FE" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0 font-medium lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] text-[#0061FE]">Manual document review</p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#0061FE" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0 font-medium lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] text-[#0061FE]">Confirmation Statement</p>
+                                                </div>
+                                            </div>
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold lg:pt-[30px] pt-[20px]">Beyond incorporation</p>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#0061FE" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0 font-medium lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] text-[#0061FE]">Unlimited corporate changes</p>
+                                                </div>
+                                            </div>
+                                        </p>
+
+
+
+
+
+                                    </div>
+                                    <hr className="border-2 border-[#B0B0B0]"></hr>
+
+                                    <Accordion type="single" collapsible>
+                                        <AccordionItem value="item-1">
+                                            <AccordionTrigger><p className="lg:text-[1vw] text-[4vw] lg:leading-[1vw] leading-[5vw] font-semibold lg:pl-[10px] pl-[5px]">Optional add-ons</p></AccordionTrigger>
+                                            <AccordionContent>
+
+
+                                                <div className="flex justify-between">
+                                                    <div className="col-lg-10">
+                                                        <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-medium lg:pl-[25px] pl-[5px]"> PAYE registration</p>
+                                                    </div>
+                                                    <div className="col-lg-2">
+                                                        <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold text-[#767676] ">£50</p>
+                                                    </div>
+                                                </div>
+                                                <div className="flex justify-between">
+                                                    <div className="col-lg-10">
+                                                        <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-medium lg:pl-[25px] pl-[5px]"> VAT registration</p>
+                                                    </div>
+                                                    <div className="col-lg-2">
+                                                        <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold text-[#767676] ">£50</p>
+                                                    </div>
+                                                </div>
+                                                <div className="flex justify-between">
+                                                    <div className="col-lg-10">
+                                                        <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-medium lg:pl-[25px] pl-[5px]"> Accounting services</p>
+                                                    </div>
+                                                    <div className="col-lg-2">
+                                                        <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold text-[#767676] ">from £71/m</p>
+                                                    </div>
+                                                </div>
+                                            </AccordionContent>
+                                        </AccordionItem>
+                                    </Accordion>
+
+
+
+                                </div>
+
+                            </div>
+
+                            <div className="col-lg-4 mb-4 ">
+                                <div className="block  p-1 bg-[#F3EFE7] rounded-4 shadow-sm  ">
+                                <div className=" p-6 bg-[#FFFDFA]  rounded-4 flex-1 h-full  ">
+                                        <div className="lg:h-[250px] overflow-hidden">
+                                            <p className="lg:text-[1.5vw] text-[4vw] lg:leading-[1.5vw] leading-[5vw] font-medium lg:pt-[10px] pt-[5px]">All-in-one forforeigners</p>
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.1vw] leading-[3.5vw]  text-[#616161]">Register a limited company as a non-UK resident</p>
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[0vw] leading-[3.5vw]  text-[#000] font-medium line-through">£349</p>
+                                            <p className="lg:text-[2.5vw] text-[6vw] lg:leading-[3.5vw] leading-[7vw] font-medium m-0 p-0">£299</p>
+                                            <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1vw] leading-[3.5vw]  text-[#616161] font-bold"> + VAT</p>
+                                        </div>
+                                        <button type="button" className="border border-dark hover:bg-[#000] hover:text-[#fff] font-medium !rounded-full text-md w-full py-2 text-center items-center">Get this plan</button>
+                                    </div >
+                                   
+                                    <div className="lg:pl-[25px] pl-[10px] lg:pt-[30px] pt-[10px]">
+                                        <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] text-black font-medium">
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold ">Setting up</p>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0">  Company formation, including £50 Companies House fee</p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0">Live chat with an expert </p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0">Exclusive offers from our Banking Partners</p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0">Companies House fee included</p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#0061FE" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0 font-medium lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] text-[#0061FE] ">Registered London office address</p>
+                                                </div>
+                                            </div>
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold lg:pt-[30px] pt-[20px]">Documents</p>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0">Digital incorporation certificates</p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0">Share Certificate</p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#0061FE" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0 font-medium lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] text-[#0061FE]">Same-day document scanning</p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#0061FE" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0 font-medium lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] text-[#0061FE]">Manual document review</p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#0061FE" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0 font-medium lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] text-[#0061FE]">Confirmation Statement</p>
+                                                </div>
+                                            </div>
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold lg:pt-[30px] pt-[20px]">Beyond incorporation</p>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#0061FE" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0 font-medium lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] text-[#0061FE]">Unlimited corporate changes</p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#0061FE" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0 font-medium lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] text-[#0061FE]">VAT registration</p>
+                                                </div>
+                                            </div>
+                                        </p>
+
+                                    </div>
+                                    <hr className="border-2 border-[#B0B0B0]"></hr>
+                                    <Accordion type="single" collapsible>
+                                        <AccordionItem value="item-1">
+                                            <AccordionTrigger><p className="lg:text-[1vw] text-[4vw] lg:leading-[1vw] leading-[5vw] font-semibold lg:pl-[10px] pl-[5px]">Optional add-ons</p></AccordionTrigger>
+                                            <AccordionContent>
+
+
+                                                <div className="flex justify-between">
+                                                    <div className="col-lg-10">
+                                                        <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-medium lg:pl-[25px] pl-[5px]"> PAYE registration</p>
+                                                    </div>
+                                                    <div className="col-lg-2">
+                                                        <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold text-[#767676] ">£50</p>
+                                                    </div>
+                                                </div>
+                                                <div className="flex justify-between">
+                                                    <div className="col-lg-10">
+                                                        <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-medium lg:pl-[25px] pl-[5px]"> Accounting services</p>
+                                                    </div>
+                                                    <div className="col-lg-2">
+                                                        <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold text-[#767676] ">from £71/m</p>
+                                                    </div>
+                                                </div>
+                                            </AccordionContent>
+                                        </AccordionItem>
+                                    </Accordion>
+
+                                </div>
+                            </div>
+
+
+
                         </div>
 
-</section >
+                    </div>
+                </div>
+                <div className="col-lg-12 lg:pt-[0px] pt-[20px]">
+                    <div className="flex justify-center">
+                        <Link href="/Companyregistrationprices" className="text-black">
+                            <button
+                                type="button"
+                                className="border border-dark hover:bg-[#000] hover:text-[#fff] font-medium !rounded-full text-sm px-5 py-2 text-center items-center group transition duration-300">
+                                <div className="flex gap-2 items-center">
+                                    <div>Compare Pricing</div>
+                                    <div className="p-0 m-0">
+                                        <div className="w-6 h-6  rounded">
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 24 24"
+                                                width="24"
+                                                height="24"
+                                                fill="none"
+                                                className="stroke-black group-hover:stroke-white transition duration-300">
+                                                <path d="M20.0001 11.9998L4.00012 11.9998" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                <path d="M15.0003 17C15.0003 17 20.0002 13.3176 20.0002 12C20.0002 10.6824 15.0002 7 15.0002 7"
+                                                    strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                            </svg>
+                                        </div>
 
- <section className="lg:px-[100px] px-[20px] lg:pt-[50px] pt-[30px] overflow-hidden lg:pb-[30px] pb-[15px] bg-[#CCDFFF]">
+                                    </div>
+                                </div>
+                            </button></Link>
+                    </div>
+                </div>
+
+            </section >
+
+            <section className="lg:px-[100px] px-[20px] lg:pt-[50px] pt-[30px] overflow-hidden lg:pb-[30px] pb-[15px] bg-[#CCDFFF]">
                 <div className="row ">
                     <div className="col-lg-12 ">
                         <div className="row">
@@ -734,7 +744,7 @@ export default function Home() {
                                     <div className="row justify-start">
 
                                         <p className="lg:text-[2.5vw] text-[6vw] lg:leading-[2.5vw] leading-[7vw] font-semibold lg:pt-[30px] pt-[20px] text-[#0061FE]">Download free guide on how to set up business in the UK</p>
-                                        <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw] lg:pt-[10px] pt-[5px] lg:pb-[10px] pb-[5px] text-[#0061FE]">We’ve put together all of the documents and details you need to figure out before you open a company</p>
+                                        <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw] lg:pt-[10px] pt-[5px] lg:pb-[10px] pb-[5px] text-[#0061FE]">We&apos;ve put together all of the documents and details you need to figure out before you open a company</p>
 
 
                                     </div>
@@ -775,7 +785,7 @@ export default function Home() {
                                     <Image className="img-responsive w-full " src="/Images/3(13).svg" alt="logo" width={1830} height={750} />
                                 </div>
                                 <div >
-                                    <p className=" text-[#212833] lg:text-[1.3vw] text-[4vw] lg:leading-[1.5vw] leading-[5vw] font-medium   lg:pt-[20px] pt-[20px]">How to Deal with Inflation's Effects on Your Small Business</p>
+                                    <p className=" text-[#212833] lg:text-[1.3vw] text-[4vw] lg:leading-[1.5vw] leading-[5vw] font-medium   lg:pt-[20px] pt-[20px]">How to Deal with Inflation&apos;s Effects on Your Small Business</p>
                                     <p className="text-[#616161]   lg:text-[0.9vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]  lg:pb-[20px] pb-[10px]">A year end package with everything you need to file comes standard with Cloud Bss. Upgrade your plan, and cross even more off your to-do list. With Premium, you get expert tax prep, filing, and year-round tax advisory support.</p>
                                     <button type="button" className="border border-dark hover:bg-[#000] hover:text-[#fff] font-medium !rounded-md text-sm px-5 py-2 text-center items-center">Learn More</button>
                                 </div>
@@ -788,7 +798,7 @@ export default function Home() {
                                     <Image className="img-responsive w-full " src="/Images/3(14).png" alt="logo" width={1830} height={750} />
                                 </div>
                                 <div >
-                                    <p className=" text-[#212833] lg:text-[1.3vw] text-[4vw] lg:leading-[1.5vw] leading-[5vw] font-medium   lg:pt-[20px] pt-[20px]">How to Deal with Inflation's Effects on Your Small Business</p>
+                                    <p className=" text-[#212833] lg:text-[1.3vw] text-[4vw] lg:leading-[1.5vw] leading-[5vw] font-medium   lg:pt-[20px] pt-[20px]">How to Deal with Inflation&apos;s Effects on Your Small Business</p>
                                     <p className="text-[#616161]   lg:text-[0.9vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]  lg:pb-[20px] pb-[10px]">A year end package with everything you need to file comes standard with Cloud Bss. Upgrade your plan, and cross even more off your to-do list. With Premium, you get expert tax prep, filing, and year-round tax advisory support.</p>
                                     <button type="button" className="border border-dark hover:bg-[#000] hover:text-[#fff] font-medium !rounded-md text-sm px-5 py-2 text-center items-center">Learn More</button>
                                 </div>
@@ -800,7 +810,7 @@ export default function Home() {
                                     <Image className="img-responsive w-full " src="/Images/3(15).png" alt="logo" width={1830} height={750} />
                                 </div>
                                 <div >
-                                    <p className=" text-[#212833] lg:text-[1.3vw] text-[4vw] lg:leading-[1.5vw] leading-[5vw] font-medium   lg:pt-[20px] pt-[20px]">How to Deal with Inflation's Effects on Your Small Business</p>
+                                    <p className=" text-[#212833] lg:text-[1.3vw] text-[4vw] lg:leading-[1.5vw] leading-[5vw] font-medium   lg:pt-[20px] pt-[20px]">How to Deal with Inflation&apos;s Effects on Your Small Business</p>
                                     <p className="text-[#616161]   lg:text-[0.9vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw]  lg:pb-[20px] pb-[10px]">A year end package with everything you need to file comes standard with Cloud Bss. Upgrade your plan, and cross even more off your to-do list. With Premium, you get expert tax prep, filing, and year-round tax advisory support.</p>
                                     <button type="button" className="border border-dark hover:bg-[#000] hover:text-[#fff] font-medium !rounded-md text-sm px-5 py-2 text-center items-center">Learn More</button>
                                 </div>

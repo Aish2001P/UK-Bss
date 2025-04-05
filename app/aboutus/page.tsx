@@ -17,7 +17,7 @@ export default function Page() {
                             <p className="lg:text-[2.8vw] text-[5vw] lg:leading-[3.2vw] leading-[6vw] font-bold lg:pt-[30px] pt-[20px]">About Us</p>
                             <div className="flex  justify-center">
                                 <div className="col-lg-9 ">
-                                    <p className="lg:text-[1.1vw] text-[3vw]  text-center lg:leading-[2vw] leading-[4vw] lg:pt-[8px] pt-[5px]">We believe that entrepreneurs are society’s problem solvers. They see opportunities in complexities and drive us towards progress. Cloud BSS doesn’t want entrepreneurs to be distracted from the important search for the best solutions. By letting us handle all the routine tasks, entrepreneurs can focus on driving their business forward.</p>
+                                    <p className="lg:text-[1.1vw] text-[3vw]  text-center lg:leading-[2vw] leading-[4vw] lg:pt-[8px] pt-[5px]">We believe that entrepreneurs are society&apos;s problem solvers. They see opportunities in complexities and drive us towards progress. Cloud BSS doesn&apos;t want entrepreneurs to be distracted from the important search for the best solutions. By letting us handle all the routine tasks, entrepreneurs can focus on driving their business forward.</p>
                                 </div>
                             </div>
                         </div>
@@ -55,7 +55,7 @@ export default function Page() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-4 lg-order-2 order-1">
+                        <div className="col-lg-4 lg-order-2 order-1 items-center">
                             <Image className="img-responsive w-full " src="/Images/about1.png" alt="logo" width={1830} height={750} />
                         </div>
                     </div>
@@ -74,14 +74,14 @@ export default function Page() {
                         </div>
                     </div>
                     <div className="col-lg-10 lg:pt-[80px] pt-[10px]">
-                        <div className="row ">
+                        <div className="row items-center">
                             <div className="col-lg-6">
                                 <div className="col-lg-12">
                                     <Image className="img-responsive w-full" src="/Images/about2.png" alt="logo" width={1830} height={750} />
                                 </div>
                             </div>
-                            <div className="col-lg-6 lg:pt-[160px] pt-[20px]">
-                                <div className="flex lg:justify-end">
+                            <div className="col-lg-6 ">
+                                <div className="flex lg:justify-end items-center">
                                     <div className="col-lg-9">
                                         <p className="text-[#010202]   font-semibold lg:text-[2vw] text-[4vw] lg:leading-[2.5vw] leading-[5vw] ">Building a better future for the entrepreneurs</p>
                                         <p className="text-[#353535]  lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw] ">We believe that in years entrepreneurs will know that administrative routine is not their job. They will not even consider taking it upon themselves. Cloud BSS stands for freedom from this routine and working to bring this future closer.
@@ -103,9 +103,9 @@ export default function Page() {
                 <div className="row  justify-center ">
                     <div className="col-lg-10 ">
                         <div className="lg:pt-[80px] pt-[10px]">
-                            <div className="row ">
-                                <div className="col-lg-6 lg:pt-[160px] pt-[20px] order-lg-1 order-2">
-                                    <div className="flex lg:justify">
+                            <div className="row items-center">
+                                <div className="col-lg-6  order-lg-1 order-2">
+                                    <div className="flex lg:justify items-center">
                                         <div className="col-lg-9 ">
                                             <p className="text-[#010202]   font-semibold lg:text-[2vw] text-[4vw] lg:leading-[2.5vw] leading-[5vw] ">Keeping transparency as a key-value</p>
                                             <p className="text-[#353535]  lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw] ">Cloud BSS makes communication as open as possible and never refuses feedback from our customers and teammates. We believe it is the best way to make a positive change.
@@ -130,14 +130,14 @@ export default function Page() {
                 <div className="row justify-center">
 
                     <div className="col-lg-10 lg:pt-[80px] pt-[10px]">
-                        <div className="row ">
+                        <div className="row items-center">
                             <div className="col-lg-6">
                                 <div className="col-lg-12">
                                     <Image className="img-responsive w-full" src="/Images/about2.png" alt="logo" width={1830} height={750} />
                                 </div>
                             </div>
-                            <div className="col-lg-6 lg:pt-[160px] pt-[20px]">
-                                <div className="flex lg:justify-end">
+                            <div className="col-lg-6  items-center">
+                                <div className="flex lg:justify-end ">
                                     <div className="col-lg-9">
                                         <p className="text-[#010202]   font-semibold lg:text-[2vw] text-[4vw] lg:leading-[2.5vw] leading-[5vw] ">Improving our services and product continuously</p>
                                         <p className="text-[#353535]  lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw] ">We are a team of professionals that always strive to become better — as individuals, employees, business partners, and a company. Cloud BSS never stops seeking a faster and better-quality way to work.
@@ -159,11 +159,11 @@ export default function Page() {
                 <div className="row  justify-center ">
                     <div className="col-lg-10 ">
                         <div className="lg:pt-[80px] pt-[10px]">
-                            <div className="row ">
-                                <div className="col-lg-6 lg:pt-[160px] pt-[20px] order-lg-1 order-2">
-                                    <div className="flex lg:justify">
+                            <div className="row items-center">
+                                <div className="col-lg-6  order-lg-1 order-2">
+                                    <div className="flex lg:justify items-center">
                                         <div className="col-lg-10 ">
-                                            <p className="text-[#010202]   font-semibold lg:text-[2vw] text-[4vw] lg:leading-[2.5vw] leading-[5vw] ">Taking details into account</p>
+                                            <p className="text-[#010202]   font-semibold lg:text-[2vw] text-[4vw] lg:leading-[2.5vw] leading-[5vw] ">Taking details into account</p>
                                             <p className="text-[#353535]  lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw] ">Details are important — only through paying attention and precisely follow the process we can see the big picture and spot opportunities to improve.
                                             </p>
 
@@ -189,7 +189,7 @@ export default function Page() {
                             <div className="col-lg-6">
                             <div className="lg:px-[50px] px-[20px] lg:pt-[100px] pt-[40px] col-lg-11">
                                 <p className="text-white   font-semibold lg:text-[2vw] text-[5vw] lg:leading-[2.5vw] leading-[6vw] ">Excited to join our team?</p>
-                                <p className="text-white   lg:text-[0.9vw] text-[3.5vw] lg:leading-[1.2vw] leading-[4vw] lg:pb-[20px] pb-[10px]">We invite you to join our team to help us build a Business-in-a-Box™. Let’s Cloud Bss it.</p>
+                                <p className="text-white   lg:text-[0.9vw] text-[3.5vw] lg:leading-[1.2vw] leading-[4vw] lg:pb-[20px] pb-[10px]">We invite you to join our team to help us build a Business-in-a-Box™. Let&apos;s Cloud Bss it.</p>
                                
                                 <button type="button" className="flex border-light mb-4 border-2 border-light text-[#fff] hover:bg-[#fff] hover:text-[#000] font-semibold !rounded-full text-sm px-4 py-2 text-center items-center group transition duration-300 ">See Open Roles
                                 

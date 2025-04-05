@@ -7,8 +7,6 @@ import { MdOutlineArrowDropDown } from "react-icons/md";
 
 
 
-
-
 function Header() {
     const [openMenu, setOpenMenu] = useState<string | null>(null);
     const handleMouseEnter = (menu: string) => {
@@ -24,11 +22,6 @@ function Header() {
     const toggleContent = () => {
         setIsVisible(!isVisible);
     }
-
-
-
-
-
 
 
 
@@ -49,52 +42,11 @@ function Header() {
                             /></Link>
                     </div>
 
-                    <nav className=" col-lg-6 hidden lg:flex  items-center gap-12 lg:text-[1vw] text-[2vw] lg:leading-[1vw] leading-[3vw] font-medium ">
+                    <nav className=" col-lg-6 hidden lg:flex justify-center  items-center gap-8 lg:text-[1vw] text-[2vw] lg:leading-[1vw] leading-[3vw] font-medium ">
                         <Link href="/aboutus" className="text-black !no-underline hover:text-gray-400">About</Link>
 
                         <Link href="/Registeracompany" className="text-black !no-underline  hover:text-gray-400">Register a Company</Link>
-                        {/* <button type="button" onClick={toggleContent} >
-                            <div className="text-black !no-underline  hover:text-gray-400 ">
-                                <div className="flex  ">
-                                    <p className=" p-0 m-0" >Accounting</p>
 
-
-                                    <MdOutlineArrowDropDown />
-                                </div>
-                                <div className=" ">
-
-                                    {isVisible && (
-                                        <div className=" 
-                                            z-100 absolute  top-23 rounded-lg  py-4 px-4  shadow-md w-auto bg-white ">
-
-                                            <div className="text-left font-[cd]  ">
-
-                                                <p className="text-[#767676] lg:text-[1vw] text-[3vw] lg:leading-[1vw] leading-[4vw]">Get Started</p>
-                                                <p><Link href="/Accountingservices" className=" lg:text-[0.9vw] text-[3vw] lg:leading-[1vw] leading-[4vw]  text-black !no-underline hover:text-black">Accounting Services</Link></p>
-                                                <p><Link href="/ecommerceaccounting" className=" lg:text-[0.9vw] text-[3vw] lg:leading-[1vw] leading-[4vw] text-black !no-underline hover:text-black">Ecommerce Accounting</Link></p>
-                                                <p><Link href="/bookkeeping" className=" lg:text-[0.9vw] text-[3vw] lg:leading-[1vw] leading-[4vw] text-black !no-underline hover:text-black">Bookkeeping</Link></p>
-                                                <p><Link href="/propertyaccountants" className=" lg:text-[0.9vw] text-[3vw] lg:leading-[1vw] leading-[4vw] text-black !no-underline hover:text-black">Property Accountants</Link></p>
-                                                <p className="text-[#767676] lg:pt-[20px] pt-[10px] lg:text-[1vw] text-[3vw] lg:leading-[1vw] leading-[4vw]">Explore more</p>
-                                                <p><Link href="/invoicing" className=" lg:text-[0.9vw] text-[3vw] lg:leading-[1vw] leading-[4vw] text-black !no-underline hover:text-black">Invoicing</Link></p>
-                                                <p><Link href="/ecommerceintegration" className=" lg:text-[0.9vw] text-[3vw] lg:leading-[1vw] leading-[4vw] text-black !no-underline hover:text-black">Ecommerce Integration</Link></p>
-                                                <p><Link href="/reporting" className=" lg:text-[0.9vw] text-[3vw] lg:leading-[1vw] leading-[4vw] text-black !no-underline hover:text-black">Reporting</Link></p>
-                                                <p><Link href="/personalexpenses" className=" lg:text-[0.9vw] text-[3vw] lg:leading-[1vw] leading-[4vw] text-black !no-underline hover:text-black">Personal Expenses</Link></p>
-                                                <p><Link href="/demo" className=" lg:text-[0.9vw] text-[3vw] lg:leading-[1vw] leading-[4vw] text-black !no-underline hover:text-black">Demo</Link></p>
-
-
-                                            </div>
-
-
-
-                                        </div>
-                                    )}
-                                </div>
-
-
-
-
-                            </div>
-                        </button> */}
 
 
                         <div
@@ -176,18 +128,8 @@ function Header() {
 
 
                     </nav>
-
-
-
-
-
-
-
-                   
-
-
-                    <div className="col-lg-2 p-0 m-0 lg:block hidden">
-                        <div className="flex gap-4 items-center">
+                    <div className="col-lg-3  lg:block hidden">
+                        <div className="flex gap-3 items-center justify-end">
                             <div className="flex items-center gap-2">
                                 <div
                                     className="relative"
@@ -197,7 +139,7 @@ function Header() {
                                     <button className="flex gap-2  justify-center items-center text-lg hover:text-gray-900 group font-[cd-r]">
                                         <div>
 
-                                            <Image className="img-responsive w-8" src="/Images/Vector.svg" alt="logo" width={1830} height={750} />
+                                            <Image className="img-responsive w-7" src="/Images/Vector.svg" alt="logo" width={1830} height={750} />
                                         </div>
 
                                         <p className="font-bold lg:text-[1.2vw] text-[3vw] lg:leading-[2vw] leading-[3vw] p-0 m-0">UK</p>
@@ -205,36 +147,36 @@ function Header() {
 
 
                                     {openMenu === "UK" && (
-                                        <div className="absolute right-0 top-[30px] border   py-2 mt-2 w-[200px] px-3 bg-white shadow-md rounded-md transition-all ease-in-out">
+                                        <div className="absolute   border   py-2 mt-2 w-[200px] px-3 bg-white shadow-md rounded-md transition-all ease-in-out">
 
 
                                             <div className="pt-2">
-                                                <Link href="" className="flex gap-3 justify-center  items-center text-lg !text-[#232323]  !no-underline hover:text-gray-900 group ">
+                                                <Link href="" className="flex gap-3 justify-left   items-center text-lg !text-[#232323]  !no-underline hover:text-gray-900 group ">
 
 
-                                                    <p className="font-medium lg:text-[1vw] text-[3vw] p-0 m-0 ">Singapore</p>
+                                                    <p className="font-medium lg:text-[1.1vw] text-[3vw] p-0 m-0 ">Singapore</p>
                                                 </Link>
                                             </div>
                                             <div className="pt-2">
-                                                <Link href="" className="flex gap-3 justify-center  items-center  !text-[#232323]  !no-underline hover:text-gray-900 group">
+                                                <Link href="" className="flex gap-3 justify-left   items-center  !text-[#232323]  !no-underline hover:text-gray-900 group">
 
 
-                                                    <p className="font-medium lg:text-[1vw] text-[3vw] p-0 m-0">HongKong</p>
+                                                    <p className="font-medium lg:text-[1.1vw] text-[3vw] p-0 m-0">HongKong</p>
                                                 </Link>
 
                                             </div>
                                             <div className="pt-2">
-                                                <Link href="" className="flex gap-3 justify-left pl-9  items-center  !text-[#232323]  !no-underline hover:text-gray-900 group">
+                                                <Link href="" className="flex gap-3 justify-left   items-center  !text-[#232323]  !no-underline hover:text-gray-900 group">
 
 
-                                                    <p className="font-medium lg:text-[1vw] text-[3vw] p-0 m-0 ">UAE</p>
+                                                    <p className="font-medium lg:text-[1.1vw] text-[3vw] p-0 m-0 ">UAE</p>
                                                 </Link>
                                             </div>
                                             <div className="pt-2">
-                                                <Link href="" className="flex gap-3 justify-left pl-9  items-center  !text-[#232323] !no-underline hover:text-gray-900 group">
+                                                <Link href="" className="flex gap-3 justify-left   items-center  !text-[#232323] !no-underline hover:text-gray-900 group">
 
 
-                                                    <p className="font-medium lg:text-[1vw] text-[3vw] p-0 m-0 ">US</p>
+                                                    <p className="font-medium lg:text-[1.1vw] text-[3vw] p-0 m-0 ">US</p>
                                                 </Link>
                                             </div>
                                         </div>
@@ -243,12 +185,15 @@ function Header() {
 
                             </div>
                             <div>
-                                <button type="button" className="text-white bg-black hover:bg-transparent focus:ring-4 font-medium rounded-5 text-sm px-5 py-2.5 me-2 mb-2  dark:hover:bg-transparent ">Log in</button>
+                                <button type="button" className="text-white bg-black   font-medium rounded-5 text-sm py-2 px-5 w-full ">Log in</button>
                             </div>
+                            {/* <div>
+                                <button type="button" className="text-white bg-black hover:bg-transparent focus:ring-4 font-medium rounded-5 text-sm px-5 py-2.5 me-2 mb-2  dark:hover:bg-transparent ">Log in</button>
+                            </div> */}
                         </div>
                     </div>
 
-                    
+
 
 
 
