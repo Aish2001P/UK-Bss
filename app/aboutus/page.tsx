@@ -76,7 +76,7 @@ export default function Page() {
                     <div className="col-lg-10 lg:pt-[80px] pt-[10px]">
                         <div className="row items-center">
                             <div className="col-lg-6">
-                                <div className="col-lg-12">
+                                <div className="col-lg-12 mb-4">
                                     <Image className="img-responsive w-full" src="/Images/about2.png" alt="logo" width={1830} height={750} />
                                 </div>
                             </div>
@@ -117,7 +117,7 @@ export default function Page() {
                                     </div>
                                 </div>
                                 <div className="col-lg-6 order-lg-2 order-1">
-                                    <div className="col-lg-12 ">
+                                    <div className="col-lg-12 mb-4">
                                         <Image className="img-responsive w-full" src="/Images/about3.png" alt="logo" width={1830} height={750} />
                                     </div>
                                 </div>
@@ -132,7 +132,7 @@ export default function Page() {
                     <div className="col-lg-10 lg:pt-[80px] pt-[10px]">
                         <div className="row items-center">
                             <div className="col-lg-6">
-                                <div className="col-lg-12">
+                                <div className="col-lg-12 mb-4">
                                     <Image className="img-responsive w-full" src="/Images/about2.png" alt="logo" width={1830} height={750} />
                                 </div>
                             </div>
@@ -173,7 +173,7 @@ export default function Page() {
                                     </div>
                                 </div>
                                 <div className="col-lg-6 order-lg-2 order-1">
-                                    <div className="col-lg-12 ">
+                                    <div className="col-lg-12 mb-4">
                                         <Image className="img-responsive w-full" src="/Images/about3.png" alt="logo" width={1830} height={750} />
                                     </div>
                                 </div>

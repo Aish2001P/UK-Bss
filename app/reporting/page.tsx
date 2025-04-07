@@ -24,7 +24,7 @@ export default function Home() {
                         <div className="lg:pb-[100px] pb-[50px]">
 
                             <div className="flex justify-center">
-                                <div className="col-lg-4 ">
+                                <div className="col-lg-5 ">
                                     <p className="font-semibold lg:text-[2.8vw] text-[4.5vw] lg:leading-[3.2vw] leading-[5.5vw] text-center lg:pt-[130px] pt-[30px] text-[#212833]">Key Business Metrics Available on the Go</p>
                                     <p className="text-[#232323] lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw] text-center lg:pt-[20px] pt-[10px] ">
                                         The Cloud BSS Dashboard gives you a comprehensive and easy-to-understand overview of your business finances. With automated document processing, we extract essential data so you can monitor your business performance in real-time, wherever you are.</p>

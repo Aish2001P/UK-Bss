@@ -643,7 +643,7 @@ export default function Home() {
 
             </section >
 
-            <section className="lg:px-[100px] px-[20px] lg:pt-[50px] pt-[40px] overflow-hidden lg:pb-[30px] pb-[15px] bg-[#CCDFFF]">
+            <section className="lg:px-[100px] px-[20px] lg:pt-[50px] pt-[40px] overflow-hidden lg:pb-[30px] pb-[15px] bg-[#000]">
                 <div className="row ">
                     <div className="col-lg-12 ">
                         <div className="row">
@@ -651,12 +651,12 @@ export default function Home() {
                                 <div className="col-lg-5">
                                     <div className="row justify-start">
 
-                                        <p className="lg:text-[2.5vw] text-[4vw] lg:leading-[3vw] leading-[5vw] font-semibold lg:pt-[30px] pt-[20px] text-[#0061FE]">Kickstart your business with expert accounting services</p>
-                                        <p className="lg:text-[1.2vw] text-[3vw] lg:leading-[2vw] leading-[4vw] lg:pt-[10px] pt-[5px] text-[#0061FE]">Streamline your company's financial admin right from the start with our accounting packages, starting at just £65/month.</p>
+                                        <p className="lg:text-[2.5vw] text-[4vw] lg:leading-[3vw] leading-[5vw] font-semibold lg:pt-[30px] pt-[20px] text-[#fff]">Kickstart your business with expert accounting services</p>
+                                        <p className="lg:text-[1.2vw] text-[3vw] lg:leading-[2vw] leading-[4vw] lg:pt-[10px] pt-[5px] text-[#fff]">Streamline your company's financial admin right from the start with our accounting packages, starting at just £65/month.</p>
 
 
                                     </div>
-                                    <button type="button" className="border border-dark text-[#0061FE] hover:bg-[#0061FE] hover:text-[#fff] font-medium !rounded-full text-md px-5 py-2 text-center items-center">Get this offer</button>
+                                    <button type="button" className="border border-light text-[#fff] hover:bg-[#fff] hover:text-[#000] font-medium !rounded-full text-md px-5 py-2 text-center items-center">Get this offer</button>
                                 </div>
                             </div>
                             <div className="col-lg-3">
@@ -681,7 +681,7 @@ export default function Home() {
                     <div className="col-lg-10 lg:pt-[80px] pt-[10px]">
                         <div className="row items-center">
                             <div className="col-lg-6">
-                                <div className="col-lg-12">
+                                <div className="col-lg-12 mb-4">
                                     <Image className="img-responsive w-full" src="/Images/copy6.png" alt="logo" width={1830} height={750} />
                                 </div>
                             </div>
@@ -767,7 +767,7 @@ export default function Home() {
                                     </div>
                                 </div>
                                 <div className="col-lg-6 order-lg-2 order-1">
-                                    <div className="col-lg-12 ">
+                                    <div className="col-lg-12 mb-4">
                                         <Image className="img-responsive w-full" src="/Images/copy7.png" alt="logo" width={1830} height={750} />
                                     </div>
                                 </div>
@@ -783,7 +783,7 @@ export default function Home() {
                     <div className="col-lg-10 lg:pt-[80px] pt-[60px]">
                         <div className="row items-center">
                             <div className="col-lg-6">
-                                <div className="col-lg-12">
+                                <div className="col-lg-12 mb-4">
                                     <Image className="img-responsive w-full" src="/Images/copy8.png" alt="logo" width={1830} height={750} />
                                 </div>
                             </div>
@@ -827,7 +827,7 @@ export default function Home() {
                                     </div>
                                 </div>
                                 <div className="col-lg-6 order-lg-2 order-1">
-                                    <div className="col-lg-12 ">
+                                    <div className="col-lg-12 mb-4">
                                         <Image className="img-responsive w-full" src="/Images/copy9.png" alt="logo" width={1830} height={750} />
                                     </div>
                                 </div>
@@ -843,7 +843,7 @@ export default function Home() {
                     <div className="col-lg-10 lg:pt-[80px] pt-[60px] lg:pb-[80px] pb-[50px]">
                         <div className="row items-center">
                             <div className="col-lg-6">
-                                <div className="col-lg-12">
+                                <div className="col-lg-12 mb-4">
                                     <Image className="img-responsive w-full" src="/Images/copy10.png" alt="logo" width={1830} height={750} />
                                 </div>
                             </div>
@@ -914,7 +914,7 @@ export default function Home() {
                 </div>
             </section>
 
-            <section className="lg:px-[100px] px-[20px] lg:pt-[50px] pt-[40px] overflow-hidden lg:pb-[30px] pb-[15px] bg-[#CCDFFF]">
+            <section className="lg:px-[100px] px-[20px] lg:pt-[50px] pt-[40px] overflow-hidden lg:pb-[30px] pb-[15px] bg-[#000]">
                 <div className="row ">
                     <div className="col-lg-12 ">
                         <div className="row">
@@ -922,8 +922,8 @@ export default function Home() {
                                 <div className="col-lg-5">
                                     <div className="row justify-start">
 
-                                        <p className="lg:text-[2.5vw] text-[6vw] lg:leading-[2.5vw] leading-[7vw] font-semibold lg:pt-[30px] pt-[20px] text-[#0061FE]">Download free guide on how to set up business in the UK</p>
-                                        <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw] lg:pt-[10px] pt-[5px] lg:pb-[10px] pb-[5px] text-[#0061FE]">We&apos;ve put together all of the documents and details you need to figure out before you open a company</p>
+                                        <p className="lg:text-[2.5vw] text-[6vw] lg:leading-[2.5vw] leading-[7vw] font-semibold lg:pt-[30px] pt-[20px] text-[#fff]">Download free guide on how to set up business in the UK</p>
+                                        <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw] lg:pt-[10px] pt-[5px] lg:pb-[10px] pb-[5px] text-[#fff]">We&apos;ve put together all of the documents and details you need to figure out before you open a company</p>
 
 
                                     </div>
@@ -932,12 +932,12 @@ export default function Home() {
                                             <input type="text" id="text" className="bg-white rounded-full px-5 py-2 text-black " placeholder="Email address" required></input>
                                         </div>
                                         <div className="lg:pt-[0px] pt-[15px]">
-                                            <button type="button" className="border border-dark text-[#0061FE] hover:bg-[#0061FE] hover:text-[#fff] font-medium !rounded-full text-md px-5 py-2 text-center items-center">Download</button>
+                                            <button type="button" className="border border-light text-[#fff] hover:bg-[#fff] hover:text-[#000] font-medium !rounded-full text-md px-5 py-2 text-center items-center">Download</button>
                                         </div>
                                     </div>
 
                                 </div>
-                                <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1vw] leading-[4vw] lg:pt-[30px] pt-[20px] font-medium text-[#0061FE]">By clicking, you agree to our<span className="underline">Terms & Conditions,Privacy and Data Protection Policy</span></p>
+                                <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1vw] leading-[4vw] lg:pt-[30px] pt-[20px] font-medium text-[#fff]">By clicking, you agree to our<span className="underline">Terms & Conditions,Privacy and Data Protection Policy</span></p>
                             </div>
                             <div className="col-lg-3">
                                 <Image className="img-responsive w-full " src="/Images/copy14.png" alt="logo" width={1830} height={750} />
@@ -972,7 +972,7 @@ export default function Home() {
                                                             <div className="lg:flex justify-between">
                                                                 <div className="col-lg-6">
 
-                                                                    <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.2vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833] lg:pt-[20px] pt-[10px]">
+                                                                    <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.2vw] leading-[4vw]  text-[#212833] lg:pt-[20px] pt-[10px]">
                                                                         This document provides details about your limited company and verifies its legal ability to operate in the UK. It contains the following information:
                                                                         <ul className="list-disc list-outside ">
                                                                             <li className="lg:pt-[20px] pt-[10px]" >The registered name of the company</li>
@@ -1002,12 +1002,12 @@ export default function Home() {
                                                             <div className="lg:flex justify-between">
                                                                 <div className="col-lg-6">
 
-                                                                    <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.2vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833] lg:pt-[20px] pt-[10px]">
+                                                                    <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.2vw] leading-[4vw]  text-[#212833] lg:pt-[20px] pt-[10px]">
                                                                         These forms include details about the directors, secretaries, and members of the limited company.</p>
 
-                                                                    <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.2vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833] lg:pt-[20px] pt-[10px]">Any form submitted to Companies House becomes part of the public record. As a result, the information, including personal data, will be accessible to the public unless it is deemed sensitive or restricted.</p>
+                                                                    <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.2vw] leading-[4vw]  text-[#212833] lg:pt-[20px] pt-[10px]">Any form submitted to Companies House becomes part of the public record. As a result, the information, including personal data, will be accessible to the public unless it is deemed sensitive or restricted.</p>
 
-                                                                    <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.2vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833] lg:pt-[20px] pt-[10px]">It&apos;s essential to ensure these statutory forms are kept current.</p>
+                                                                    <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.2vw] leading-[4vw]  text-[#212833] lg:pt-[20px] pt-[10px]">It&apos;s essential to ensure these statutory forms are kept current.</p>
 
                                                                 </div>
                                                                 <div className="col-lg-4 justify-center ">
@@ -1031,9 +1031,9 @@ export default function Home() {
                                                             <div className="lg:flex justify-between">
                                                                 <div className="col-lg-6">
 
-                                                                    <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.2vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833] lg:pt-[20px] pt-[10px]">The Articles of Association are formal regulations that govern the operation of a company. They are agreed upon by shareholders or guarantors, directors, and the company secretary. </p>
+                                                                    <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.2vw] leading-[4vw]  text-[#212833] lg:pt-[20px] pt-[10px]">The Articles of Association are formal regulations that govern the operation of a company. They are agreed upon by shareholders or guarantors, directors, and the company secretary. </p>
 
-                                                                    <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.2vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833] lg:pt-[20px] pt-[10px]">Every limited company is required to have Articles of Association upon registration. Companies can either draft their own customized Articles of Association or adopt the standard model provided by the UK government, which serves as the default set of rules.</p>
+                                                                    <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.2vw] leading-[4vw]  text-[#212833] lg:pt-[20px] pt-[10px]">Every limited company is required to have Articles of Association upon registration. Companies can either draft their own customized Articles of Association or adopt the standard model provided by the UK government, which serves as the default set of rules.</p>
 
                                                                 </div>
                                                                 <div className="col-lg-4 justify-center ">
@@ -1057,12 +1057,12 @@ export default function Home() {
                                                             <div className="lg:flex justify-between">
                                                                 <div className="col-lg-6">
 
-                                                                    <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.2vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833] lg:pt-[20px] pt-[10px]">
+                                                                    <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.2vw] leading-[4vw]  text-[#212833] lg:pt-[20px] pt-[10px]">
                                                                         Opening a business bank account enables you to manage financial transactions under your company's name, with features designed specifically for business operations.</p>
 
-                                                                    <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.2vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833] lg:pt-[20px] pt-[10px]">For limited companies, having a business account is a legal requirement and helps maintain a clear separation between personal and company finances, which is beneficial for tax purposes.</p>
+                                                                    <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.2vw] leading-[4vw]  text-[#212833] lg:pt-[20px] pt-[10px]">For limited companies, having a business account is a legal requirement and helps maintain a clear separation between personal and company finances, which is beneficial for tax purposes.</p>
 
-                                                                    <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.2vw] leading-[4vw]  lg:pl-[25px] pl-[5px] text-[#212833] lg:pt-[20px] pt-[10px]">This type of account is exclusively used for business activities and functions independently from personal finances.
+                                                                    <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.2vw] leading-[4vw]  text-[#212833] lg:pt-[20px] pt-[10px]">This type of account is exclusively used for business activities and functions independently from personal finances.
                                                                     </p>
 
                                                                 </div>

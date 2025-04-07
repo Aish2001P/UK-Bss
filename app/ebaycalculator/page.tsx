@@ -266,7 +266,7 @@ export default function Home() {
 
             </section>
 
-            <section className="lg:px-[100px] px-[20px] lg:pt-[50px] pt-[30px] overflow-hidden lg:pb-[50px] pb-[30px] bg-[#CCDFFF]">
+            <section className="lg:px-[100px] px-[20px] lg:pt-[50px] pt-[30px] overflow-hidden lg:pb-[50px] pb-[30px] bg-[#000]">
                 <div className="row ">
                     <div className="col-lg-12 ">
                         <div className="row">
@@ -274,15 +274,15 @@ export default function Home() {
                                 <div className="col-lg-5">
                                     <div className="row justify-start">
 
-                                        <p className="lg:text-[2.5vw] text-[6vw] lg:leading-[2.5vw] leading-[7vw] font-semibold lg:pt-[30px] pt-[20px] text-[#0061FE]">Accounting for your ecommerce business from £71/m</p>
-                                        <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw] lg:pt-[10px] pt-[5px] lg:pb-[10px] pb-[5px] text-[#0061FE]">We chat directly with your previous accountant to get all the information required, and transfer your accounting software subscription and data all in one go. Making your transition to Cloud BSS effortless.</p>
+                                        <p className="lg:text-[2.5vw] text-[6vw] lg:leading-[2.5vw] leading-[7vw] font-semibold lg:pt-[30px] pt-[20px] text-[#fff]">Accounting for your ecommerce business from £71/m</p>
+                                        <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw] lg:pt-[10px] pt-[5px] lg:pb-[10px] pb-[5px] text-[#fff]">We chat directly with your previous accountant to get all the information required, and transfer your accounting software subscription and data all in one go. Making your transition to Cloud BSS effortless.</p>
 
 
                                     </div>
 
 
                                     <div className="lg:pt-[0px] pt-[15px]">
-                                        <button type="button" className="border border-dark text-[#0061FE] hover:bg-[#0061FE] hover:text-[#fff] font-medium !rounded-full text-md px-5 py-2 text-center items-center">Get Started</button>
+                                        <button type="button" className="border border-light text-[#fff] hover:bg-[#fff] hover:text-[#000] font-medium !rounded-full text-md px-5 py-2 text-center items-center">Get Started</button>
                                     </div>
 
 
@@ -371,7 +371,7 @@ export default function Home() {
 
                                                                     <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.2vw] leading-[4vw]   text-[#212833]">
                                                                         Revenue is the amount of income produced by selling your products or services. To calculate it multiply the number of items sold by the sales price of each item or the average service price.<br></br>
-                                                                        <span className="text-[#0061FE]">Revenue = Sales × Average Price of Service or Sales Price</span></p>
+                                                                        <span className="text-[#fff]">Revenue = Sales × Average Price of Service or Sales Price</span></p>
 
                                                                     <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.2vw] leading-[4vw]   text-[#212833]">You figure out your total profit after you deduct all of the business expenses. This simplest profit formula when calculating profit for a single item is:<br></br>
                                                                         <span className="text-[#0061FE]">Profit = Price – Cost</span></p>
@@ -518,13 +518,6 @@ export default function Home() {
                 </div>
             </section>
 
-
-
-
-            
-            <section>
-
-            </section>
 
             <section className="lg:px-[100px] px-[20px] lg:pt-[60px] pt-[40px] lg:pb-[40px] pb-[30px] overflow-hidden bg-[#000]">
                 <div className="row">

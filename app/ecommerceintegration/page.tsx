@@ -31,7 +31,7 @@ export default function Home() {
                         <div className="lg:pb-[100px] pb-[30px]">
 
                             <div className="flex justify-center">
-                                <div className="col-lg-4 ">
+                                <div className="col-lg-5 ">
                                     <p className="font-semibold lg:text-[2.8vw] text-[4.5vw] lg:leading-[3.2vw] leading-[5.5vw] text-center lg:pt-[130px] pt-[30px] text-[#212833]">Ecommerce Insights at Your Fingertips</p>
                                     <p className="text-[#232323] lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw] text-center lg:pt-[20px] pt-[10px] ">
                                         Gain complete visibility into your online business performance by connecting your marketplaces and bank accounts. With Cloud BSS, you can easily track real-time sales, returns, and fees, empowering you to make smarter, more informed business decisions.</p>
@@ -270,7 +270,7 @@ export default function Home() {
                     <div className="col-lg-10 lg:pt-[80px] pt-[10px]">
                         <div className="row items-center">
                             <div className="col-lg-6">
-                                <div className="col-lg-12">
+                                <div className="col-lg-12 mb-4">
                                     <Image className="img-responsive w-full" src="/Images/6(10).png" alt="logo" width={1830} height={750} />
                                 </div>
                             </div>
@@ -305,7 +305,7 @@ export default function Home() {
                                     </div>
                                 </div>
                                 <div className="col-lg-6 order-lg-2 order-1">
-                                    <div className="col-lg-12 ">
+                                    <div className="col-lg-12 mb-4">
                                         <Image className="img-responsive w-full" src="/Images/6(11).png" alt="logo" width={1830} height={750} />
                                     </div>
                                 </div>

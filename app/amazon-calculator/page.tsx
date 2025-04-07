@@ -239,7 +239,7 @@ export default function Home() {
 
             </section>
 
-            <section className="lg:px-[100px] px-[20px] lg:pt-[50px] pt-[30px] overflow-hidden lg:pb-[50px] pb-[30px] bg-[#CCDFFF]">
+            <section className="lg:px-[100px] px-[20px] lg:pt-[50px] pt-[30px] overflow-hidden lg:pb-[50px] pb-[30px] bg-[#000]">
                 <div className="row ">
                     <div className="col-lg-12 ">
                         <div className="row">
@@ -247,15 +247,15 @@ export default function Home() {
                                 <div className="col-lg-5">
                                     <div className="row justify-start">
 
-                                        <p className="lg:text-[2.5vw] text-[6vw] lg:leading-[2.5vw] leading-[7vw] font-semibold lg:pt-[30px] pt-[20px] text-[#0061FE]">Accounting for your ecommerce business from £71/m</p>
-                                        <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw] lg:pt-[10px] pt-[5px] lg:pb-[10px] pb-[5px] text-[#0061FE]">We chat directly with your previous accountant to get all the information required, and transfer your accounting software subscription and data all in one go. Making your transition to Cloud BSS effortless.</p>
+                                        <p className="lg:text-[2.5vw] text-[6vw] lg:leading-[2.5vw] leading-[7vw] font-semibold lg:pt-[30px] pt-[20px] text-[#fff]">Accounting for your ecommerce business from £71/m</p>
+                                        <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw] lg:pt-[10px] pt-[5px] lg:pb-[10px] pb-[5px] text-[#fff]">We chat directly with your previous accountant to get all the information required, and transfer your accounting software subscription and data all in one go. Making your transition to Cloud BSS effortless.</p>
 
 
                                     </div>
 
 
                                     <div className="lg:pt-[0px] pt-[15px]">
-                                        <button type="button" className="border border-dark text-[#0061FE] hover:bg-[#0061FE] hover:text-[#fff] font-medium !rounded-full text-md px-5 py-2 text-center items-center">Get Started</button>
+                                        <button type="button" className="border border-light text-[#fff] hover:bg-[#fff] hover:text-[#000] font-medium !rounded-full text-md px-5 py-2 text-center items-center">Get Started</button>
                                     </div>
 
 
@@ -344,7 +344,7 @@ export default function Home() {
 
                                                                     <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.2vw] leading-[4vw]   text-[#212833]">
                                                                         Revenue is the amount of income produced by selling your products or services. To calculate it multiply the number of items sold by the sales price of each item or the average service price.<br></br>
-                                                                        <span className="text-[#0061FE]">Revenue = Sales × Average Price of Service or Sales Price</span></p>
+                                                                        <span className="text-[#fff]">Revenue = Sales × Average Price of Service or Sales Price</span></p>
 
                                                                     <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.2vw] leading-[4vw]   text-[#212833]">You figure out your total profit after you deduct all of the business expenses. This simplest profit formula when calculating profit for a single item is:<br></br>
                                                                         <span className="text-[#0061FE]">Profit = Price – Cost</span></p>
@@ -378,7 +378,7 @@ export default function Home() {
 
             <section className="lg:px-[100px] px-[20px] lg:pt-[80px] pt-[60px] lg:pb-[80px] pb-[30px] overflow-hidden bg-[#FFF]">
 
-                <div className="row">
+                <div className="flex w-full overflow-x-auto">
                     <div className="col-lg-12">
                         <div className="flex justify-center">
                             <button type="button" className="border border-dark  font-medium !rounded-full text-md px-5 py-2 text-center items-center uppercase">Amazon fees</button>
@@ -389,9 +389,9 @@ export default function Home() {
                                 <p className=" text-[#353535] lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[3vw]  text-center  lg:pb-[30px] pb-[20px]">When selling on Amazon, partners must pay a referral fee calculated as a percentage of the total sales price. This includes item price, delivery, and gift wrapping charges. Amazon deducts this fee from the total sales price.</p>
                             </div>
                         </div>
-                        <div className="flex justify-center">
+                        <div className="flex justify-center overflow-x-auto w-full">
                             <div className='col-lg-9'>
-                                <div className="block  p-6 bg-[#FFFDFA] border border-[#CDC6C0] rounded-4  ">
+                                <div className="row p-6 bg-[#FFFDFA] border border-[#CDC6C0] rounded-4  ">
 
                                     <div className="flex justify-between lg:pl-[20px] pl-[10px] ">
                                         <div className="col-lg-4">
@@ -895,7 +895,7 @@ export default function Home() {
                             </div>
                         </div>
 
-                        <div className="flex justify-center">
+                        {/* <div className="flex justify-center">
                             <div className='col-lg-10 '>
                                 <div className="relative flex flex-col min-w-0 break-words w-full mb-6">
                                     <div className="flex flex-wrap items-center">
@@ -904,25 +904,25 @@ export default function Home() {
                                                 <table className="w-full ">
                                                     <thead>
                                                         <tr>
-                                                        {/* <p className="flex justify-between lg:pl-[20px] pl-[10px]"> */}
+                                                     
                                                             <th className="lg:text-[1.1vw] text-[3.1vw] lg:leading-[1.5vw] leading-[4vw] font-medium  lg:pl-[20px] pl-[10px] ">Category </th>
                                                             <th className="lg:text-[1.1vw] text-[3.1vw] lg:leading-[1.5vw] leading-[4vw] font-medium">Referral fee (including the digital
                                                                 services tax)</th>
                                                             <th className="lg:text-[1.1vw] text-[3.1vw] lg:leading-[1.5vw] leading-[4vw] font-medium ">Per-item minimum referral fee</th>
                                                            
                                                              </tr>
-                                                            {/* </p>  */}
+                                                            
                                                             
                                                     </thead>
                                                     <hr className="border-2 !border-[#CDC6C0] "></hr>
                                                     <tbody>
-                                                    {/* <p className="flex justify-between lg:pl-[20px] pl-[10px] lg:pb-[20px] pb-[10px] lg:pt-[20px] pt-[10px]"> */}
+                                                   
                                                         <tr >
                                                             <td className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw] p-0 m-0">Amazon Device Accessories</td>
                                                             <td  className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw] p-0 m-0">45.9%</td>
                                                             <td className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw] p-0 m-0 lg:pl-[20px] pl-[10px]">£0.25 </td>
                                                         </tr>
-                                                        {/* </p> */}
+                                                       
                                                         <tr className='bg-[#F3EDE6] px-3'>
                                                             <td className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw] ">Automotive and Powersports</td>
                                                             <td className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw] !words-break ">• 15.3% for the portion of the total sales price up to £45.00 </td>
@@ -944,7 +944,7 @@ export default function Home() {
 
 
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </section >

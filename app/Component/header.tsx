@@ -27,9 +27,9 @@ function Header() {
 
     return (
         <>
-            <section className="lg:px-[100px] px-[20px] z-100   fixed w-full bg-[#F3EFE7]">
+            <section className="lg:px-[100px] px-[20px] z-100   fixed w-full bg-[#F3EFE7] ">
 
-                <div className="container-fluid  w-full z-100  flex items-center justify-between  py-4 lg:h-30 lg:pt-[40px] pt-[20px]">
+                <div className="container-fluid  w-full z-100  flex items-center justify-between  py-4 lg:h-30 lg:pt-[40px] pt-[20px] ">
 
                     <div className="col-5 col-lg-3">
                         <Link href="/">
@@ -62,7 +62,7 @@ function Header() {
                             </button>
 
                             {openMenu === "products" && (
-                                <div className="absolute left-[-2] top-[10px] py-1 mt-2 w-[280px] bg-white shadow-md rounded-md transition-all ease-in-out">
+                                <div className="lg:absolute  relative left-[-2] top-[10px] py-1 mt-2 w-[280px] bg-white shadow-md rounded-md transition-all ease-in-out">
                                     <ul className="pl-5 py-0 space-y-2 mt-3">
                                         <div className="text-left font-[cd]  ">
 
@@ -102,7 +102,7 @@ function Header() {
                             </button>
 
                             {openMenu === "pricing" && (
-                                <div className="absolute left-[-2] top-[10px] py-1 mt-2 w-[280px] bg-white shadow-md rounded-md transition-all ease-in-out">
+                                <div className="lg:absolute  relative left-[-2] top-[10px] py-1 mt-2 w-[280px] bg-white shadow-md rounded-md transition-all ease-in-out">
                                     <ul className="pl-5 py-0 space-y-2 mt-3">
                                         <div className="text-left font-[cd]  ">
 
@@ -121,7 +121,7 @@ function Header() {
                         </div>
 
 
-                        <Link href="/resources" className="text-black !no-underline  hover:text-gray-400">Resources</Link>
+                        <Link href="/blog" className="text-black !no-underline  hover:text-gray-400">Resources</Link>
 
 
 
@@ -147,7 +147,7 @@ function Header() {
 
 
                                     {openMenu === "UK" && (
-                                        <div className="absolute   border   py-2 mt-2 w-[200px] px-3 bg-white shadow-md rounded-md transition-all ease-in-out">
+                                        <div className="lg:absolute  relative  border   py-2 mt-2 w-[200px] px-3 bg-white shadow-md rounded-md transition-all ease-in-out">
 
 
                                             <div className="pt-2">
@@ -207,12 +207,23 @@ function Header() {
 
                     {isOpen && (
                         <div className="fixed inset-0 bg-black bg-opacity-50 z-50">
-                            <div className="fixed overflow-y-auto top-0 right-0 w-full h-full  bg-white shadow-lg p-5 flex flex-col">
+                            <div className="fixed overflow-y-auto top-0 right-0 w-full h-full bg-white shadow-lg p-5 flex flex-col">
                                 <button onClick={() => setIsOpen(false)} className="self-end text-gray-600">
                                     <XMarkIcon className="h-6 w-6" />
                                 </button>
 
-                                <nav className="mt-4 flex flex-col space-y-4">
+                                <div className="col-5 col-lg-3 pb-[30px]">
+                                    <Link href="/">
+                                        <Image
+                                            className="img-responsive lg:w-[150px] w-full"
+                                            src="/Images/Group 17645.svg"
+                                            alt="logo"
+                                            width={1080}
+                                            height={1080}
+                                        /></Link>
+                                </div>
+
+                                <nav className="mt-4 flex flex-col space-y-4 pb-[20px]">
                                     <Link href="/aboutus" className="text-black !no-underline hover:text-black">About</Link>
                                     <Link href="/Registeracompany" className="text-black !no-underline hover:text-black">Register a Company</Link>
 
@@ -265,7 +276,7 @@ function Header() {
                                         </button>
 
                                         {openMenu === "pricing" && (
-                                            <div className="absolute left-[-2] top-[10px] py-1 mt-2 w-[280px] bg-white shadow-md rounded-md transition-all ease-in-out">
+                                            <div className="lg:absolute  relative left-[-2] top-[10px] py-1 mt-2 w-[280px] bg-white shadow-md rounded-md transition-all ease-in-out">
                                                 <ul className="pl-5 py-0 space-y-2 mt-3">
                                                     <div className="text-left font-[cd]  ">
 
@@ -286,6 +297,70 @@ function Header() {
 
                                     <Link href="/resources" className="text-black !no-underline hover:text-black">Resources</Link>
                                 </nav>
+                                <div className="col-lg-3  ">
+                                    <div className=" items-center justify-end ">
+                                        <div className="flex items-center gap-2 pb-[20px]">
+                                            <div
+                                                className="relative"
+                                                onMouseEnter={() => handleMouseEnter("UK")}
+                                                onMouseLeave={handleMouseLeave}
+                                            >
+                                                <button className="flex gap-2  justify-center items-center text-lg hover:text-gray-900 group font-[cd-r]">
+                                                    <div>
+
+                                                        <Image className="img-responsive w-7" src="/Images/Vector.svg" alt="logo" width={1830} height={750} />
+                                                    </div>
+
+                                                    <p className="font-bold lg:text-[1.2vw] text-[6vw] lg:leading-[2vw] leading-[7vw] p-0 m-0">UK</p>
+                                                </button>
+
+
+                                                {openMenu === "UK" && (
+                                                    <div className="lg:absolute  relative  border   py-2 mt-2 w-[200px] px-3 bg-white shadow-md rounded-md transition-all ease-in-out">
+
+
+                                                        <div className="pt-2">
+                                                            <Link href="" className="flex gap-3 justify-left   items-center text-lg !text-[#232323]  !no-underline hover:text-gray-900 group ">
+
+
+                                                                <p className="font-medium lg:text-[1.1vw] text-[3vw] p-0 m-0 ">Singapore</p>
+                                                            </Link>
+                                                        </div>
+                                                        <div className="pt-2">
+                                                            <Link href="" className="flex gap-3 justify-left   items-center  !text-[#232323]  !no-underline hover:text-gray-900 group">
+
+
+                                                                <p className="font-medium lg:text-[1.1vw] text-[3vw] p-0 m-0">HongKong</p>
+                                                            </Link>
+
+                                                        </div>
+                                                        <div className="pt-2">
+                                                            <Link href="" className="flex gap-3 justify-left   items-center  !text-[#232323]  !no-underline hover:text-gray-900 group">
+
+
+                                                                <p className="font-medium lg:text-[1.1vw] text-[3vw] p-0 m-0 ">UAE</p>
+                                                            </Link>
+                                                        </div>
+                                                        <div className="pt-2">
+                                                            <Link href="" className="flex gap-3 justify-left   items-center  !text-[#232323] !no-underline hover:text-gray-900 group">
+
+
+                                                                <p className="font-medium lg:text-[1.1vw] text-[3vw] p-0 m-0 ">US</p>
+                                                            </Link>
+                                                        </div>
+                                                    </div>
+                                                )}
+                                            </div>
+
+                                        </div>
+
+                                        <div className=" ">
+                                            <button type="button" className="text-white bg-black   font-semibold rounded-5 text-sm  w-full lg:w-full py-2.5 px-5">Log in</button>
+                                        </div>
+
+
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     )}

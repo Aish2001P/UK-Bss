@@ -35,7 +35,8 @@ export default function Home() {
                                                 <button type="button" className="border border-dark hover:bg-[#000] hover:text-[#fff] font-medium !rounded-full text-sm px-5 py-2 text-center items-center">Get Started</button>
                                             </div>
                                             <div>
-                                                <button type="button" className="border border-dark hover:bg-[#000] hover:text-[#fff] font-medium !rounded-full text-sm px-5 py-2 text-center items-center">Pricing</button>
+                                                <Link href="/accountingprices" className="text-black">
+                                                    <button type="button" className="border border-dark hover:bg-[#000] hover:text-[#fff] font-medium !rounded-full text-sm px-5 py-2 text-center items-center">Pricing</button></Link>
                                             </div>
                                         </div>
 
@@ -231,982 +232,983 @@ export default function Home() {
                 </div>
             </section>
 
+
             <section className="lg:px-[100px] px-[20px] lg:pt-[80px] pt-[60px] overflow-hidden lg:pb-[60px] pb-[60px] bg-[#FFF]">
 
-<div className="row ">
-    <div className="col-lg-12 ">
-        <div className="flex justify-center">
-            <div className="col-lg-6">
-                <div className="lg:pb-[60px] pb-[30px] text-center">
-                    <button type="button" className="border border-dark hover:bg-[#000] hover:text-[#fff] font-medium !rounded-full text-md px-5 py-2 text-center items-center">PRICING</button>
-                    <p className="lg:text-[2.5vw] text-[4vw] lg:leading-[3vw] leading-[5vw] font-semibold lg:pt-[30px] pt-[20px]">Plans to fit your business</p>
-                    <p className="lg:text-[1.2vw] text-[3vw] lg:leading-[2vw] leading-[4vw] lg:pt-[10px] pt-[5px]">Packages tailored to what your business needs. Choose extra add-ons according to your operational needs.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div className="col-lg-12 ">
-        <div className="row justify-center">
-            <div className="col-lg-3 mb-4 ">
-                <div className="block  p-1 bg-[#F3EFE7]  rounded-4   ">
-                    <div className="block  p-6 bg-[#FFFDFA]  rounded-4   ">
-                        <p className="lg:text-[1.5vw] text-[4vw] lg:leading-[1vw] leading-[5vw] font-medium lg:pt-[10px] pt-[5px]">Operate</p>
-                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw]  text-[#616161]">For business owners who want to ensure they tick all basic compliance boxes as they grow</p>
-                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[0vw] leading-[4vw]  text-[#000] font-medium">from</p>
-                        <p className="lg:text-[2.5vw] text-[6vw] lg:leading-[3.5vw] leading-[7vw] font-medium m-0 p-0">£71/m</p>
-                        <p className="lg:text-[0.7vw] text-[2vw] lg:leading-[1vw] leading-[3vw]  text-[#616161] ">£850 billed annually, per financial year + VAT</p>
-                        <button type="button" className="border border-dark hover:bg-[#000] hover:text-[#fff] font-medium !rounded-full text-md w-full py-2 text-center items-center">Get this plan</button>
-                    </div >
-                    <div className="lg:pl-[25px] pl-[10px] lg:pt-[30px] pt-[30px] font-medium">
-                        <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1.7vw] leading-[4vw] ">
-                            <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[0.5vw] leading-[4vw] font-semibold ">Financial software</p>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0">  Create, send, and chase invoices</p>
+                <div className="row ">
+                    <div className="col-lg-12 ">
+                        <div className="flex justify-center">
+                            <div className="col-lg-6">
+                                <div className="lg:pb-[60px] pb-[30px] text-center">
+                                    <button type="button" className="border border-dark  font-medium !rounded-full text-md px-5 py-2 text-center items-center">PRICING</button>
+                                    <p className="lg:text-[2.5vw] text-[4vw] lg:leading-[3vw] leading-[5vw] font-semibold lg:pt-[30px] pt-[20px]">Plans to fit your business</p>
+                                    <p className="lg:text-[1.2vw] text-[3vw] lg:leading-[2vw] leading-[4vw] lg:pt-[10px] pt-[5px]">Packages tailored to what your business needs. Choose extra add-ons according to your operational needs.</p>
                                 </div>
                             </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0">Capture bills and receipts easily </p>
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0">Pay bills in one click</p>
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0"> Reimburse expenses</p>
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0">Real-time financial reports</p>
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0">Connect your banks</p>
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0">Use multiple currencies</p>
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0">Connect 1 marketplace</p>
-                                </div>
-                            </div>
-                            <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[0.5vw] leading-[4vw] font-semibold lg:pt-[30px] pt-[20px]">Ecommerce</p>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0">Ecommerce platforms integration
-                                    </p>
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0">Real-time ecommerce sales reports</p>
-                                </div>
-                            </div>
-
-                            <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[0.5vw] leading-[4vw] font-semibold lg:pt-[30px] pt-[20px]">Bookkeeping</p>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0">Unlimited bookkeeping
-                                    </p>
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0">Automatic reconciliations</p>
-                                </div>
-                            </div>
-
-                            <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[0.5vw] leading-[4vw] font-semibold lg:pt-[30px] pt-[20px]">Expert service</p>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0">Initial consultation with a tax expert</p>
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0">In-app chat</p>
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0">Tax advice on payroll and dividends</p>
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0">Business review with accountant annually</p>
-                                </div>
-                            </div>
-
-
-                            <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[0.5vw] leading-[4vw] font-semibold lg:pt-[30px] pt-[20px]">Tax & Filings</p>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0">Annual filings</p>
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0">Self-assessment</p>
-                                </div>
-                            </div>
-
-
-                            <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[0.5vw] leading-[4vw] font-semibold lg:pt-[30px] pt-[20px]">Payrolls</p>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0">PAYE registration</p>
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0"> 1st Director Payroll</p>
-                                </div>
-                            </div>
-
-
-                            <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[0.5vw] leading-[4vw] font-semibold lg:pt-[30px] pt-[20px]">Company admin</p>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0">Unlimited corporate changes
-                                    </p>
-                                </div>
-                            </div>
-
-
-
-                        </p>
+                        </div>
                     </div>
-                    <hr className="border-2 border-[#B0B0B0]"></hr>
+                    <div className="col-lg-12 ">
+                        <div className="row justify-center">
+                            <div className="col-lg-4 mb-4 ">
+                                <div className="block  p-1 bg-[#F3EFE7]  rounded-4   ">
+                                    <div className="block  p-6 bg-[#FFFDFA]  rounded-4   ">
+                                        <p className="lg:text-[1.5vw] text-[4vw] lg:leading-[1vw] leading-[5vw] font-medium lg:pt-[10px] pt-[5px]">Operate</p>
+                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw]  text-[#616161]">For business owners who want to ensure they tick all basic compliance boxes as they grow</p>
+                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[0vw] leading-[4vw]  text-[#000] font-medium">from</p>
+                                        <p className="lg:text-[2.5vw] text-[6vw] lg:leading-[3.5vw] leading-[7vw] font-medium m-0 p-0">£71/m</p>
+                                        <p className="lg:text-[0.7vw] text-[2vw] lg:leading-[1vw] leading-[3vw]  text-[#616161] ">£850 billed annually, per financial year + VAT</p>
+                                        <button type="button" className="border border-dark hover:bg-[#000] hover:text-[#fff] font-medium !rounded-full text-md w-full py-2 text-center items-center">Get this plan</button>
+                                    </div >
+                                    <div className="lg:pl-[25px] pl-[10px] lg:pt-[30px] pt-[30px] font-medium">
+                                        <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] ">
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold ">Financial software</p>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0">  Create, send, and chase invoices</p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0">Capture bills and receipts easily </p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0">Pay bills in one click</p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0"> Reimburse expenses</p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0">Real-time financial reports</p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0">Connect your banks</p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0">Use multiple currencies</p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0">Connect 1 marketplace</p>
+                                                </div>
+                                            </div>
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold lg:pt-[30px] pt-[20px]">Ecommerce</p>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0">Ecommerce platforms integration
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0">Real-time ecommerce sales reports</p>
+                                                </div>
+                                            </div>
 
-                    <div className="col-lg-12">
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold lg:pt-[30px] pt-[20px]">Bookkeeping</p>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0">Unlimited bookkeeping
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0">Automatic reconciliations</p>
+                                                </div>
+                                            </div>
+
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold lg:pt-[30px] pt-[20px]">Expert service</p>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0">Initial consultation with a tax expert</p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0">In-app chat</p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0">Tax advice on payroll and dividends</p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0">Business review with accountant annually</p>
+                                                </div>
+                                            </div>
+
+
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold lg:pt-[30px] pt-[20px]">Tax & Filings</p>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0">Annual filings</p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0">Self-assessment</p>
+                                                </div>
+                                            </div>
+
+
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold lg:pt-[30px] pt-[20px]">Payrolls</p>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0">PAYE registration</p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0"> 1st Director Payroll</p>
+                                                </div>
+                                            </div>
+
+
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold lg:pt-[30px] pt-[20px]">Company admin</p>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0">Unlimited corporate changes
+                                                    </p>
+                                                </div>
+                                            </div>
+
+
+
+                                        </p>
+                                    </div>
+                                    <hr className="border-2 border-[#B0B0B0]"></hr>
+
+                                    <div className="col-lg-12">
                                         <p className="lg:text-[1vw] text-[4vw] lg:leading-[1vw] leading-[5vw] font-semibold lg:pt-[10px] pt-[5px] lg:pl-[15px] pl-[5px] ">Historical work</p>
                                         <div className="flex justify-between">
                                             <div className="col-lg-9">
-                                                <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-medium  lg:pl-[15px] pl-[5px] ">?  Catch-up bookkeeping</p>
+                                                <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-medium  lg:pl-[15px] pl-[5px] ">?  Catch-up bookkeeping</p>
                                             </div>
                                             <div className="col-lg-3">
-                                                <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-semibold text-[#767676] ">£85/m</p>
+                                                <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold text-[#767676] ">£85/m</p>
                                             </div>
                                         </div>
                                         <div className="flex justify-between">
                                             <div className="col-lg-9">
-                                                <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-medium  lg:pl-[15px] pl-[5px] ">?  Urgency filing</p>
+                                                <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-medium  lg:pl-[15px] pl-[5px] ">?  Urgency filing</p>
                                             </div>
                                             <div className="col-lg-3">
-                                                <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-semibold text-[#767676] ">£200</p>
+                                                <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold text-[#767676] ">£200</p>
                                             </div>
                                         </div>
                                         <div className="flex justify-between">
                                             <div className="col-lg-9">
-                                                <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-medium  lg:pl-[15px] pl-[5px] ">?  Historical annual filing and bookkeeping</p>
+                                                <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-medium  lg:pl-[15px] pl-[5px] ">?  Historical annual filing and bookkeeping</p>
                                             </div>
                                             <div className="col-lg-3">
-                                                <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-semibold text-[#767676] ">£680/m</p>
+                                                <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold text-[#767676] ">£680/m</p>
                                             </div>
                                         </div>
                                     </div>
 
-                </div>
-            </div>
-
-            <div className="col-lg-3 mb-4 ">
-                <div className="block  p-1 bg-[#F3EFE7]  rounded-4 shadow-sm  ">
-                    <div className="block  p-6 bg-[#FFFDFA]  rounded-4   ">
-                        <p className="lg:text-[1.5vw] text-[4vw] lg:leading-[1vw] leading-[5vw] font-medium lg:pt-[10px] pt-[5px]">Grow</p>
-                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw]  text-[#616161]">For businesses nearing VAT registration, seeking up-to-date analytics and consultations</p>
-                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[0vw] leading-[4vw]  text-[#000] font-medium">from</p>
-                        <p className="lg:text-[2.5vw] text-[6vw] lg:leading-[3.5vw] leading-[7vw] font-medium m-0 p-0">£137/m</p>
-                        <p className="lg:text-[0.7vw] text-[2vw] lg:leading-[1vw] leading-[3vw]  text-[#616161] ">£1,640 billed annually + VAT</p>
-                        <button type="button" className="border border-dark hover:bg-[#000] hover:text-[#fff] font-medium !rounded-full text-md w-full py-2 text-center items-center">Get this plan</button>
-                    </div >
-
-                    <div className="lg:pl-[25px] pl-[10px] lg:pt-[30px] pt-[30px] font-medium">
-                    <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1.7vw] leading-[4vw] ">
-                            <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[0.5vw] leading-[4vw] font-semibold ">Financial software</p>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0">  Create, send, and chase invoices</p>
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0">Capture bills and receipts easily </p>
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0">Pay bills in one click</p>
-
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0"> Reimburse expenses</p>
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0">Real-time financial reports</p>
-                                </div>
-                            </div>
-                           
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0">Connect your banks</p>
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0">Use multiple currencies</p>
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0">Connect ecommerce marketplace</p>
-                                </div>
-                            </div>
-                            <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[0.5vw] leading-[4vw] font-semibold lg:pt-[30px] pt-[20px]">Ecommerce</p>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0">Ecommerce platforms integration
-                                    </p>
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0">Real-time ecommerce sales reports</p>
                                 </div>
                             </div>
 
-                            <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[0.5vw] leading-[4vw] font-semibold lg:pt-[30px] pt-[20px]">Bookkeeping</p>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0">Unlimited bookkeeping
-                                    </p>
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0">Automatic reconciliations</p>
-                                </div>
-                            </div>
+                            <div className="col-lg-4 mb-4 ">
+                                <div className="block  p-1 bg-[#F3EFE7]  rounded-4 shadow-sm  ">
+                                    <div className="block  p-6 bg-[#FFFDFA]  rounded-4   ">
+                                        <p className="lg:text-[1.5vw] text-[4vw] lg:leading-[1vw] leading-[5vw] font-medium lg:pt-[10px] pt-[5px]">Grow</p>
+                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw]  text-[#616161]">For businesses nearing VAT registration, seeking up-to-date analytics and consultations</p>
+                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[0vw] leading-[4vw]  text-[#000] font-medium">from</p>
+                                        <p className="lg:text-[2.5vw] text-[6vw] lg:leading-[3.5vw] leading-[7vw] font-medium m-0 p-0">£137/m</p>
+                                        <p className="lg:text-[0.7vw] text-[2vw] lg:leading-[1vw] leading-[3vw]  text-[#616161] ">£1,640 billed annually + VAT</p>
+                                        <button type="button" className="border border-dark hover:bg-[#000] hover:text-[#fff] font-medium !rounded-full text-md w-full py-2 text-center items-center">Get this plan</button>
+                                    </div >
 
-                            <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[0.5vw] leading-[4vw] font-semibold lg:pt-[30px] pt-[20px]">Expert service</p>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0">Initial consultation with a tax expert</p>
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0">In-app chat</p>
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0">Tax advice on payroll and dividends</p>
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#0061FE" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0 text-[#0061FE]">Video calls with an expert</p>
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#0061FE" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0 text-[#0061FE]">Business review with accountant monthly</p>
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#0061FE" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0 text-[#0061FE]">Ad-hoc tax advice</p>
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#0061FE" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0 text-[#0061FE]">Dedicated accountant</p>
-                                </div>
-                            </div>
+                                    <div className="lg:pl-[25px] pl-[10px] lg:pt-[30px] pt-[30px] font-medium">
+                                        <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] ">
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold ">Financial software</p>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0">  Create, send, and chase invoices</p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0">Capture bills and receipts easily </p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0">Pay bills in one click</p>
+
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0"> Reimburse expenses</p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0">Real-time financial reports</p>
+                                                </div>
+                                            </div>
+
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0">Connect your banks</p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0">Use multiple currencies</p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0">Connect ecommerce marketplace</p>
+                                                </div>
+                                            </div>
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold lg:pt-[30px] pt-[20px]">Ecommerce</p>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0">Ecommerce platforms integration
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0">Real-time ecommerce sales reports</p>
+                                                </div>
+                                            </div>
+
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold lg:pt-[30px] pt-[20px]">Bookkeeping</p>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0">Unlimited bookkeeping
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0">Automatic reconciliations</p>
+                                                </div>
+                                            </div>
+
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold lg:pt-[30px] pt-[20px]">Expert service</p>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0">Initial consultation with a tax expert</p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0">In-app chat</p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0">Tax advice on payroll and dividends</p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#0061FE" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0 text-[#0061FE]">Video calls with an expert</p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#0061FE" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0 text-[#0061FE]">Business review with accountant monthly</p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#0061FE" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0 text-[#0061FE]">Ad-hoc tax advice</p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#0061FE" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0 text-[#0061FE]">Dedicated accountant</p>
+                                                </div>
+                                            </div>
 
 
-                            <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[0.5vw] leading-[4vw] font-semibold lg:pt-[30px] pt-[20px]">Tax & Filings</p>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0">Annual filings</p>
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0">Self-assessment</p>
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#0061FE" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0 text-[#0061FE]">VAT filing</p>
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#0061FE" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0 text-[#0061FE]">VAT registration</p>
-                                </div>
-                            </div>
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold lg:pt-[30px] pt-[20px]">Tax & Filings</p>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0">Annual filings</p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0">Self-assessment</p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#0061FE" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0 text-[#0061FE]">VAT filing</p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#0061FE" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0 text-[#0061FE]">VAT registration</p>
+                                                </div>
+                                            </div>
 
 
-                            <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[0.5vw] leading-[4vw] font-semibold lg:pt-[30px] pt-[20px]">Payrolls</p>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0">PAYE registration</p>
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0"> 1st Director Payroll</p>
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#0061FE" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0 text-[#0061FE]">Full payroll, 5 employees</p>
-                                </div>
-                            </div>
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold lg:pt-[30px] pt-[20px]">Payrolls</p>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0">PAYE registration</p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0"> 1st Director Payroll</p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#0061FE" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0 text-[#0061FE]">Full payroll, 5 employees</p>
+                                                </div>
+                                            </div>
 
 
-                            <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[0.5vw] leading-[4vw] font-semibold lg:pt-[30px] pt-[20px]">Company admin</p>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0">Unlimited corporate changes
-                                    </p>
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#0061FE" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0 text-[#0061FE]">Registered London office address</p>
-                                </div>
-                            </div>
-
-
-
-                        </p>
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold lg:pt-[30px] pt-[20px]">Company admin</p>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0">Unlimited corporate changes
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#0061FE" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0 text-[#0061FE]">Registered London office address</p>
+                                                </div>
+                                            </div>
 
 
 
+                                        </p>
 
-                    </div>
-                    <hr className="border-2 border-[#B0B0B0]"></hr>
-                    <div className="col-lg-12">
+
+
+
+                                    </div>
+                                    <hr className="border-2 border-[#B0B0B0]"></hr>
+                                    <div className="col-lg-12">
                                         <p className="lg:text-[1vw] text-[4vw] lg:leading-[1vw] leading-[5vw] font-semibold lg:pt-[10px] pt-[5px] lg:pl-[15px] pl-[5px] ">Historical work</p>
                                         <div className="flex justify-between">
                                             <div className="col-lg-9">
-                                                <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-medium  lg:pl-[15px] pl-[5px] ">?  Catch-up bookkeeping</p>
+                                                <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-medium  lg:pl-[15px] pl-[5px] ">?  Catch-up bookkeeping</p>
                                             </div>
                                             <div className="col-lg-3">
-                                                <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-semibold text-[#767676] ">£164/m</p>
+                                                <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold text-[#767676] ">£164/m</p>
                                             </div>
                                         </div>
                                         <div className="flex justify-between">
                                             <div className="col-lg-9">
-                                                <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-medium  lg:pl-[15px] pl-[5px] ">?  Urgency filing</p>
+                                                <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-medium  lg:pl-[15px] pl-[5px] ">?  Urgency filing</p>
                                             </div>
                                             <div className="col-lg-3">
-                                                <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-semibold text-[#767676] ">£200</p>
+                                                <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold text-[#767676] ">£200</p>
                                             </div>
                                         </div>
                                         <div className="flex justify-between">
                                             <div className="col-lg-9">
-                                                <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-medium  lg:pl-[15px] pl-[5px] ">?  Historical annual filing and bookkeeping</p>
+                                                <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-medium  lg:pl-[15px] pl-[5px] ">?  Historical annual filing and bookkeeping</p>
                                             </div>
                                             <div className="col-lg-3">
-                                                <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-semibold text-[#767676] ">£680/m</p>
+                                                <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold text-[#767676] ">£680/m</p>
                                             </div>
                                         </div>
                                     </div>
 
-                </div>
 
-            </div>
+                                </div>
 
-            <div className="col-lg-3 mb-4 ">
-                <div className="block  p-1 bg-[#F3EFE7]  rounded-4 shadow-sm  ">
-                    <div className="block  p-6 bg-[#FFFDFA]  rounded-4 shadow-sm  ">
-                        <p className="lg:text-[1.5vw] text-[4vw] lg:leading-[1vw] leading-[5vw] font-medium lg:pt-[10px] pt-[5px]">Scale</p>
-                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw]  text-[#616161]">For entrepreneurs earning £350k+ annually, managing multiple roles and seeking to simplify financial tasks
-
-</p>
-                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[0vw] leading-[4vw]  text-[#000] font-medium">from</p>
-                        <p className="lg:text-[2.5vw] text-[6vw] lg:leading-[3.5vw] leading-[7vw] font-medium m-0 p-0">£224/m</p>
-                        <p className="lg:text-[0.7vw] text-[2vw] lg:leading-[1vw] leading-[3vw]  text-[#616161] ">£2,690 billed annually, per financial year + VAT</p>
-                        <button type="button" className="border border-dark hover:bg-[#000] hover:text-[#fff] font-medium !rounded-full text-md w-full py-2 text-center items-center">Get this plan</button>
-                    </div>
-                    <div className="lg:pl-[25px] pl-[10px] lg:pt-[30px] pt-[30px] font-medium">
-                    <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1.7vw] leading-[4vw] ">
-                            <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[0.5vw] leading-[4vw] font-semibold ">Financial software</p>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0">  Create, send, and chase invoices</p>
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0">Capture bills and receipts easily </p>
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0">Pay bills in one click</p>
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0"> Reimburse expenses</p>
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0">Real-time financial reports</p>
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0">Connect your banks</p>
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0">Use multiple currencies</p>
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0">Connect ecommerce marketplace</p>
-                                </div>
                             </div>
 
-                            <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[0.5vw] leading-[4vw] font-semibold lg:pt-[30px] pt-[20px]">Ecommerce</p>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0">Ecommerce platforms integration
-                                    </p>
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0">Real-time ecommerce sales reports</p>
-                                </div>
-                            </div>
+                            <div className="col-lg-4 mb-4 ">
+                                <div className="block  p-1 bg-[#F3EFE7]  rounded-4 shadow-sm  ">
+                                    <div className="block  p-6 bg-[#FFFDFA]  rounded-4 shadow-sm  ">
+                                        <p className="lg:text-[1.5vw] text-[4vw] lg:leading-[1vw] leading-[5vw] font-medium lg:pt-[10px] pt-[5px]">Scale</p>
+                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.3vw] leading-[4vw]  text-[#616161]">For entrepreneurs earning £350k+ annually, managing multiple roles and seeking to simplify financial tasks
 
-                            <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[0.5vw] leading-[4vw] font-semibold lg:pt-[30px] pt-[20px]">Bookkeeping</p>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0">Unlimited bookkeeping
-                                    </p>
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0">Automatic reconciliations</p>
-                                </div>
-                            </div>
+                                        </p>
+                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[0vw] leading-[4vw]  text-[#000] font-medium">from</p>
+                                        <p className="lg:text-[2.5vw] text-[6vw] lg:leading-[3.5vw] leading-[7vw] font-medium m-0 p-0">£224/m</p>
+                                        <p className="lg:text-[0.7vw] text-[2vw] lg:leading-[1vw] leading-[3vw]  text-[#616161] ">£2,690 billed annually, per financial year + VAT</p>
+                                        <button type="button" className="border border-dark hover:bg-[#000] hover:text-[#fff] font-medium !rounded-full text-md w-full py-2 text-center items-center">Get this plan</button>
+                                    </div>
+                                    <div className="lg:pl-[25px] pl-[10px] lg:pt-[30px] pt-[30px] font-medium">
+                                        <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] ">
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold ">Financial software</p>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0">  Create, send, and chase invoices</p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0">Capture bills and receipts easily </p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0">Pay bills in one click</p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0"> Reimburse expenses</p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0">Real-time financial reports</p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0">Connect your banks</p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0">Use multiple currencies</p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0">Connect ecommerce marketplace</p>
+                                                </div>
+                                            </div>
 
-                            <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[0.5vw] leading-[4vw] font-semibold lg:pt-[30px] pt-[20px]">Expert service</p>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0">Initial consultation with a tax expert</p>
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0">In-app chat</p>
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0">Tax advice on payroll and dividends</p>
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#0061FE" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0 text-[#0061FE]">Video calls with an expert</p>
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#0061FE" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0 text-[#0061FE]">Business review with accountant monthly</p>
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#0061FE" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0 text-[#0061FE]">Ad-hoc tax advice</p>
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#0061FE" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0 text-[#0061FE]"> Senior Dedicated accountant</p>
-                                </div>
-                            </div>
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold lg:pt-[30px] pt-[20px]">Ecommerce</p>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0">Ecommerce platforms integration
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0">Real-time ecommerce sales reports</p>
+                                                </div>
+                                            </div>
 
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold lg:pt-[30px] pt-[20px]">Bookkeeping</p>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0">Unlimited bookkeeping
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0">Automatic reconciliations</p>
+                                                </div>
+                                            </div>
 
-                            <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[0.5vw] leading-[4vw] font-semibold lg:pt-[30px] pt-[20px]">Tax & Filings</p>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0">Annual filings</p>
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0">Self-assessment</p>
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#0061FE" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0 text-[#0061FE]">VAT filing</p>
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#0061FE" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0 text-[#0061FE]">VAT registration</p>
-                                </div>
-                            </div>
-
-
-                            <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[0.5vw] leading-[4vw] font-semibold lg:pt-[30px] pt-[20px]">Payrolls</p>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0">PAYE registration</p>
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0"> 1st Director Payroll</p>
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#0061FE" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0 text-[#0061FE]">Full payroll, 10 employees</p>
-                                </div>
-                            </div>
-
-
-                            <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[0.5vw] leading-[4vw] font-semibold lg:pt-[30px] pt-[20px]">Company admin</p>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0">Unlimited corporate changes
-                                    </p>
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#0061FE" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0 text-[#0061FE]">Registered London office address</p>
-                                </div>
-                            </div>
-                            <div className="flex gap-2">
-                                <div className="p-0 m-0" >
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#0061FE" fill="none">
-                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg></div>
-                                <div>
-                                    <p className="p-0 m-0 text-[#0061FE]">Professional references</p>
-                                </div>
-                            </div>
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold lg:pt-[30px] pt-[20px]">Expert service</p>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0">Initial consultation with a tax expert</p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0">In-app chat</p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0">Tax advice on payroll and dividends</p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#0061FE" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0 text-[#0061FE]">Video calls with an expert</p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#0061FE" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0 text-[#0061FE]">Business review with accountant monthly</p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#0061FE" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0 text-[#0061FE]">Ad-hoc tax advice</p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#0061FE" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0 text-[#0061FE]"> Senior Dedicated accountant</p>
+                                                </div>
+                                            </div>
 
 
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold lg:pt-[30px] pt-[20px]">Tax & Filings</p>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0">Annual filings</p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0">Self-assessment</p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#0061FE" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0 text-[#0061FE]">VAT filing</p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#0061FE" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0 text-[#0061FE]">VAT registration</p>
+                                                </div>
+                                            </div>
 
 
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold lg:pt-[30px] pt-[20px]">Payrolls</p>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0">PAYE registration</p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0"> 1st Director Payroll</p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#0061FE" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0 text-[#0061FE]">Full payroll, 10 employees</p>
+                                                </div>
+                                            </div>
 
-                        </p>
+
+                                            <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold lg:pt-[30px] pt-[20px]">Company admin</p>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#000000" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0">Unlimited corporate changes
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#0061FE" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0 text-[#0061FE]">Registered London office address</p>
+                                                </div>
+                                            </div>
+                                            <div className="flex gap-2">
+                                                <div className="p-0 m-0" >
+                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="" color="#0061FE" fill="none">
+                                                        <path d="M5 14L8.5 17.5L19 6.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                    </svg></div>
+                                                <div>
+                                                    <p className="p-0 m-0 text-[#0061FE]">Professional references</p>
+                                                </div>
+                                            </div>
 
 
 
 
 
-                    </div>
-                    <hr className="border-2 border-[#B0B0B0]"></hr>
-                    <div className="col-lg-12">
+                                        </p>
+
+
+
+
+
+                                    </div>
+                                    <hr className="border-2 border-[#B0B0B0]"></hr>
+                                    <div className="col-lg-12">
                                         <p className="lg:text-[1vw] text-[4vw] lg:leading-[1vw] leading-[5vw] font-semibold lg:pt-[10px] pt-[5px] lg:pl-[15px] pl-[5px] ">Historical work</p>
                                         <div className="flex justify-between">
                                             <div className="col-lg-9">
-                                                <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-medium  lg:pl-[15px] pl-[5px] ">?  Catch-up bookkeeping</p>
+                                                <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-medium  lg:pl-[15px] pl-[5px] ">?  Catch-up bookkeeping</p>
                                             </div>
                                             <div className="col-lg-3">
-                                                <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-semibold text-[#767676] ">£269/m</p>
+                                                <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold text-[#767676] ">£269/m</p>
                                             </div>
                                         </div>
                                         <div className="flex justify-between">
                                             <div className="col-lg-9">
-                                                <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-medium  lg:pl-[15px] pl-[5px] ">?  Urgency filing</p>
+                                                <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-medium  lg:pl-[15px] pl-[5px] ">?  Urgency filing</p>
                                             </div>
                                             <div className="col-lg-3">
-                                                <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-semibold text-[#767676] ">£200</p>
+                                                <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold text-[#767676] ">£200</p>
                                             </div>
                                         </div>
                                         <div className="flex justify-between">
                                             <div className="col-lg-9">
-                                                <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-medium  lg:pl-[15px] pl-[5px] ">?  Historical annual filing and bookkeeping</p>
+                                                <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-medium  lg:pl-[15px] pl-[5px] ">?  Historical annual filing and bookkeeping</p>
                                             </div>
                                             <div className="col-lg-3">
-                                                <p className="lg:text-[0.8vw] text-[3vw] lg:leading-[1vw] leading-[4vw] font-semibold text-[#767676] ">£680/m</p>
+                                                <p className="lg:text-[1vw] text-[3.4vw] lg:leading-[1.7vw] leading-[3.5vw] font-semibold text-[#767676] ">£680/m</p>
                                             </div>
                                         </div>
                                     </div>
 
-                </div>
-            </div>
+                                </div>
+                            </div>
 
-        </div>
+                        </div>
 
-    </div>
-</div>
-<div className="col-lg-12 lg:pt-[0px] pt-[20px]">
-    <div className="flex justify-center">
-    <Link href="/accountingprices" className="text-black">
-        <button
-            type="button"
-            className="border border-dark hover:bg-[#000] hover:text-[#fff] font-medium !rounded-full text-sm px-5 py-2 text-center items-center group transition duration-300">
-            <div className="flex gap-2 items-center">
-                <div>Compare Pricing</div>
-                <div className="p-0 m-0">
-                    <div className="w-6 h-6  rounded">
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 24 24"
-                            width="24"
-                            height="24"
-                            fill="none"
-                            className="stroke-black group-hover:stroke-white transition duration-300">
-                            <path d="M20.0001 11.9998L4.00012 11.9998" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                            <path d="M15.0003 17C15.0003 17 20.0002 13.3176 20.0002 12C20.0002 10.6824 15.0002 7 15.0002 7"
-                                strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                        </svg>
                     </div>
-
                 </div>
-            </div>
-        </button></Link>
+                <div className="col-lg-12 lg:pt-[0px] pt-[20px]">
+                    <div className="flex justify-center">
+                        <Link href="/accountingprices" className="text-black">
+                            <button
+                                type="button"
+                                className="border border-dark hover:bg-[#000] hover:text-[#fff] font-medium !rounded-full text-sm px-5 py-2 text-center items-center group transition duration-300">
+                                <div className="flex gap-2 items-center">
+                                    <div>Compare Pricing</div>
+                                    <div className="p-0 m-0">
+                                        <div className="w-6 h-6  rounded">
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 24 24"
+                                                width="24"
+                                                height="24"
+                                                fill="none"
+                                                className="stroke-black group-hover:stroke-white transition duration-300">
+                                                <path d="M20.0001 11.9998L4.00012 11.9998" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                <path d="M15.0003 17C15.0003 17 20.0002 13.3176 20.0002 12C20.0002 10.6824 15.0002 7 15.0002 7"
+                                                    strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                            </svg>
+                                        </div>
 
-    </div>
-</div>
+                                    </div>
+                                </div>
+                            </button></Link>
 
-</section >
+                    </div>
+                </div>
 
+            </section >
 
-            <section className="lg:px-[100px] px-[20px] lg:pt-[50px] pt-[30px] overflow-hidden lg:pb-[30px] pb-[15px] bg-[#CCDFFF]">
+            <section className="lg:px-[100px] px-[20px] lg:pt-[50px] pt-[30px] overflow-hidden lg:pb-[30px] pb-[15px] bg-[#000]">
                 <div className="row ">
                     <div className="col-lg-12 ">
                         <div className="row">
@@ -1214,8 +1216,8 @@ export default function Home() {
                                 <div className="col-lg-5">
                                     <div className="row justify-start">
 
-                                        <p className="lg:text-[2.5vw] text-[6vw] lg:leading-[2.5vw] leading-[7vw] font-semibold lg:pt-[30px] pt-[20px] text-[#0061FE]">Download free guide on how to set up business in the UK</p>
-                                        <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw] lg:pt-[10px] pt-[5px] lg:pb-[10px] pb-[5px] text-[#0061FE]">We’ve put together all of the documents and details you need to figure out before you open a company</p>
+                                        <p className="lg:text-[2.5vw] text-[6vw] lg:leading-[2.5vw] leading-[7vw] font-semibold lg:pt-[30px] pt-[20px] text-[#fff]">Download free guide on how to set up business in the UK</p>
+                                        <p className="lg:text-[1vw] text-[3vw] lg:leading-[1.5vw] leading-[4vw] lg:pt-[10px] pt-[5px] lg:pb-[10px] pb-[5px] text-[#fff]">We’ve put together all of the documents and details you need to figure out before you open a company</p>
 
 
                                     </div>
@@ -1224,12 +1226,12 @@ export default function Home() {
                                             <input type="text" id="text" className="bg-white rounded-full px-5 py-2 text-black " placeholder="Email address" required></input>
                                         </div>
                                         <div className="lg:pt-[0px] pt-[15px]">
-                                            <button type="button" className="border border-dark text-[#0061FE] hover:bg-[#0061FE] hover:text-[#fff] font-medium !rounded-full text-md px-5 py-2 text-center items-center">Download</button>
+                                            <button type="button" className="border border-light text-[#fff] hover:bg-[#fff] hover:text-[#000] font-medium !rounded-full text-md px-5 py-2 text-center items-center">Download</button>
                                         </div>
                                     </div>
 
                                 </div>
-                                <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1vw] leading-[4vw] lg:pt-[30px] pt-[30px] font-medium text-[#0061FE]">By clicking, you agree to our<span className="underline">Terms & Conditions,Privacy and Data Protection Policy</span></p>
+                                <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1vw] leading-[4vw] lg:pt-[30px] pt-[30px] font-medium text-[#fff]">By clicking, you agree to our<span className="underline">Terms & Conditions,Privacy and Data Protection Policy</span></p>
                             </div>
                             <div className="col-lg-3">
                                 <Image className="img-responsive w-full " src="/Images/copy14.png" alt="logo" width={1830} height={750} />

@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <section className="lg:px-[100px] px-[20px] lg:pt-[200px] pt-[150px] overflow-hidden bg-[#F3EFE7]">
+      <section className="lg:px-[100px] px-[20px] lg:pt-[200px] pt-[120px] overflow-hidden bg-[#F3EFE7]">
         <div className="container">
           <div className="row text-center">
             <div className="col-lg-12 lg:text-[1vw] text-[2vw] lg:leading-[1vw] leading-[3vw] ">
@@ -62,7 +62,7 @@ export default function Home() {
             <div className="col-lg-4 mb-4 ">
               <div className="flex-1 h-full p-6 bg-white border border-white rounded-4 shadow-sm  ">
                 <div className=" lg:h-[230px] overflow-hidden">
-                  <p className="lg:text-[1.5vw] text-[4vw] lg:leading-[1.5vw] leading-[5vw] font-medium">Accounting Services <span className="text-[#0073FD]"><br></br>from £65</span></p>
+                  <p className="lg:text-[1.5vw] text-[4vw] lg:leading-[1.5vw] leading-[5vw] font-medium">Accounting Services <span className="text-[#000]"><br></br>from £65</span></p>
                   <p className="text-[#616161] font-medium lg:text-[1vw] text-[3vw] lg:leading-[1.2vw] leading-[4vw]  sm:pt-[10px] pt-[5px] "> Get a personal accountant, accounting software, and bookkeeping all in one convenient plan. Focus on growing your business while we take care of your financial needs.</p>
                 </div>
                 <div className="">
@@ -74,7 +74,7 @@ export default function Home() {
             <div className="col-lg-4  mb-4 ">
               <div className="flex-1 h-full  p-6 bg-white border border-white rounded-4 shadow-sm  ">
                 <div className=" lg:h-[230px] overflow-hidden">
-                  <p className="lg:text-[1.5vw] text-[4vw] lg:leading-[1.5vw] leading-[5vw] font-medium">Ecommerce  <br></br> Accounting <span className="text-[#0073FD]">from £65</span></p>
+                  <p className="lg:text-[1.5vw] text-[4vw] lg:leading-[1.5vw] leading-[5vw] font-medium">Ecommerce  <br></br> Accounting <span className="text-[#000]">from £65</span></p>
                   <p className="text-[#616161] font-medium lg:text-[1vw] text-[3vw] lg:leading-[1.2vw] leading-[4vw] sm:pt-[10px] pt-[5px] ">Custom accounting solutions designed for ecommerce businesses. We seamlessly integrate with your sales platform, manage international VAT returns, and ensure compliance, so you can focus on scaling up.</p>
                 </div>
                 <Link href="/ecommerceaccounting" className="text-black ">
@@ -87,7 +87,7 @@ export default function Home() {
             <div className="col-lg-4 mb-4">
               <div className="flex-1 h-full p-6 bg-white border border-white rounded-4 shadow-sm  ">
               <div className=" lg:h-[230px] overflow-hidden">
-                <p className="lg:text-[1.5vw] text-[4vw] lg:leading-[1.5vw] leading-[5vw] font-medium">Company Formation  <span className="text-[#0073FD]"><br></br>from £50</span></p>
+                <p className="lg:text-[1.5vw] text-[4vw] lg:leading-[1.5vw] leading-[5vw] font-medium">Company Formation  <span className="text-[#000]"><br></br>from £50</span></p>
                 <p className="text-[#616161] font-medium lg:text-[1vw] text-[3vw] lg:leading-[1.2vw] leading-[4vw] sm:pt-[10px] pt-[5px] sm:pb-[50px] pb-[5px]"> Launch your business the right way with comprehensive incorporation services, bank accounts, and registered addresses. Everything you need to get started and grow with confidence.
                 </p>
 
@@ -117,7 +117,7 @@ export default function Home() {
           <div className="col-lg-10 lg:pt-[50px] pt-[10px] ">
             <div className="row items-center">
               <div className="col-lg-6">
-                <div className="col-lg-12">
+                <div className="col-lg-12 mb-4">
                   <Image className="img-responsive w-full" src="/Images/image 1.png" alt="logo" width={1830} height={750} />
                 </div>
               </div>
@@ -152,7 +152,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="col-lg-6 order-lg-2 order-1">
-                  <div className="col-lg-12 ">
+                  <div className="col-lg-12 mb-4 ">
                     <Image className="img-responsive w-full" src="/Images/image 2.png" alt="logo" width={1830} height={750} />
                   </div>
                 </div>
@@ -167,7 +167,7 @@ export default function Home() {
           <div className="col-lg-10 lg:pt-[50px] pt-[10px]">
             <div className="row items-center">
               <div className="col-lg-6">
-                <div className="col-lg-12">
+                <div className="col-lg-12 mb-4">
                   <Image className="img-responsive w-full" src="/Images/image 3.png" alt="logo" width={1830} height={750} />
                 </div>
               </div>
